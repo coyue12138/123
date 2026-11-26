@@ -1,0 +1,504 @@
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.12.0
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: D:/project/cppproject/tools/mingw64/bin/g++.exe  (ver 14.2.0)
+Algorithm hint: ALGO_HINT_ACCURATE
+HAL: NO
+Parallel framework: openmp (nthreads=1)
+CPU features: SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX512-SKX?
+OpenCL is disabled
+[==========] Running 91 tests from 17 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from stitch_a123
+[ RUN      ] stitch_a123.a123/0, where GetParam() = "orb"
+[ INFO     ] process affinity mask = 0x1
+.
+[ PERFSTAT ]    (samples=20   mean=548.00   median=546.45   min=540.83   stddev=5.28 (1.0%))
+[       OK ] stitch_a123.a123/0 (11018 ms)
+[ RUN      ] stitch_a123.a123/1, where GetParam() = "akaze"
+[ INFO     ] process affinity mask = 0x1
+.
+[ PERFSTAT ]    (samples=20   mean=773.45   median=772.41   min=763.13   stddev=7.41 (1.0%))
+[       OK ] stitch_a123.a123/1 (15530 ms)
+[----------] 2 tests from stitch_a123 (26551 ms total)
+
+[----------] 5 tests from stitchExposureCompensation_a123
+[ RUN      ] stitchExposureCompensation_a123.a123/0, where GetParam() = 32
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=538.70   median=538.79   min=535.39   stddev=2.46 (0.5%))
+[       OK ] stitchExposureCompensation_a123.a123/0 (5412 ms)
+[ RUN      ] stitchExposureCompensation_a123.a123/1, where GetParam() = 16
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=635.78   median=633.46   min=629.79   stddev=9.17 (1.4%))
+[       OK ] stitchExposureCompensation_a123.a123/1 (6384 ms)
+[ RUN      ] stitchExposureCompensation_a123.a123/2, where GetParam() = 12
+[ INFO     ] process affinity mask = 0x1
+.
+[ PERFSTAT ]    (samples=10   mean=1346.75   median=1367.63   min=1156.37   stddev=171.20 (12.7%))
+[       OK ] stitchExposureCompensation_a123.a123/2 (13495 ms)
+[ RUN      ] stitchExposureCompensation_a123.a123/3, where GetParam() = 10
+[ INFO     ] process affinity mask = 0x1
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=4941.54   median=4833.50   min=4696.56   stddev=221.79 (4.5%))
+[       OK ] stitchExposureCompensation_a123.a123/3 (49458 ms)
+[ RUN      ] stitchExposureCompensation_a123.a123/4, where GetParam() = 8
+[ INFO     ] process affinity mask = 0x1
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=20451.59   median=20669.82   min=17963.91   stddev=907.75 (4.4%))
+[       OK ] stitchExposureCompensation_a123.a123/4 (204544 ms)
+[----------] 5 tests from stitchExposureCompensation_a123 (279293 ms total)
+
+[----------] 20 tests from stitchExposureCompMultiFeed_a123
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/0, where GetParam() = ("gain", 1)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=526.57   median=526.62   min=523.51   stddev=1.98 (0.4%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/0 (5290 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/1, where GetParam() = ("gain", 2)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=548.79   median=547.28   min=543.50   stddev=5.54 (1.0%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/1 (5513 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/2, where GetParam() = ("gain", 3)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=563.36   median=562.48   min=558.15   stddev=4.24 (0.8%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/2 (5660 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/3, where GetParam() = ("gain", 4)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=547.87   median=546.35   min=544.36   stddev=5.05 (0.9%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/3 (5506 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/4, where GetParam() = ("gain", 5)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=567.14   median=567.08   min=563.88   stddev=2.36 (0.4%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/4 (5699 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/5, where GetParam() = ("channels", 1)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=532.11   median=530.22   min=524.46   stddev=9.62 (1.8%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/5 (5348 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/6, where GetParam() = ("channels", 2)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=529.11   median=529.12   min=525.59   stddev=2.39 (0.5%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/6 (5318 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/7, where GetParam() = ("channels", 3)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=525.79   median=524.25   min=522.74   stddev=5.05 (1.0%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/7 (5284 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/8, where GetParam() = ("channels", 4)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=522.97   median=523.06   min=521.00   stddev=1.35 (0.3%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/8 (5257 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/9, where GetParam() = ("channels", 5)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=526.91   median=525.94   min=522.12   stddev=4.55 (0.9%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/9 (5297 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/10, where GetParam() = ("blocks_gain", 1)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=539.83   median=540.24   min=534.06   stddev=2.58 (0.5%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/10 (5423 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/11, where GetParam() = ("blocks_gain", 2)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=539.54   median=537.09   min=532.47   stddev=7.77 (1.4%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/11 (5421 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/12, where GetParam() = ("blocks_gain", 3)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=559.79   median=557.63   min=553.87   stddev=8.61 (1.5%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/12 (5624 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/13, where GetParam() = ("blocks_gain", 4)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=568.16   median=567.33   min=564.75   stddev=2.26 (0.4%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/13 (5707 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/14, where GetParam() = ("blocks_gain", 5)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=587.06   median=584.45   min=581.05   stddev=8.96 (1.5%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/14 (5894 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/15, where GetParam() = ("blocks_channels", 1)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=544.91   median=544.51   min=542.80   stddev=1.70 (0.3%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/15 (5477 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/16, where GetParam() = ("blocks_channels", 2)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=536.45   median=534.76   min=530.58   stddev=7.65 (1.4%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/16 (5389 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/17, where GetParam() = ("blocks_channels", 3)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=551.08   median=551.66   min=547.43   stddev=2.72 (0.5%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/17 (5535 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/18, where GetParam() = ("blocks_channels", 4)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=573.13   median=570.50   min=567.10   stddev=8.75 (1.5%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/18 (5761 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/19, where GetParam() = ("blocks_channels", 5)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=10   mean=587.11   median=586.77   min=582.29   stddev=2.43 (0.4%))
+[       OK ] stitchExposureCompMultiFeed_a123.a123/19 (5896 ms)
+[----------] 20 tests from stitchExposureCompMultiFeed_a123 (110300 ms total)
+
+[----------] 2 tests from stitch_b12
+[ RUN      ] stitch_b12.b12/0, where GetParam() = "orb"
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=20   mean=247.31   median=247.44   min=244.90   stddev=1.48 (0.6%))
+[       OK ] stitch_b12.b12/0 (5005 ms)
+[ RUN      ] stitch_b12.b12/1, where GetParam() = "akaze"
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=20   mean=373.50   median=372.71   min=367.89   stddev=3.57 (1.0%))
+[       OK ] stitch_b12.b12/1 (7507 ms)
+[----------] 2 tests from stitch_b12 (12512 ms total)
+
+[----------] 8 tests from stitchDatasets_affine
+[ RUN      ] stitchDatasets_affine.affine/0, where GetParam() = ("s", "orb")
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=20   mean=217.31   median=217.28   min=215.40   stddev=1.22 (0.6%))
+[       OK ] stitchDatasets_affine.affine/0 (4433 ms)
+[ RUN      ] stitchDatasets_affine.affine/1, where GetParam() = ("s", "akaze")
+[ INFO     ] process affinity mask = 0x1
+.
+[ PERFSTAT ]    (samples=20   mean=530.48   median=529.70   min=523.58   stddev=4.10 (0.8%))
+[       OK ] stitchDatasets_affine.affine/1 (10679 ms)
+[ RUN      ] stitchDatasets_affine.affine/2, where GetParam() = ("budapest", "orb")
+[ INFO     ] process affinity mask = 0x1
+.
+[ PERFSTAT ]    (samples=20   mean=746.74   median=746.21   min=738.51   stddev=3.41 (0.5%))
+[       OK ] stitchDatasets_affine.affine/2 (15046 ms)
+[ RUN      ] stitchDatasets_affine.affine/3, where GetParam() = ("budapest", "akaze")
+[ INFO     ] process affinity mask = 0x1
+.
+.
+[ PERFSTAT ]    (samples=20   mean=1349.96   median=1349.19   min=1334.15   stddev=9.07 (0.7%))
+[       OK ] stitchDatasets_affine.affine/3 (27087 ms)
+[ RUN      ] stitchDatasets_affine.affine/4, where GetParam() = ("newspaper", "orb")
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=20   mean=489.55   median=484.59   min=481.88   stddev=8.14 (1.7%))
+[       OK ] stitchDatasets_affine.affine/4 (9908 ms)
+[ RUN      ] stitchDatasets_affine.affine/5, where GetParam() = ("newspaper", "akaze")
+[ INFO     ] process affinity mask = 0x1
+.
+.
+[ PERFSTAT ]    (samples=20   mean=1176.24   median=1172.76   min=1160.92   stddev=11.54 (1.0%))
+[       OK ] stitchDatasets_affine.affine/5 (23622 ms)
+[ RUN      ] stitchDatasets_affine.affine/6, where GetParam() = ("prague", "orb")
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=20   mean=125.33   median=124.75   min=121.26   stddev=2.52 (2.0%))
+[       OK ] stitchDatasets_affine.affine/6 (2550 ms)
+[ RUN      ] stitchDatasets_affine.affine/7, where GetParam() = ("prague", "akaze")
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=20   mean=436.65   median=435.13   min=428.03   stddev=5.81 (1.3%))
+[       OK ] stitchDatasets_affine.affine/7 (8793 ms)
+[----------] 8 tests from stitchDatasets_affine (102118 ms total)
+
+[----------] 3 tests from FeaturesFinderVec_ParallelFeaturesFinder
+[ RUN      ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/0, where GetParam() = 1
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=4.99   median=4.98   min=4.88   stddev=0.07 (1.3%))
+[       OK ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/0 (155 ms)
+[ RUN      ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/1, where GetParam() = 5
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=24.99   median=24.97   min=24.73   stddev=0.15 (0.6%))
+[       OK ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/1 (756 ms)
+[ RUN      ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/2, where GetParam() = 20
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=100.21   median=99.94   min=99.46   stddev=0.80 (0.8%))
+[       OK ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/2 (3033 ms)
+[----------] 3 tests from FeaturesFinderVec_ParallelFeaturesFinder (3945 ms total)
+
+[----------] 3 tests from FeaturesFinderVec_SerialFeaturesFinder
+[ RUN      ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/0, where GetParam() = 1
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=3.87   median=3.87   min=3.81   stddev=0.05 (1.2%))
+[       OK ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/0 (121 ms)
+[ RUN      ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/1, where GetParam() = 5
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=19.37   median=19.33   min=19.23   stddev=0.11 (0.6%))
+[       OK ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/1 (586 ms)
+[ RUN      ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/2, where GetParam() = 20
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=77.88   median=77.72   min=77.23   stddev=0.54 (0.7%))
+[       OK ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/2 (2346 ms)
+[----------] 3 tests from FeaturesFinderVec_SerialFeaturesFinder (3053 ms total)
+
+[----------] 1 test from match_bestOf2Nearest
+[ RUN      ] match_bestOf2Nearest.bestOf2Nearest/0, where GetParam() = "orb"
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=4.07   median=4.03   min=3.94   stddev=0.13 (3.1%))
+[       OK ] match_bestOf2Nearest.bestOf2Nearest/0 (197 ms)
+[----------] 1 test from match_bestOf2Nearest (197 ms total)
+
+[----------] 3 tests from matchVector_bestOf2NearestVectorFeatures
+[ RUN      ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/0, where GetParam() = ("orb", 2)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=3.89   median=3.88   min=3.85   stddev=0.02 (0.6%))
+[       OK ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/0 (172 ms)
+[ RUN      ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/1, where GetParam() = ("orb", 4)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=24.47   median=24.51   min=23.72   stddev=0.39 (1.6%))
+[       OK ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/1 (792 ms)
+[ RUN      ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/2, where GetParam() = ("orb", 8)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=112.46   median=112.50   min=111.37   stddev=0.57 (0.5%))
+[       OK ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/2 (3431 ms)
+[----------] 3 tests from matchVector_bestOf2NearestVectorFeatures (4395 ms total)
+
+[----------] 1 test from match_affineBestOf2Nearest
+[ RUN      ] match_affineBestOf2Nearest.affineBestOf2Nearest/0, where GetParam() = "orb"
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=3.83   median=3.77   min=3.74   stddev=0.13 (3.3%))
+[       OK ] match_affineBestOf2Nearest.affineBestOf2Nearest/0 (166 ms)
+[----------] 1 test from match_affineBestOf2Nearest (167 ms total)
+
+[----------] 3 tests from matchVector_affineBestOf2NearestVectorFeatures
+[ RUN      ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/0, where GetParam() = ("orb", 2)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=3.79   median=3.76   min=3.73   stddev=0.08 (2.2%))
+[       OK ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/0 (164 ms)
+[ RUN      ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/1, where GetParam() = ("orb", 4)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=23.47   median=23.34   min=23.18   stddev=0.40 (1.7%))
+[       OK ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/1 (758 ms)
+[ RUN      ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/2, where GetParam() = ("orb", 8)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=111.05   median=111.05   min=109.44   stddev=0.76 (0.7%))
+[       OK ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/2 (3399 ms)
+[----------] 3 tests from matchVector_affineBestOf2NearestVectorFeatures (4321 ms total)
+
+[----------] 2 tests from bundleAdjuster_affine
+[ RUN      ] bundleAdjuster_affine.affine/0, where GetParam() = ("orb", "affinePartial")
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=0.13   median=0.13   min=0.13   stddev=0.00 (1.7%))
+[       OK ] bundleAdjuster_affine.affine/0 (61 ms)
+[ RUN      ] bundleAdjuster_affine.affine/1, where GetParam() = ("orb", "affine")
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=0.59   median=0.59   min=0.58   stddev=0.01 (1.0%))
+[       OK ] bundleAdjuster_affine.affine/1 (74 ms)
+[----------] 2 tests from bundleAdjuster_affine (136 ms total)
+
+[----------] 16 tests from OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/0, where GetParam() = (640x480, SphericalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=27.85   median=27.86   min=27.40   stddev=0.25 (0.9%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/0 (837 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/1, where GetParam() = (640x480, CylindricalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=14.57   median=14.56   min=14.45   stddev=0.07 (0.5%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/1 (438 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/2, where GetParam() = (640x480, PlaneWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=0.14   median=0.14   min=0.14   stddev=0.00 (0.7%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/2 (5 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/3, where GetParam() = (640x480, AffineWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=0.16   median=0.16   min=0.16   stddev=0.00 (1.8%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/3 (6 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/4, where GetParam() = (1280x720, SphericalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=111.62   median=111.63   min=110.12   stddev=0.80 (0.7%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/4 (3355 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/5, where GetParam() = (1280x720, CylindricalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=58.48   median=58.55   min=57.74   stddev=0.41 (0.7%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/5 (1758 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/6, where GetParam() = (1280x720, PlaneWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=0.56   median=0.56   min=0.55   stddev=0.01 (2.3%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/6 (20 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/7, where GetParam() = (1280x720, AffineWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=0.56   median=0.56   min=0.55   stddev=0.01 (1.1%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/7 (21 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/8, where GetParam() = (1920x1080, SphericalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=252.04   median=251.35   min=248.16   stddev=2.08 (0.8%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/8 (7590 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/9, where GetParam() = (1920x1080, CylindricalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=131.76   median=131.64   min=130.42   stddev=1.03 (0.8%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/9 (3989 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/10, where GetParam() = (1920x1080, PlaneWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=1.42   median=1.40   min=1.29   stddev=0.12 (8.3%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/10 (53 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/11, where GetParam() = (1920x1080, AffineWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=1.38   median=1.35   min=1.28   stddev=0.09 (6.6%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/11 (52 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/12, where GetParam() = (3840x2160, SphericalWarperType)
+[ INFO     ] process affinity mask = 0x1
+.
+.
+.
+[ PERFSTAT ]    (samples=30   mean=1007.00   median=1007.71   min=993.90   stddev=4.73 (0.5%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/12 (30263 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/13, where GetParam() = (3840x2160, CylindricalWarperType)
+[ INFO     ] process affinity mask = 0x1
+.
+[ PERFSTAT ]    (samples=30   mean=526.43   median=526.19   min=522.18   stddev=2.90 (0.6%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/13 (15851 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/14, where GetParam() = (3840x2160, PlaneWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=9.65   median=9.64   min=9.07   stddev=0.37 (3.9%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/14 (328 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/15, where GetParam() = (3840x2160, AffineWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=9.56   median=9.56   min=9.11   stddev=0.27 (2.8%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/15 (320 ms)
+[----------] 16 tests from OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps (64886 ms total)
+
+[----------] 16 tests from OCL_StitchingWarpersFixture_StitchingWarpers_Warp
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/0, where GetParam() = (640x480, SphericalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=28.79   median=28.76   min=28.24   stddev=0.30 (1.0%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/0 (866 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/1, where GetParam() = (640x480, CylindricalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=15.52   median=15.52   min=15.26   stddev=0.16 (1.0%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/1 (467 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/2, where GetParam() = (640x480, PlaneWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=1.28   median=1.28   min=1.19   stddev=0.05 (3.8%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/2 (39 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/3, where GetParam() = (640x480, AffineWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=1.25   median=1.26   min=1.18   stddev=0.04 (3.2%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/3 (38 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/4, where GetParam() = (1280x720, SphericalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=116.01   median=116.03   min=114.08   stddev=1.12 (1.0%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/4 (3509 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/5, where GetParam() = (1280x720, CylindricalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=63.01   median=63.06   min=62.12   stddev=0.64 (1.0%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/5 (1894 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/6, where GetParam() = (1280x720, PlaneWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=5.42   median=5.44   min=5.09   stddev=0.18 (3.3%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/6 (163 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/7, where GetParam() = (1280x720, AffineWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=5.45   median=5.42   min=5.17   stddev=0.17 (3.1%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/7 (166 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/8, where GetParam() = (1920x1080, SphericalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=262.04   median=262.35   min=259.47   stddev=1.07 (0.4%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/8 (7870 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/9, where GetParam() = (1920x1080, CylindricalWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=142.18   median=142.21   min=140.51   stddev=0.94 (0.7%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/9 (4297 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/10, where GetParam() = (1920x1080, PlaneWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=14.41   median=14.26   min=12.38   stddev=1.07 (7.4%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/10 (439 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/11, where GetParam() = (1920x1080, AffineWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=13.37   median=13.22   min=12.16   stddev=0.68 (5.1%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/11 (405 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/12, where GetParam() = (3840x2160, SphericalWarperType)
+[ INFO     ] process affinity mask = 0x1
+.
+.
+.
+[ PERFSTAT ]    (samples=30   mean=1045.81   median=1044.70   min=1039.19   stddev=4.97 (0.5%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/12 (31435 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/13, where GetParam() = (3840x2160, CylindricalWarperType)
+[ INFO     ] process affinity mask = 0x1
+.
+[ PERFSTAT ]    (samples=30   mean=567.19   median=566.78   min=563.37   stddev=2.17 (0.4%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/13 (17068 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/14, where GetParam() = (3840x2160, PlaneWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=54.66   median=54.71   min=51.79   stddev=1.28 (2.3%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/14 (1661 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/15, where GetParam() = (3840x2160, AffineWarperType)
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=55.45   median=55.26   min=51.94   stddev=1.87 (3.4%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/15 (1680 ms)
+[----------] 16 tests from OCL_StitchingWarpersFixture_StitchingWarpers_Warp (71999 ms total)
+
+[----------] 2 tests from OCL_stitch_a123
+[ RUN      ] OCL_stitch_a123.a123/0, where GetParam() = "orb"
+[ INFO     ] process affinity mask = 0x1
+.
+[ PERFSTAT ]    (samples=20   mean=537.18   median=536.77   min=534.05   stddev=2.40 (0.4%))
+[       OK ] OCL_stitch_a123.a123/0 (10792 ms)
+[ RUN      ] OCL_stitch_a123.a123/1, where GetParam() = "akaze"
+[ INFO     ] process affinity mask = 0x1
+.
+[ PERFSTAT ]    (samples=20   mean=769.22   median=768.28   min=762.42   stddev=6.94 (0.9%))
+[       OK ] OCL_stitch_a123.a123/1 (15456 ms)
+[----------] 2 tests from OCL_stitch_a123 (26248 ms total)
+
+[----------] 2 tests from OCL_stitch_b12
+[ RUN      ] OCL_stitch_b12.b12/0, where GetParam() = "orb"
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=20   mean=247.18   median=246.92   min=244.66   stddev=1.33 (0.5%))
+[       OK ] OCL_stitch_b12.b12/0 (4964 ms)
+[ RUN      ] OCL_stitch_b12.b12/1, where GetParam() = "akaze"
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=20   mean=372.15   median=370.92   min=366.46   stddev=3.77 (1.0%))
+[       OK ] OCL_stitch_b12.b12/1 (7498 ms)
+[----------] 2 tests from OCL_stitch_b12 (12462 ms total)
+
+[----------] 2 tests from OCL_stitch_boat
+[ RUN      ] OCL_stitch_boat.boat/0, where GetParam() = "orb"
+[ INFO     ] process affinity mask = 0x1
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=20   mean=11326.33   median=11327.81   min=11264.98   stddev=40.10 (0.4%))
+[       OK ] OCL_stitch_boat.boat/0 (226928 ms)
+[ RUN      ] OCL_stitch_boat.boat/1, where GetParam() = "akaze"
+[ INFO     ] process affinity mask = 0x1
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=20   mean=11898.72   median=11901.84   min=11805.16   stddev=42.64 (0.4%))
+[       OK ] OCL_stitch_boat.boat/1 (238300 ms)
+[----------] 2 tests from OCL_stitch_boat (465228 ms total)
+
+[----------] Global test environment tear-down
+[==========] 91 tests from 17 test cases ran. (1187811 ms total)
+[  PASSED  ] 91 tests.

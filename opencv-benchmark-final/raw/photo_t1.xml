@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="15" failures="0" disabled="2" errors="0" timestamp="2026-11-26T12:44:54" time="18.7" cv_module_name="photo" cv_implementation="plain" cv_num_threads="1" test_tags="" test_tags_skip="mem_6gb,verylong" test_tags_force="" cv_version="4.12.0" cv_version_build="4.12.0" cv_vcs_version="unknown" cv_build_type="Release" cv_build_type_build="Release" cv_compiler="D:/project/cppproject/tools/mingw64/bin/g++.exe  (ver 14.2.0)" implementation_hint="ALGO_HINT_ACCURATE" hal="NO" cv_parallel_framework="openmp" cv_parallel_threads="1" cv_cpu_features="SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX512-SKX?" cv_ocl="disabled" name="AllTests">
+  <testsuite name="HDR" tests="3" failures="0" disabled="0" errors="0" time="12.885">
+    <testcase name="Mertens" status="run" time="6.918" classname="HDR">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="222848000"/>
+<property name="median" value="227389100"/>
+<property name="gmean" value="227403356"/>
+<property name="gstddev" value="0.014409"/>
+<property name="mean" value="227426154"/>
+<property name="stddev" value="3284362"/>
+</properties>
+    </testcase>
+    <testcase name="Debevec" status="run" time="3.163" classname="HDR">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="98143500"/>
+<property name="median" value="101385300"/>
+<property name="gmean" value="101633720"/>
+<property name="gstddev" value="0.022975"/>
+<property name="mean" value="101659707"/>
+<property name="stddev" value="2351811"/>
+</properties>
+    </testcase>
+    <testcase name="Robertson" status="run" time="2.8" classname="HDR">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="85809700"/>
+<property name="median" value="89964300"/>
+<property name="gmean" value="90257985"/>
+<property name="gstddev" value="0.027017"/>
+<property name="mean" value="90289843"/>
+<property name="stddev" value="2449661"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_Photo_DenoisingGrayscale" tests="1" failures="0" disabled="0" errors="0" time="0.855">
+    <testcase name="DenoisingGrayscale" status="run" time="0.855" classname="OCL_Photo_DenoisingGrayscale">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="262144"/>
+<property name="bytesOut" value="262144"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="84337700"/>
+<property name="median" value="84626350"/>
+<property name="gmean" value="85071720"/>
+<property name="gstddev" value="0.014083"/>
+<property name="mean" value="85079390"/>
+<property name="stddev" value="1216380"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_Photo_DenoisingColored" tests="1" failures="0" disabled="0" errors="0" time="2.064">
+    <testcase name="DenoisingColored" status="run" time="2.064" classname="OCL_Photo_DenoisingColored">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="786432"/>
+<property name="bytesOut" value="786432"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="198863600"/>
+<property name="median" value="200798900"/>
+<property name="gmean" value="205338608"/>
+<property name="gstddev" value="0.072632"/>
+<property name="mean" value="205857200"/>
+<property name="stddev" value="16369109"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_Photo_DISABLED_DenoisingGrayscaleMulti" tests="1" failures="0" disabled="1" errors="0" time="0">
+    <testcase name="DISABLED_DenoisingGrayscaleMulti" status="notrun" time="0" classname="OCL_Photo_DISABLED_DenoisingGrayscaleMulti" />
+  </testsuite>
+  <testsuite name="OCL_Photo_DISABLED_DenoisingColoredMulti" tests="1" failures="0" disabled="1" errors="0" time="0">
+    <testcase name="DISABLED_DenoisingColoredMulti" status="notrun" time="0" classname="OCL_Photo_DISABLED_DenoisingColoredMulti" />
+  </testsuite>
+  <testsuite name="InpaintArea_InpaintingMethod_inpaint" tests="6" failures="0" disabled="0" errors="0" time="1.307">
+    <testcase name="inpaint/0" value_param="(24x24, INPAINT_NS)" status="run" time="0.111" classname="InpaintArea_InpaintingMethod_inpaint">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="1769472"/>
+<property name="bytesOut" value="1327104"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3363400"/>
+<property name="median" value="3449950"/>
+<property name="gmean" value="3450686"/>
+<property name="gstddev" value="0.012859"/>
+<property name="mean" value="3450961"/>
+<property name="stddev" value="44317"/>
+</properties>
+    </testcase>
+    <testcase name="inpaint/1" value_param="(24x24, INPAINT_TELEA)" status="run" time="0.112" classname="InpaintArea_InpaintingMethod_inpaint">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="1769472"/>
+<property name="bytesOut" value="1327104"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3361100"/>
+<property name="median" value="3484100"/>
+<property name="gmean" value="3474424"/>
+<property name="gstddev" value="0.018613"/>
+<property name="mean" value="3475004"/>
+<property name="stddev" value="64471"/>
+</properties>
+    </testcase>
+    <testcase name="inpaint/2" value_param="(32x32, INPAINT_NS)" status="run" time="0.157" classname="InpaintArea_InpaintingMethod_inpaint">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="1769472"/>
+<property name="bytesOut" value="1327104"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4858800"/>
+<property name="median" value="4970800"/>
+<property name="gmean" value="4971881"/>
+<property name="gstddev" value="0.009413"/>
+<property name="mean" value="4972093"/>
+<property name="stddev" value="46653"/>
+</properties>
+    </testcase>
+    <testcase name="inpaint/3" value_param="(32x32, INPAINT_TELEA)" status="run" time="0.143" classname="InpaintArea_InpaintingMethod_inpaint">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="1769472"/>
+<property name="bytesOut" value="1327104"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4382900"/>
+<property name="median" value="4507750"/>
+<property name="gmean" value="4496461"/>
+<property name="gstddev" value="0.010342"/>
+<property name="mean" value="4496693"/>
+<property name="stddev" value="46381"/>
+</properties>
+    </testcase>
+    <testcase name="inpaint/4" value_param="(64x64, INPAINT_NS)" status="run" time="0.438" classname="InpaintArea_InpaintingMethod_inpaint">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="1769472"/>
+<property name="bytesOut" value="1327104"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="14095000"/>
+<property name="median" value="14339850"/>
+<property name="gmean" value="14324495"/>
+<property name="gstddev" value="0.008218"/>
+<property name="mean" value="14324961"/>
+<property name="stddev" value="117588"/>
+</properties>
+    </testcase>
+    <testcase name="inpaint/5" value_param="(64x64, INPAINT_TELEA)" status="run" time="0.345" classname="InpaintArea_InpaintingMethod_inpaint">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="1769472"/>
+<property name="bytesOut" value="1327104"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="11091200"/>
+<property name="median" value="11228950"/>
+<property name="gmean" value="11230875"/>
+<property name="gstddev" value="0.004869"/>
+<property name="mean" value="11231004"/>
+<property name="stddev" value="54627"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="Perf_InpaintingMethod_inpaintDots" tests="2" failures="0" disabled="0" errors="0" time="1.589">
+    <testcase name="inpaintDots/0" value_param="INPAINT_NS" status="run" time="0.336" classname="Perf_InpaintingMethod_inpaintDots">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="1769472"/>
+<property name="bytesOut" value="1327104"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="10667300"/>
+<property name="median" value="10862000"/>
+<property name="gmean" value="10885084"/>
+<property name="gstddev" value="0.012590"/>
+<property name="mean" value="10885918"/>
+<property name="stddev" value="137525"/>
+</properties>
+    </testcase>
+    <testcase name="inpaintDots/1" value_param="INPAINT_TELEA" status="run" time="1.253" classname="Perf_InpaintingMethod_inpaintDots">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="1769472"/>
+<property name="bytesOut" value="1327104"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="41159900"/>
+<property name="median" value="41423650"/>
+<property name="gmean" value="41454796"/>
+<property name="gstddev" value="0.005309"/>
+<property name="mean" value="41455361"/>
+<property name="stddev" value="220694"/>
+</properties>
+    </testcase>
+  </testsuite>
+</testsuites>

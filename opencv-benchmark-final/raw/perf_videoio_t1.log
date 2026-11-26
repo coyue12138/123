@@ -1,0 +1,129 @@
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.12.0
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: D:/project/cppproject/tools/mingw64/bin/g++.exe  (ver 14.2.0)
+Algorithm hint: ALGO_HINT_ACCURATE
+HAL: NO
+Parallel framework: openmp (nthreads=1)
+CPU features: SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX512-SKX?
+OpenCL is disabled
+[==========] Running 18 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from VideoCapture_Camera
+[ RUN      ] VideoCapture_Camera.waitAny_V4L
+[ INFO     ] process affinity mask = 0x1
+[     SKIP ] No list of tested cameras. Use OPENCV_TEST_PERF_CAMERA_LIST parameter
+[       OK ] VideoCapture_Camera.waitAny_V4L (0 ms)
+[----------] 1 test from VideoCapture_Camera (0 ms total)
+
+[----------] 12 tests from VideoWriter_Writing_WriteFrame
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/0, where GetParam() = ("python/images/QCIF_00.bmp", false)
+[ INFO     ] process affinity mask = 0x1
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/0 (3 ms)
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/1, where GetParam() = ("python/images/QCIF_00.bmp", true)
+[ INFO     ] process affinity mask = 0x1
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/1 (1 ms)
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/2, where GetParam() = ("python/images/QCIF_01.bmp", false)
+[ INFO     ] process affinity mask = 0x1
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/2 (1 ms)
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/3, where GetParam() = ("python/images/QCIF_01.bmp", true)
+[ INFO     ] process affinity mask = 0x1
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/3 (0 ms)
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/4, where GetParam() = ("python/images/QCIF_02.bmp", false)
+[ INFO     ] process affinity mask = 0x1
+[ WARN:0@0.011] global cap.cpp:779 open VIDEOIO(CV_IMAGES): raised OpenCV exception:
+
+OpenCV(4.12.0) D:/project/cppproject/opencv-4.12.0/modules/videoio/src/cap_images.cpp:415: error: (-215:Assertion failed) !filename_pattern.empty() in function 'CvVideoWriter_Images'
+
+
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/4 (1 ms)
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/5, where GetParam() = ("python/images/QCIF_02.bmp", true)
+[ INFO     ] process affinity mask = 0x1
+[ WARN:0@0.012] global cap.cpp:779 open VIDEOIO(CV_IMAGES): raised OpenCV exception:
+
+OpenCV(4.12.0) D:/project/cppproject/opencv-4.12.0/modules/videoio/src/cap_images.cpp:415: error: (-215:Assertion failed) !filename_pattern.empty() in function 'CvVideoWriter_Images'
+
+
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/5 (0 ms)
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/6, where GetParam() = ("python/images/QCIF_03.bmp", false)
+[ INFO     ] process affinity mask = 0x1
+[ WARN:0@0.013] global cap.cpp:779 open VIDEOIO(CV_IMAGES): raised OpenCV exception:
+
+OpenCV(4.12.0) D:/project/cppproject/opencv-4.12.0/modules/videoio/src/cap_images.cpp:415: error: (-215:Assertion failed) !filename_pattern.empty() in function 'CvVideoWriter_Images'
+
+
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/6 (1 ms)
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/7, where GetParam() = ("python/images/QCIF_03.bmp", true)
+[ INFO     ] process affinity mask = 0x1
+[ WARN:0@0.013] global cap.cpp:779 open VIDEOIO(CV_IMAGES): raised OpenCV exception:
+
+OpenCV(4.12.0) D:/project/cppproject/opencv-4.12.0/modules/videoio/src/cap_images.cpp:415: error: (-215:Assertion failed) !filename_pattern.empty() in function 'CvVideoWriter_Images'
+
+
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/7 (1 ms)
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/8, where GetParam() = ("python/images/QCIF_04.bmp", false)
+[ INFO     ] process affinity mask = 0x1
+[ WARN:0@0.014] global cap.cpp:779 open VIDEOIO(CV_IMAGES): raised OpenCV exception:
+
+OpenCV(4.12.0) D:/project/cppproject/opencv-4.12.0/modules/videoio/src/cap_images.cpp:415: error: (-215:Assertion failed) !filename_pattern.empty() in function 'CvVideoWriter_Images'
+
+
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/8 (0 ms)
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/9, where GetParam() = ("python/images/QCIF_04.bmp", true)
+[ INFO     ] process affinity mask = 0x1
+[ WARN:0@0.015] global cap.cpp:779 open VIDEOIO(CV_IMAGES): raised OpenCV exception:
+
+OpenCV(4.12.0) D:/project/cppproject/opencv-4.12.0/modules/videoio/src/cap_images.cpp:415: error: (-215:Assertion failed) !filename_pattern.empty() in function 'CvVideoWriter_Images'
+
+
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/9 (1 ms)
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/10, where GetParam() = ("python/images/QCIF_05.bmp", false)
+[ INFO     ] process affinity mask = 0x1
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/10 (1 ms)
+[ RUN      ] VideoWriter_Writing_WriteFrame.WriteFrame/11, where GetParam() = ("python/images/QCIF_05.bmp", true)
+[ INFO     ] process affinity mask = 0x1
+[     SKIP ] Video file can not be opened
+[       OK ] VideoWriter_Writing_WriteFrame.WriteFrame/11 (0 ms)
+[----------] 12 tests from VideoWriter_Writing_WriteFrame (10 ms total)
+
+[----------] 5 tests from VideoCapture_Reading_ReadFile
+[ RUN      ] VideoCapture_Reading_ReadFile.ReadFile/0, where GetParam() = "highgui/video/big_buck_bunny.avi"
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=0.17   median=0.17   min=0.16   stddev=0.01 (3.9%))
+[       OK ] VideoCapture_Reading_ReadFile.ReadFile/0 (6 ms)
+[ RUN      ] VideoCapture_Reading_ReadFile.ReadFile/1, where GetParam() = "highgui/video/big_buck_bunny.mov"
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=0.16   median=0.16   min=0.15   stddev=0.01 (4.3%))
+[       OK ] VideoCapture_Reading_ReadFile.ReadFile/1 (5 ms)
+[ RUN      ] VideoCapture_Reading_ReadFile.ReadFile/2, where GetParam() = "highgui/video/big_buck_bunny.mp4"
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=0.16   median=0.16   min=0.16   stddev=0.00 (2.8%))
+[       OK ] VideoCapture_Reading_ReadFile.ReadFile/2 (5 ms)
+[ RUN      ] VideoCapture_Reading_ReadFile.ReadFile/3, where GetParam() = "highgui/video/big_buck_bunny.mpg"
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=0.17   median=0.16   min=0.16   stddev=0.01 (6.4%))
+[       OK ] VideoCapture_Reading_ReadFile.ReadFile/3 (5 ms)
+[ RUN      ] VideoCapture_Reading_ReadFile.ReadFile/4, where GetParam() = "highgui/video/big_buck_bunny.wmv"
+[ INFO     ] process affinity mask = 0x1
+[ PERFSTAT ]    (samples=30   mean=0.16   median=0.16   min=0.15   stddev=0.00 (1.9%))
+[       OK ] VideoCapture_Reading_ReadFile.ReadFile/4 (5 ms)
+[----------] 5 tests from VideoCapture_Reading_ReadFile (26 ms total)
+
+[----------] Global test environment tear-down
+[ SKIPSTAT ] 13 tests skipped
+[ SKIPSTAT ] TAG='skip_other' skip 13 tests
+[==========] 18 tests from 3 test cases ran. (36 ms total)
+[  PASSED  ] 18 tests.

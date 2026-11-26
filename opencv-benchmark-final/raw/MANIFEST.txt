@@ -1,0 +1,7 @@
+date=2026-11-26T10:59:35.4969209+08:00
+build=D:\project\cppproject\opencv-build\bin
+data=D:\project\cppproject\opencv_extra\opencv_extra-4.x\testdata
+env: OPENCV_OPENCL_RUNTIME=disabled OPENCV_FOR_OPENMP_DYNAMIC_DISABLE=1
+args: --gtest_color=no --perf_min_samples=30 --perf_force_samples=30 --perf_time_limit=600 --perf_threads=<T> --perf_affinity_mask=<MASK>
+t=16 -> mask=65535 (0xFFFF, 16 logical cores); t=1 -> mask=1 (0x1, one P-core)
+modules: core,imgproc,imgcodecs,videoio,calib3d,features2d,objdetect,photo,stitching,video,dnn

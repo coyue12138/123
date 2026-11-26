@@ -1,0 +1,1836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="107" failures="0" disabled="0" errors="0" timestamp="2026-11-26T12:30:03" time="208.92" cv_module_name="imgcodecs" cv_implementation="plain" cv_num_threads="1" test_tags="" test_tags_skip="mem_6gb,verylong" test_tags_force="" cv_version="4.12.0" cv_version_build="4.12.0" cv_vcs_version="unknown" cv_build_type="Release" cv_build_type_build="Release" cv_compiler="D:/project/cppproject/tools/mingw64/bin/g++.exe  (ver 14.2.0)" implementation_hint="ALGO_HINT_ACCURATE" hal="NO" cv_parallel_framework="openmp" cv_parallel_threads="1" cv_cpu_features="SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX512-SKX?" cv_ocl="disabled" name="AllTests">
+  <testsuite name="PNG" tests="3" failures="0" disabled="0" errors="0" time="1.736">
+    <testcase name="decode" status="run" time="0.488" classname="PNG">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="15992300"/>
+<property name="median" value="16143450"/>
+<property name="gmean" value="16164985"/>
+<property name="gstddev" value="0.007745"/>
+<property name="mean" value="16165454"/>
+<property name="stddev" value="125811"/>
+</properties>
+    </testcase>
+    <testcase name="decode_rgb" status="run" time="0.463" classname="PNG">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="15198900"/>
+<property name="median" value="15348700"/>
+<property name="gmean" value="15363600"/>
+<property name="gstddev" value="0.005236"/>
+<property name="mean" value="15363804"/>
+<property name="stddev" value="80556"/>
+</properties>
+    </testcase>
+    <testcase name="encode" status="run" time="0.785" classname="PNG">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="25302000"/>
+<property name="median" value="25460800"/>
+<property name="gmean" value="25538821"/>
+<property name="gstddev" value="0.008982"/>
+<property name="mean" value="25539821"/>
+<property name="stddev" value="231837"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="JPEG" tests="3" failures="0" disabled="0" errors="0" time="1.618">
+    <testcase name="Decode" status="run" time="0.578" classname="JPEG">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="19037600"/>
+<property name="median" value="19144700"/>
+<property name="gmean" value="19164948"/>
+<property name="gstddev" value="0.005579"/>
+<property name="mean" value="19165236"/>
+<property name="stddev" value="107182"/>
+</properties>
+    </testcase>
+    <testcase name="Decode_rgb" status="run" time="0.582" classname="JPEG">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="19057600"/>
+<property name="median" value="19288750"/>
+<property name="gmean" value="19327836"/>
+<property name="gstddev" value="0.010969"/>
+<property name="mean" value="19328961"/>
+<property name="stddev" value="213087"/>
+</properties>
+    </testcase>
+    <testcase name="Encode" status="run" time="0.458" classname="JPEG">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="14354100"/>
+<property name="median" value="14484450"/>
+<property name="gmean" value="14491373"/>
+<property name="gstddev" value="0.005372"/>
+<property name="mean" value="14491575"/>
+<property name="stddev" value="77844"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="PNG_params" tests="70" failures="0" disabled="0" errors="0" time="141.969">
+    <testcase name="params/0" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FILTER_NONE, 1)" status="run" time="1.167" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="37874100"/>
+<property name="median" value="38040450"/>
+<property name="gmean" value="38102304"/>
+<property name="gstddev" value="0.004881"/>
+<property name="mean" value="38102743"/>
+<property name="stddev" value="186920"/>
+</properties>
+    </testcase>
+    <testcase name="params/1" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FILTER_NONE, 6)" status="run" time="2.052" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="67087500"/>
+<property name="median" value="67513000"/>
+<property name="gmean" value="67588317"/>
+<property name="gstddev" value="0.005481"/>
+<property name="mean" value="67589296"/>
+<property name="stddev" value="371034"/>
+</properties>
+    </testcase>
+    <testcase name="params/2" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FILTER_SUB, 1)" status="run" time="1.123" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="36405800"/>
+<property name="median" value="36633700"/>
+<property name="gmean" value="36662706"/>
+<property name="gstddev" value="0.004887"/>
+<property name="mean" value="36663129"/>
+<property name="stddev" value="179460"/>
+</properties>
+    </testcase>
+    <testcase name="params/3" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FILTER_SUB, 6)" status="run" time="3.999" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="130257700"/>
+<property name="median" value="131037850"/>
+<property name="gmean" value="131326782"/>
+<property name="gstddev" value="0.007732"/>
+<property name="mean" value="131330582"/>
+<property name="stddev" value="1021510"/>
+</properties>
+    </testcase>
+    <testcase name="params/4" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FILTER_UP, 1)" status="run" time="1.148" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="34452800"/>
+<property name="median" value="34752650"/>
+<property name="gmean" value="35713835"/>
+<property name="gstddev" value="0.075676"/>
+<property name="mean" value="35820793"/>
+<property name="stddev" value="3057188"/>
+</properties>
+    </testcase>
+    <testcase name="params/5" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FILTER_UP, 6)" status="run" time="3.714" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="122113000"/>
+<property name="median" value="122858500"/>
+<property name="gmean" value="122975993"/>
+<property name="gstddev" value="0.003965"/>
+<property name="mean" value="122976925"/>
+<property name="stddev" value="487917"/>
+</properties>
+    </testcase>
+    <testcase name="params/6" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FILTER_AVG, 1)" status="run" time="1.233" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="39896100"/>
+<property name="median" value="40228600"/>
+<property name="gmean" value="40283795"/>
+<property name="gstddev" value="0.005685"/>
+<property name="mean" value="40284425"/>
+<property name="stddev" value="230035"/>
+</properties>
+    </testcase>
+    <testcase name="params/7" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FILTER_AVG, 6)" status="run" time="5.233" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="172112000"/>
+<property name="median" value="172829250"/>
+<property name="gmean" value="172834709"/>
+<property name="gstddev" value="0.002382"/>
+<property name="mean" value="172835182"/>
+<property name="stddev" value="411901"/>
+</properties>
+    </testcase>
+    <testcase name="params/8" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FILTER_PAETH, 1)" status="run" time="1.133" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="36803300"/>
+<property name="median" value="36959650"/>
+<property name="gmean" value="37014234"/>
+<property name="gstddev" value="0.004822"/>
+<property name="mean" value="37014650"/>
+<property name="stddev" value="179175"/>
+</properties>
+    </testcase>
+    <testcase name="params/9" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FILTER_PAETH, 6)" status="run" time="4.468" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="147408700"/>
+<property name="median" value="147957300"/>
+<property name="gmean" value="148026510"/>
+<property name="gstddev" value="0.003147"/>
+<property name="mean" value="148027218"/>
+<property name="stddev" value="466569"/>
+</properties>
+    </testcase>
+    <testcase name="params/10" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FAST_FILTERS, 1)" status="run" time="1.208" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="39206900"/>
+<property name="median" value="39379850"/>
+<property name="gmean" value="39391945"/>
+<property name="gstddev" value="0.003861"/>
+<property name="mean" value="39392229"/>
+<property name="stddev" value="152773"/>
+</properties>
+    </testcase>
+    <testcase name="params/11" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_FAST_FILTERS, 6)" status="run" time="3.974" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="130507900"/>
+<property name="median" value="130825850"/>
+<property name="gmean" value="130879685"/>
+<property name="gstddev" value="0.002196"/>
+<property name="mean" value="130879989"/>
+<property name="stddev" value="287728"/>
+</properties>
+    </testcase>
+    <testcase name="params/12" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_ALL_FILTERS, 1)" status="run" time="1.616" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="52550000"/>
+<property name="median" value="52968450"/>
+<property name="gmean" value="53092441"/>
+<property name="gstddev" value="0.007586"/>
+<property name="mean" value="53093914"/>
+<property name="stddev" value="402833"/>
+</properties>
+    </testcase>
+    <testcase name="params/13" value_param="(IMWRITE_PNG_STRATEGY_DEFAULT, IMWRITE_PNG_ALL_FILTERS, 6)" status="run" time="4.934" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="162940100"/>
+<property name="median" value="163574500"/>
+<property name="gmean" value="163634745"/>
+<property name="gstddev" value="0.003379"/>
+<property name="mean" value="163635646"/>
+<property name="stddev" value="553546"/>
+</properties>
+    </testcase>
+    <testcase name="params/14" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FILTER_NONE, 1)" status="run" time="1.184" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="37540300"/>
+<property name="median" value="37792700"/>
+<property name="gmean" value="37869454"/>
+<property name="gstddev" value="0.006780"/>
+<property name="mean" value="37870296"/>
+<property name="stddev" value="258076"/>
+</properties>
+    </testcase>
+    <testcase name="params/15" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FILTER_NONE, 6)" status="run" time="2.068" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="67634300"/>
+<property name="median" value="68229050"/>
+<property name="gmean" value="68198722"/>
+<property name="gstddev" value="0.003639"/>
+<property name="mean" value="68199157"/>
+<property name="stddev" value="248050"/>
+</properties>
+    </testcase>
+    <testcase name="params/16" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FILTER_SUB, 1)" status="run" time="1.121" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="36368200"/>
+<property name="median" value="36567650"/>
+<property name="gmean" value="36571020"/>
+<property name="gstddev" value="0.003131"/>
+<property name="mean" value="36571193"/>
+<property name="stddev" value="114624"/>
+</properties>
+    </testcase>
+    <testcase name="params/17" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FILTER_SUB, 6)" status="run" time="4.103" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="135457900"/>
+<property name="median" value="135860850"/>
+<property name="gmean" value="135899517"/>
+<property name="gstddev" value="0.002266"/>
+<property name="mean" value="135899854"/>
+<property name="stddev" value="308345"/>
+</properties>
+    </testcase>
+    <testcase name="params/18" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FILTER_UP, 1)" status="run" time="1.054" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="34151500"/>
+<property name="median" value="34308650"/>
+<property name="gmean" value="34293126"/>
+<property name="gstddev" value="0.002169"/>
+<property name="mean" value="34293204"/>
+<property name="stddev" value="74383"/>
+</properties>
+    </testcase>
+    <testcase name="params/19" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FILTER_UP, 6)" status="run" time="3.828" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="125764400"/>
+<property name="median" value="126170550"/>
+<property name="gmean" value="126199364"/>
+<property name="gstddev" value="0.002221"/>
+<property name="mean" value="126199664"/>
+<property name="stddev" value="280502"/>
+</properties>
+    </testcase>
+    <testcase name="params/20" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FILTER_AVG, 1)" status="run" time="1.22" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="39650600"/>
+<property name="median" value="39832200"/>
+<property name="gmean" value="39888837"/>
+<property name="gstddev" value="0.005662"/>
+<property name="mean" value="39889457"/>
+<property name="stddev" value="227880"/>
+</properties>
+    </testcase>
+    <testcase name="params/21" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FILTER_AVG, 6)" status="run" time="5.441" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="179880100"/>
+<property name="median" value="180414700"/>
+<property name="gmean" value="180506620"/>
+<property name="gstddev" value="0.003234"/>
+<property name="mean" value="180507532"/>
+<property name="stddev" value="585369"/>
+</properties>
+    </testcase>
+    <testcase name="params/22" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FILTER_PAETH, 1)" status="run" time="1.154" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="36628000"/>
+<property name="median" value="36829550"/>
+<property name="gmean" value="36875144"/>
+<property name="gstddev" value="0.004895"/>
+<property name="mean" value="36875571"/>
+<property name="stddev" value="181218"/>
+</properties>
+    </testcase>
+    <testcase name="params/23" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FILTER_PAETH, 6)" status="run" time="4.694" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="155119900"/>
+<property name="median" value="155539200"/>
+<property name="gmean" value="155616465"/>
+<property name="gstddev" value="0.002464"/>
+<property name="mean" value="155616921"/>
+<property name="stddev" value="383962"/>
+</properties>
+    </testcase>
+    <testcase name="params/24" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FAST_FILTERS, 1)" status="run" time="1.201" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="39120600"/>
+<property name="median" value="39213450"/>
+<property name="gmean" value="39249686"/>
+<property name="gstddev" value="0.003243"/>
+<property name="mean" value="39249886"/>
+<property name="stddev" value="127624"/>
+</properties>
+    </testcase>
+    <testcase name="params/25" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_FAST_FILTERS, 6)" status="run" time="4.1" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="135549900"/>
+<property name="median" value="135806450"/>
+<property name="gmean" value="135853169"/>
+<property name="gstddev" value="0.001694"/>
+<property name="mean" value="135853357"/>
+<property name="stddev" value="230316"/>
+</properties>
+    </testcase>
+    <testcase name="params/26" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_ALL_FILTERS, 1)" status="run" time="1.622" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="52465100"/>
+<property name="median" value="52670800"/>
+<property name="gmean" value="52759241"/>
+<property name="gstddev" value="0.004228"/>
+<property name="mean" value="52759696"/>
+<property name="stddev" value="223574"/>
+</properties>
+    </testcase>
+    <testcase name="params/27" value_param="(IMWRITE_PNG_STRATEGY_FILTERED, IMWRITE_PNG_ALL_FILTERS, 6)" status="run" time="5.156" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="170605900"/>
+<property name="median" value="170861150"/>
+<property name="gmean" value="171011695"/>
+<property name="gstddev" value="0.002329"/>
+<property name="mean" value="171012143"/>
+<property name="stddev" value="398848"/>
+</properties>
+    </testcase>
+    <testcase name="params/28" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FILTER_NONE, 1)" status="run" time="1.109" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="35983500"/>
+<property name="median" value="36091100"/>
+<property name="gmean" value="36096865"/>
+<property name="gstddev" value="0.001911"/>
+<property name="mean" value="36096929"/>
+<property name="stddev" value="69002"/>
+</properties>
+    </testcase>
+    <testcase name="params/29" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FILTER_NONE, 6)" status="run" time="1.11" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="36023500"/>
+<property name="median" value="36123950"/>
+<property name="gmean" value="36159944"/>
+<property name="gstddev" value="0.003217"/>
+<property name="mean" value="36160125"/>
+<property name="stddev" value="116631"/>
+</properties>
+    </testcase>
+    <testcase name="params/30" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FILTER_SUB, 1)" status="run" time="1.104" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="35863200"/>
+<property name="median" value="36022900"/>
+<property name="gmean" value="36027104"/>
+<property name="gstddev" value="0.003233"/>
+<property name="mean" value="36027286"/>
+<property name="stddev" value="116897"/>
+</properties>
+    </testcase>
+    <testcase name="params/31" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FILTER_SUB, 6)" status="run" time="1.121" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="35911500"/>
+<property name="median" value="36038400"/>
+<property name="gmean" value="36144844"/>
+<property name="gstddev" value="0.009272"/>
+<property name="mean" value="36146357"/>
+<property name="stddev" value="340234"/>
+</properties>
+    </testcase>
+    <testcase name="params/32" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FILTER_UP, 1)" status="run" time="1.083" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="34988500"/>
+<property name="median" value="35241800"/>
+<property name="gmean" value="35286733"/>
+<property name="gstddev" value="0.005444"/>
+<property name="mean" value="35287239"/>
+<property name="stddev" value="193519"/>
+</properties>
+    </testcase>
+    <testcase name="params/33" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FILTER_UP, 6)" status="run" time="1.082" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="35142100"/>
+<property name="median" value="35241400"/>
+<property name="gmean" value="35253983"/>
+<property name="gstddev" value="0.002623"/>
+<property name="mean" value="35254100"/>
+<property name="stddev" value="92622"/>
+</properties>
+    </testcase>
+    <testcase name="params/34" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FILTER_AVG, 1)" status="run" time="1.121" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="36420500"/>
+<property name="median" value="36515550"/>
+<property name="gmean" value="36586551"/>
+<property name="gstddev" value="0.004997"/>
+<property name="mean" value="36586993"/>
+<property name="stddev" value="183867"/>
+</properties>
+    </testcase>
+    <testcase name="params/35" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FILTER_AVG, 6)" status="run" time="1.129" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="36645100"/>
+<property name="median" value="36761950"/>
+<property name="gmean" value="36806196"/>
+<property name="gstddev" value="0.004064"/>
+<property name="mean" value="36806489"/>
+<property name="stddev" value="149986"/>
+</properties>
+    </testcase>
+    <testcase name="params/36" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FILTER_PAETH, 1)" status="run" time="1.128" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="36674400"/>
+<property name="median" value="36810450"/>
+<property name="gmean" value="36845579"/>
+<property name="gstddev" value="0.003258"/>
+<property name="mean" value="36845768"/>
+<property name="stddev" value="120174"/>
+</properties>
+    </testcase>
+    <testcase name="params/37" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FILTER_PAETH, 6)" status="run" time="1.12" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="36438700"/>
+<property name="median" value="36530400"/>
+<property name="gmean" value="36558976"/>
+<property name="gstddev" value="0.003105"/>
+<property name="mean" value="36559146"/>
+<property name="stddev" value="113781"/>
+</properties>
+    </testcase>
+    <testcase name="params/38" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FAST_FILTERS, 1)" status="run" time="1.225" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="39839900"/>
+<property name="median" value="39983550"/>
+<property name="gmean" value="40036252"/>
+<property name="gstddev" value="0.004063"/>
+<property name="mean" value="40036571"/>
+<property name="stddev" value="163222"/>
+</properties>
+    </testcase>
+    <testcase name="params/39" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_FAST_FILTERS, 6)" status="run" time="1.225" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="39828100"/>
+<property name="median" value="39962950"/>
+<property name="gmean" value="40011749"/>
+<property name="gstddev" value="0.005226"/>
+<property name="mean" value="40012279"/>
+<property name="stddev" value="210558"/>
+</properties>
+    </testcase>
+    <testcase name="params/40" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_ALL_FILTERS, 1)" status="run" time="1.617" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="52289800"/>
+<property name="median" value="52490150"/>
+<property name="gmean" value="52550477"/>
+<property name="gstddev" value="0.004488"/>
+<property name="mean" value="52550989"/>
+<property name="stddev" value="237111"/>
+</properties>
+    </testcase>
+    <testcase name="params/41" value_param="(IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, IMWRITE_PNG_ALL_FILTERS, 6)" status="run" time="1.593" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="52094500"/>
+<property name="median" value="52256950"/>
+<property name="gmean" value="52293049"/>
+<property name="gstddev" value="0.003177"/>
+<property name="mean" value="52293304"/>
+<property name="stddev" value="166599"/>
+</properties>
+    </testcase>
+    <testcase name="params/42" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FILTER_NONE, 1)" status="run" time="1.067" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="34560000"/>
+<property name="median" value="34654700"/>
+<property name="gmean" value="34701383"/>
+<property name="gstddev" value="0.003880"/>
+<property name="mean" value="34701636"/>
+<property name="stddev" value="135210"/>
+</properties>
+    </testcase>
+    <testcase name="params/43" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FILTER_NONE, 6)" status="run" time="1.065" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="34507200"/>
+<property name="median" value="34600750"/>
+<property name="gmean" value="34629935"/>
+<property name="gstddev" value="0.002821"/>
+<property name="mean" value="34630068"/>
+<property name="stddev" value="97886"/>
+</properties>
+    </testcase>
+    <testcase name="params/44" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FILTER_SUB, 1)" status="run" time="0.882" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="28498900"/>
+<property name="median" value="28655000"/>
+<property name="gmean" value="28658449"/>
+<property name="gstddev" value="0.003344"/>
+<property name="mean" value="28658604"/>
+<property name="stddev" value="95931"/>
+</properties>
+    </testcase>
+    <testcase name="params/45" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FILTER_SUB, 6)" status="run" time="0.883" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="28509400"/>
+<property name="median" value="28626900"/>
+<property name="gmean" value="28640204"/>
+<property name="gstddev" value="0.003446"/>
+<property name="mean" value="28640368"/>
+<property name="stddev" value="98849"/>
+</properties>
+    </testcase>
+    <testcase name="params/46" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FILTER_UP, 1)" status="run" time="0.812" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="26141100"/>
+<property name="median" value="26250200"/>
+<property name="gmean" value="26305215"/>
+<property name="gstddev" value="0.008030"/>
+<property name="mean" value="26306039"/>
+<property name="stddev" value="213788"/>
+</properties>
+    </testcase>
+    <testcase name="params/47" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FILTER_UP, 6)" status="run" time="0.81" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="26120200"/>
+<property name="median" value="26238000"/>
+<property name="gmean" value="26255367"/>
+<property name="gstddev" value="0.003323"/>
+<property name="mean" value="26255507"/>
+<property name="stddev" value="87371"/>
+</properties>
+    </testcase>
+    <testcase name="params/48" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FILTER_AVG, 1)" status="run" time="0.966" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="31295100"/>
+<property name="median" value="31391050"/>
+<property name="gmean" value="31396000"/>
+<property name="gstddev" value="0.002123"/>
+<property name="mean" value="31396068"/>
+<property name="stddev" value="66748"/>
+</properties>
+    </testcase>
+    <testcase name="params/49" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FILTER_AVG, 6)" status="run" time="0.967" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="31307700"/>
+<property name="median" value="31428850"/>
+<property name="gmean" value="31459208"/>
+<property name="gstddev" value="0.003745"/>
+<property name="mean" value="31459421"/>
+<property name="stddev" value="118152"/>
+</properties>
+    </testcase>
+    <testcase name="params/50" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FILTER_PAETH, 1)" status="run" time="0.908" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="28739900"/>
+<property name="median" value="28931100"/>
+<property name="gmean" value="28951345"/>
+<property name="gstddev" value="0.004059"/>
+<property name="mean" value="28951575"/>
+<property name="stddev" value="117741"/>
+</properties>
+    </testcase>
+    <testcase name="params/51" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FILTER_PAETH, 6)" status="run" time="0.891" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="28818400"/>
+<property name="median" value="28945200"/>
+<property name="gmean" value="28956427"/>
+<property name="gstddev" value="0.003620"/>
+<property name="mean" value="28956611"/>
+<property name="stddev" value="105176"/>
+</properties>
+    </testcase>
+    <testcase name="params/52" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FAST_FILTERS, 1)" status="run" time="0.963" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="31194500"/>
+<property name="median" value="31321800"/>
+<property name="gmean" value="31346320"/>
+<property name="gstddev" value="0.003680"/>
+<property name="mean" value="31346525"/>
+<property name="stddev" value="115656"/>
+</properties>
+    </testcase>
+    <testcase name="params/53" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_FAST_FILTERS, 6)" status="run" time="0.963" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="31149100"/>
+<property name="median" value="31309350"/>
+<property name="gmean" value="31311947"/>
+<property name="gstddev" value="0.003106"/>
+<property name="mean" value="31312093"/>
+<property name="stddev" value="97455"/>
+</properties>
+    </testcase>
+    <testcase name="params/54" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_ALL_FILTERS, 1)" status="run" time="1.359" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="44324600"/>
+<property name="median" value="44521750"/>
+<property name="gmean" value="44534404"/>
+<property name="gstddev" value="0.002301"/>
+<property name="mean" value="44534518"/>
+<property name="stddev" value="102511"/>
+</properties>
+    </testcase>
+    <testcase name="params/55" value_param="(IMWRITE_PNG_STRATEGY_RLE, IMWRITE_PNG_ALL_FILTERS, 6)" status="run" time="1.359" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="44259400"/>
+<property name="median" value="44512550"/>
+<property name="gmean" value="44503780"/>
+<property name="gstddev" value="0.002103"/>
+<property name="mean" value="44503875"/>
+<property name="stddev" value="93578"/>
+</properties>
+    </testcase>
+    <testcase name="params/56" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FILTER_NONE, 1)" status="run" time="1.133" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="36669100"/>
+<property name="median" value="36908150"/>
+<property name="gmean" value="36948917"/>
+<property name="gstddev" value="0.004742"/>
+<property name="mean" value="36949318"/>
+<property name="stddev" value="175559"/>
+</properties>
+    </testcase>
+    <testcase name="params/57" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FILTER_NONE, 6)" status="run" time="2.017" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="65986800"/>
+<property name="median" value="66361750"/>
+<property name="gmean" value="66377497"/>
+<property name="gstddev" value="0.003465"/>
+<property name="mean" value="66377882"/>
+<property name="stddev" value="230394"/>
+</properties>
+    </testcase>
+    <testcase name="params/58" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FILTER_SUB, 1)" status="run" time="1.108" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="35177600"/>
+<property name="median" value="35363800"/>
+<property name="gmean" value="35512488"/>
+<property name="gstddev" value="0.013123"/>
+<property name="mean" value="35515468"/>
+<property name="stddev" value="473477"/>
+</properties>
+    </testcase>
+    <testcase name="params/59" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FILTER_SUB, 6)" status="run" time="3.883" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="128041500"/>
+<property name="median" value="128534350"/>
+<property name="gmean" value="128597218"/>
+<property name="gstddev" value="0.002732"/>
+<property name="mean" value="128597682"/>
+<property name="stddev" value="352221"/>
+</properties>
+    </testcase>
+    <testcase name="params/60" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FILTER_UP, 1)" status="run" time="1.027" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="33363000"/>
+<property name="median" value="33469600"/>
+<property name="gmean" value="33492030"/>
+<property name="gstddev" value="0.002687"/>
+<property name="mean" value="33492146"/>
+<property name="stddev" value="90118"/>
+</properties>
+    </testcase>
+    <testcase name="params/61" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FILTER_UP, 6)" status="run" time="3.638" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="119906800"/>
+<property name="median" value="120351600"/>
+<property name="gmean" value="120428820"/>
+<property name="gstddev" value="0.003735"/>
+<property name="mean" value="120429632"/>
+<property name="stddev" value="451457"/>
+</properties>
+    </testcase>
+    <testcase name="params/62" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FILTER_AVG, 1)" status="run" time="1.195" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="38831100"/>
+<property name="median" value="39015900"/>
+<property name="gmean" value="39026569"/>
+<property name="gstddev" value="0.002560"/>
+<property name="mean" value="39026693"/>
+<property name="stddev" value="99953"/>
+</properties>
+    </testcase>
+    <testcase name="params/63" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FILTER_AVG, 6)" status="run" time="5.184" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="170823000"/>
+<property name="median" value="171244100"/>
+<property name="gmean" value="171314140"/>
+<property name="gstddev" value="0.002367"/>
+<property name="mean" value="171314604"/>
+<property name="stddev" value="406283"/>
+</properties>
+    </testcase>
+    <testcase name="params/64" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FILTER_PAETH, 1)" status="run" time="1.111" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="36008700"/>
+<property name="median" value="36205650"/>
+<property name="gmean" value="36237698"/>
+<property name="gstddev" value="0.004855"/>
+<property name="mean" value="36238111"/>
+<property name="stddev" value="176521"/>
+</properties>
+    </testcase>
+    <testcase name="params/65" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FILTER_PAETH, 6)" status="run" time="4.436" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="146488500"/>
+<property name="median" value="146934450"/>
+<property name="gmean" value="147025953"/>
+<property name="gstddev" value="0.002866"/>
+<property name="mean" value="147026536"/>
+<property name="stddev" value="422045"/>
+</properties>
+    </testcase>
+    <testcase name="params/66" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FAST_FILTERS, 1)" status="run" time="1.201" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="38342500"/>
+<property name="median" value="38494500"/>
+<property name="gmean" value="38588507"/>
+<property name="gstddev" value="0.008783"/>
+<property name="mean" value="38589954"/>
+<property name="stddev" value="343041"/>
+</properties>
+    </testcase>
+    <testcase name="params/67" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_FAST_FILTERS, 6)" status="run" time="3.923" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="129344900"/>
+<property name="median" value="129920150"/>
+<property name="gmean" value="129970314"/>
+<property name="gstddev" value="0.002713"/>
+<property name="mean" value="129970775"/>
+<property name="stddev" value="352888"/>
+</properties>
+    </testcase>
+    <testcase name="params/68" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_ALL_FILTERS, 1)" status="run" time="1.579" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="51785800"/>
+<property name="median" value="51872150"/>
+<property name="gmean" value="51902232"/>
+<property name="gstddev" value="0.001960"/>
+<property name="mean" value="51902329"/>
+<property name="stddev" value="101841"/>
+</properties>
+    </testcase>
+    <testcase name="params/69" value_param="(IMWRITE_PNG_STRATEGY_FIXED, IMWRITE_PNG_ALL_FILTERS, 6)" status="run" time="4.921" classname="PNG_params">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="161814800"/>
+<property name="median" value="162322650"/>
+<property name="gmean" value="162418011"/>
+<property name="gstddev" value="0.002534"/>
+<property name="mean" value="162418514"/>
+<property name="stddev" value="412195"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="Decode_bgr" tests="9" failures="0" disabled="0" errors="0" time="10.153">
+    <testcase name="bgr/0" value_param="&quot;.bmp&quot;" status="run" time="0.098" classname="Decode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2202500"/>
+<property name="median" value="2497650"/>
+<property name="gmean" value="2480146"/>
+<property name="gstddev" value="0.064158"/>
+<property name="mean" value="2485043"/>
+<property name="stddev" value="158016"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/1" value_param="&quot;.gif&quot;" status="run" time="1.458" classname="Decode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="44933200"/>
+<property name="median" value="45474500"/>
+<property name="gmean" value="45436531"/>
+<property name="gstddev" value="0.005599"/>
+<property name="mean" value="45437218"/>
+<property name="stddev" value="254504"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/2" value_param="&quot;.jp2&quot;" status="run" time="6.067" classname="Decode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="191205700"/>
+<property name="median" value="192427350"/>
+<property name="gmean" value="193035177"/>
+<property name="gstddev" value="0.008516"/>
+<property name="mean" value="193041939"/>
+<property name="stddev" value="1648217"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/3" value_param="&quot;.jpg&quot;" status="run" time="0.164" classname="Decode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4588300"/>
+<property name="median" value="4623150"/>
+<property name="gmean" value="4628490"/>
+<property name="gstddev" value="0.005904"/>
+<property name="mean" value="4628568"/>
+<property name="stddev" value="27401"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/4" value_param="&quot;.png&quot;" status="run" time="0.622" classname="Decode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="18903300"/>
+<property name="median" value="18991800"/>
+<property name="gmean" value="19005827"/>
+<property name="gstddev" value="0.004963"/>
+<property name="mean" value="19006054"/>
+<property name="stddev" value="94860"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/5" value_param="&quot;.ppm&quot;" status="run" time="0.106" classname="Decode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2666200"/>
+<property name="median" value="2731800"/>
+<property name="gmean" value="2746383"/>
+<property name="gstddev" value="0.021800"/>
+<property name="mean" value="2747014"/>
+<property name="stddev" value="60162"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/6" value_param="&quot;.ras&quot;" status="run" time="0.077" classname="Decode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1722700"/>
+<property name="median" value="1777050"/>
+<property name="gmean" value="1794803"/>
+<property name="gstddev" value="0.035997"/>
+<property name="mean" value="1795932"/>
+<property name="stddev" value="65270"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/7" value_param="&quot;.tiff&quot;" status="run" time="0.475" classname="Decode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="13907700"/>
+<property name="median" value="13988400"/>
+<property name="gmean" value="13993089"/>
+<property name="gstddev" value="0.003012"/>
+<property name="mean" value="13993150"/>
+<property name="stddev" value="42171"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/8" value_param="&quot;.webp&quot;" status="run" time="1.085" classname="Decode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="16078600"/>
+<property name="median" value="16235650"/>
+<property name="gmean" value="16251686"/>
+<property name="gstddev" value="0.004904"/>
+<property name="mean" value="16251875"/>
+<property name="stddev" value="79758"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="Decode_rgb" tests="9" failures="0" disabled="0" errors="0" time="10.256">
+    <testcase name="rgb/0" value_param="&quot;.bmp&quot;" status="run" time="0.166" classname="Decode_rgb">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4487600"/>
+<property name="median" value="4703350"/>
+<property name="gmean" value="4730197"/>
+<property name="gstddev" value="0.027588"/>
+<property name="mean" value="4731936"/>
+<property name="stddev" value="130815"/>
+</properties>
+    </testcase>
+    <testcase name="rgb/1" value_param="&quot;.gif&quot;" status="run" time="1.443" classname="Decode_rgb">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="44595300"/>
+<property name="median" value="44809700"/>
+<property name="gmean" value="44934367"/>
+<property name="gstddev" value="0.006728"/>
+<property name="mean" value="44935350"/>
+<property name="stddev" value="303376"/>
+</properties>
+    </testcase>
+    <testcase name="rgb/2" value_param="&quot;.jp2&quot;" status="run" time="6.122" classname="Decode_rgb">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="192155700"/>
+<property name="median" value="194880100"/>
+<property name="gmean" value="194854391"/>
+<property name="gstddev" value="0.008203"/>
+<property name="mean" value="194860711"/>
+<property name="stddev" value="1597689"/>
+</properties>
+    </testcase>
+    <testcase name="rgb/3" value_param="&quot;.jpg&quot;" status="run" time="0.17" classname="Decode_rgb">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4776500"/>
+<property name="median" value="4817200"/>
+<property name="gmean" value="4821468"/>
+<property name="gstddev" value="0.005688"/>
+<property name="mean" value="4821543"/>
+<property name="stddev" value="27458"/>
+</properties>
+    </testcase>
+    <testcase name="rgb/4" value_param="&quot;.png&quot;" status="run" time="0.614" classname="Decode_rgb">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="18540500"/>
+<property name="median" value="18658900"/>
+<property name="gmean" value="18692429"/>
+<property name="gstddev" value="0.008320"/>
+<property name="mean" value="18693057"/>
+<property name="stddev" value="157122"/>
+</properties>
+    </testcase>
+    <testcase name="rgb/5" value_param="&quot;.ppm&quot;" status="run" time="0.079" classname="Decode_rgb">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1719300"/>
+<property name="median" value="1859250"/>
+<property name="gmean" value="1847165"/>
+<property name="gstddev" value="0.036301"/>
+<property name="mean" value="1848336"/>
+<property name="stddev" value="66843"/>
+</properties>
+    </testcase>
+    <testcase name="rgb/6" value_param="&quot;.ras&quot;" status="run" time="0.105" classname="Decode_rgb">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2614100"/>
+<property name="median" value="2734950"/>
+<property name="gmean" value="2732101"/>
+<property name="gstddev" value="0.026378"/>
+<property name="mean" value="2733018"/>
+<property name="stddev" value="72095"/>
+</properties>
+    </testcase>
+    <testcase name="rgb/7" value_param="&quot;.tiff&quot;" status="run" time="0.478" classname="Decode_rgb">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="13993300"/>
+<property name="median" value="14084950"/>
+<property name="gmean" value="14080801"/>
+<property name="gstddev" value="0.003749"/>
+<property name="mean" value="14080896"/>
+<property name="stddev" value="52845"/>
+</properties>
+    </testcase>
+    <testcase name="rgb/8" value_param="&quot;.webp&quot;" status="run" time="1.078" classname="Decode_rgb">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="15603800"/>
+<property name="median" value="15775850"/>
+<property name="gmean" value="15781258"/>
+<property name="gstddev" value="0.005677"/>
+<property name="mean" value="15781504"/>
+<property name="stddev" value="89600"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="Encode_bgr" tests="9" failures="0" disabled="0" errors="0" time="28.412">
+    <testcase name="bgr/0" value_param="&quot;.bmp&quot;" status="run" time="0.034" classname="Encode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="338900"/>
+<property name="median" value="345250"/>
+<property name="gmean" value="352827"/>
+<property name="gstddev" value="0.069261"/>
+<property name="mean" value="353711"/>
+<property name="stddev" value="27612"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/1" value_param="&quot;.gif&quot;" status="run" time="2.117" classname="Encode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="69155000"/>
+<property name="median" value="69562050"/>
+<property name="gmean" value="69683063"/>
+<property name="gstddev" value="0.006189"/>
+<property name="mean" value="69684354"/>
+<property name="stddev" value="433101"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/2" value_param="&quot;.jp2&quot;" status="run" time="7.363" classname="Encode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="237948100"/>
+<property name="median" value="243757600"/>
+<property name="gmean" value="243673024"/>
+<property name="gstddev" value="0.010031"/>
+<property name="mean" value="243684829"/>
+<property name="stddev" value="2439092"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/3" value_param="&quot;.jpg&quot;" status="run" time="0.122" classname="Encode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3296000"/>
+<property name="median" value="3336750"/>
+<property name="gmean" value="3348085"/>
+<property name="gstddev" value="0.013215"/>
+<property name="mean" value="3348368"/>
+<property name="stddev" value="44572"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/4" value_param="&quot;.png&quot;" status="run" time="0.889" classname="Encode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="28629200"/>
+<property name="median" value="28796950"/>
+<property name="gmean" value="28863883"/>
+<property name="gstddev" value="0.008249"/>
+<property name="mean" value="28864836"/>
+<property name="stddev" value="240089"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/5" value_param="&quot;.ppm&quot;" status="run" time="0.054" classname="Encode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="970800"/>
+<property name="median" value="987200"/>
+<property name="gmean" value="1005677"/>
+<property name="gstddev" value="0.035515"/>
+<property name="mean" value="1006296"/>
+<property name="stddev" value="36376"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/6" value_param="&quot;.ras&quot;" status="run" time="0.032" classname="Encode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="311300"/>
+<property name="median" value="322200"/>
+<property name="gmean" value="323521"/>
+<property name="gstddev" value="0.038579"/>
+<property name="mean" value="323757"/>
+<property name="stddev" value="12832"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/7" value_param="&quot;.tiff&quot;" status="run" time="0.99" classname="Encode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="32033300"/>
+<property name="median" value="32147600"/>
+<property name="gmean" value="32220450"/>
+<property name="gstddev" value="0.006813"/>
+<property name="mean" value="32221175"/>
+<property name="stddev" value="221163"/>
+</properties>
+    </testcase>
+    <testcase name="bgr/8" value_param="&quot;.webp&quot;" status="run" time="16.811" classname="Encode_bgr">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="556187900"/>
+<property name="median" value="558778550"/>
+<property name="gmean" value="558794756"/>
+<property name="gstddev" value="0.002137"/>
+<property name="mean" value="558795986"/>
+<property name="stddev" value="1193827"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="Encode_multi" tests="4" failures="0" disabled="0" errors="0" time="14.775">
+    <testcase name="multi/0" value_param="&quot;.gif&quot;" status="run" time="4.511" classname="Encode_multi">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="141300900"/>
+<property name="median" value="144141600"/>
+<property name="gmean" value="143891135"/>
+<property name="gstddev" value="0.006675"/>
+<property name="mean" value="143894221"/>
+<property name="stddev" value="958206"/>
+</properties>
+    </testcase>
+    <testcase name="multi/1" value_param="&quot;.png&quot;" status="run" time="4.842" classname="Encode_multi">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="154045700"/>
+<property name="median" value="155359650"/>
+<property name="gmean" value="155275872"/>
+<property name="gstddev" value="0.004694"/>
+<property name="mean" value="155277521"/>
+<property name="stddev" value="728928"/>
+</properties>
+    </testcase>
+    <testcase name="multi/2" value_param="&quot;.tiff&quot;" status="run" time="2.044" classname="Encode_multi">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="63778100"/>
+<property name="median" value="63961350"/>
+<property name="gmean" value="64089637"/>
+<property name="gstddev" value="0.005176"/>
+<property name="mean" value="64090468"/>
+<property name="stddev" value="333481"/>
+</properties>
+    </testcase>
+    <testcase name="multi/3" value_param="&quot;.webp&quot;" status="run" time="3.378" classname="Encode_multi">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="106597300"/>
+<property name="median" value="107438500"/>
+<property name="gmean" value="107590994"/>
+<property name="gstddev" value="0.008510"/>
+<property name="mean" value="107594764"/>
+<property name="stddev" value="920517"/>
+</properties>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="91" failures="0" disabled="0" errors="0" timestamp="2026-11-26T12:45:13" time="1187.81" cv_module_name="stitching" cv_implementation="plain" cv_num_threads="1" test_tags="" test_tags_skip="mem_6gb,verylong" test_tags_force="" cv_version="4.12.0" cv_version_build="4.12.0" cv_vcs_version="unknown" cv_build_type="Release" cv_build_type_build="Release" cv_compiler="D:/project/cppproject/tools/mingw64/bin/g++.exe  (ver 14.2.0)" implementation_hint="ALGO_HINT_ACCURATE" hal="NO" cv_parallel_framework="openmp" cv_parallel_threads="1" cv_cpu_features="SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX512-SKX?" cv_ocl="disabled" name="AllTests">
+  <testsuite name="stitch_a123" tests="2" failures="0" disabled="0" errors="0" time="26.551">
+    <testcase name="a123/0" value_param="&quot;orb&quot;" status="run" time="11.018" classname="stitch_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="540831800"/>
+<property name="median" value="546454500"/>
+<property name="gmean" value="547976662"/>
+<property name="gstddev" value="0.009626"/>
+<property name="mean" value="548000732"/>
+<property name="stddev" value="5281067"/>
+</properties>
+    </testcase>
+    <testcase name="a123/1" value_param="&quot;akaze&quot;" status="run" time="15.53" classname="stitch_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="763125300"/>
+<property name="median" value="772409100"/>
+<property name="gmean" value="773412004"/>
+<property name="gstddev" value="0.009536"/>
+<property name="mean" value="773445416"/>
+<property name="stddev" value="7408370"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="stitchExposureCompensation_a123" tests="5" failures="0" disabled="0" errors="0" time="279.293">
+    <testcase name="a123/0" value_param="32" status="run" time="5.412" classname="stitchExposureCompensation_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="535393500"/>
+<property name="median" value="538788500"/>
+<property name="gmean" value="538696608"/>
+<property name="gstddev" value="0.004561"/>
+<property name="mean" value="538701650"/>
+<property name="stddev" value="2456781"/>
+</properties>
+    </testcase>
+    <testcase name="a123/1" value_param="16" status="run" time="6.384" classname="stitchExposureCompensation_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="629794300"/>
+<property name="median" value="633456550"/>
+<property name="gmean" value="635721597"/>
+<property name="gstddev" value="0.014179"/>
+<property name="mean" value="635779760"/>
+<property name="stddev" value="9167159"/>
+</properties>
+    </testcase>
+    <testcase name="a123/2" value_param="12" status="run" time="13.495" classname="stitchExposureCompensation_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1156365300"/>
+<property name="median" value="1367631750"/>
+<property name="gmean" value="1337069224"/>
+<property name="gstddev" value="0.126342"/>
+<property name="mean" value="1346745590"/>
+<property name="stddev" value="171199562"/>
+</properties>
+    </testcase>
+    <testcase name="a123/3" value_param="10" status="run" time="49.458" classname="stitchExposureCompensation_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4696562000"/>
+<property name="median" value="4833504100"/>
+<property name="gmean" value="4937139952"/>
+<property name="gstddev" value="0.044262"/>
+<property name="mean" value="4941535030"/>
+<property name="stddev" value="221791584"/>
+</properties>
+    </testcase>
+    <testcase name="a123/4" value_param="8" status="run" time="204.544" classname="stitchExposureCompensation_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="17963912300"/>
+<property name="median" value="20669817650"/>
+<property name="gmean" value="20432179500"/>
+<property name="gstddev" value="0.046728"/>
+<property name="mean" value="20451586980"/>
+<property name="stddev" value="907748766"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="stitchExposureCompMultiFeed_a123" tests="20" failures="0" disabled="0" errors="0" time="110.3">
+    <testcase name="a123/0" value_param="(&quot;gain&quot;, 1)" status="run" time="5.29" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="523510600"/>
+<property name="median" value="526619650"/>
+<property name="gmean" value="526569776"/>
+<property name="gstddev" value="0.003751"/>
+<property name="mean" value="526573110"/>
+<property name="stddev" value="1975494"/>
+</properties>
+    </testcase>
+    <testcase name="a123/1" value_param="(&quot;gain&quot;, 2)" status="run" time="5.513" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="543497400"/>
+<property name="median" value="547275100"/>
+<property name="gmean" value="548763110"/>
+<property name="gstddev" value="0.009993"/>
+<property name="mean" value="548787940"/>
+<property name="stddev" value="5541105"/>
+</properties>
+    </testcase>
+    <testcase name="a123/2" value_param="(&quot;gain&quot;, 3)" status="run" time="5.66" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="558148200"/>
+<property name="median" value="562482050"/>
+<property name="gmean" value="563348112"/>
+<property name="gstddev" value="0.007487"/>
+<property name="mean" value="563362380"/>
+<property name="stddev" value="4243559"/>
+</properties>
+    </testcase>
+    <testcase name="a123/3" value_param="(&quot;gain&quot;, 4)" status="run" time="5.506" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="544356000"/>
+<property name="median" value="546352800"/>
+<property name="gmean" value="547847570"/>
+<property name="gstddev" value="0.009122"/>
+<property name="mean" value="547868230"/>
+<property name="stddev" value="5051519"/>
+</properties>
+    </testcase>
+    <testcase name="a123/4" value_param="(&quot;gain&quot;, 5)" status="run" time="5.699" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="563880200"/>
+<property name="median" value="567082900"/>
+<property name="gmean" value="567133022"/>
+<property name="gstddev" value="0.004159"/>
+<property name="mean" value="567137440"/>
+<property name="stddev" value="2361044"/>
+</properties>
+    </testcase>
+    <testcase name="a123/5" value_param="(&quot;channels&quot;, 1)" status="run" time="5.348" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="524461000"/>
+<property name="median" value="530220300"/>
+<property name="gmean" value="532037575"/>
+<property name="gstddev" value="0.017719"/>
+<property name="mean" value="532113750"/>
+<property name="stddev" value="9617566"/>
+</properties>
+    </testcase>
+    <testcase name="a123/6" value_param="(&quot;channels&quot;, 2)" status="run" time="5.318" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="525589300"/>
+<property name="median" value="529115750"/>
+<property name="gmean" value="529102122"/>
+<property name="gstddev" value="0.004512"/>
+<property name="mean" value="529106970"/>
+<property name="stddev" value="2387876"/>
+</properties>
+    </testcase>
+    <testcase name="a123/7" value_param="(&quot;channels&quot;, 3)" status="run" time="5.284" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="522738100"/>
+<property name="median" value="524247200"/>
+<property name="gmean" value="525764045"/>
+<property name="gstddev" value="0.009498"/>
+<property name="mean" value="525785550"/>
+<property name="stddev" value="5050005"/>
+</properties>
+    </testcase>
+    <testcase name="a123/8" value_param="(&quot;channels&quot;, 4)" status="run" time="5.257" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="520996400"/>
+<property name="median" value="523062850"/>
+<property name="gmean" value="522969481"/>
+<property name="gstddev" value="0.002574"/>
+<property name="mean" value="522971040"/>
+<property name="stddev" value="1345711"/>
+</properties>
+    </testcase>
+    <testcase name="a123/9" value_param="(&quot;channels&quot;, 5)" status="run" time="5.297" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="522120500"/>
+<property name="median" value="525943550"/>
+<property name="gmean" value="526890043"/>
+<property name="gstddev" value="0.008573"/>
+<property name="mean" value="526907560"/>
+<property name="stddev" value="4553073"/>
+</properties>
+    </testcase>
+    <testcase name="a123/10" value_param="(&quot;blocks_gain&quot;, 1)" status="run" time="5.423" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="534063900"/>
+<property name="median" value="540241650"/>
+<property name="gmean" value="539822606"/>
+<property name="gstddev" value="0.004794"/>
+<property name="mean" value="539828180"/>
+<property name="stddev" value="2582112"/>
+</properties>
+    </testcase>
+    <testcase name="a123/11" value_param="(&quot;blocks_gain&quot;, 2)" status="run" time="5.421" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="532470300"/>
+<property name="median" value="537086800"/>
+<property name="gmean" value="539488285"/>
+<property name="gstddev" value="0.014213"/>
+<property name="mean" value="539537760"/>
+<property name="stddev" value="7770399"/>
+</properties>
+    </testcase>
+    <testcase name="a123/12" value_param="(&quot;blocks_gain&quot;, 3)" status="run" time="5.624" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="553873000"/>
+<property name="median" value="557625650"/>
+<property name="gmean" value="559734130"/>
+<property name="gstddev" value="0.015121"/>
+<property name="mean" value="559792390"/>
+<property name="stddev" value="8612022"/>
+</properties>
+    </testcase>
+    <testcase name="a123/13" value_param="(&quot;blocks_gain&quot;, 4)" status="run" time="5.707" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="564753600"/>
+<property name="median" value="567330100"/>
+<property name="gmean" value="568152868"/>
+<property name="gstddev" value="0.003970"/>
+<property name="mean" value="568156900"/>
+<property name="stddev" value="2257658"/>
+</properties>
+    </testcase>
+    <testcase name="a123/14" value_param="(&quot;blocks_gain&quot;, 5)" status="run" time="5.894" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="581046500"/>
+<property name="median" value="584454550"/>
+<property name="gmean" value="586999629"/>
+<property name="gstddev" value="0.015018"/>
+<property name="mean" value="587059870"/>
+<property name="stddev" value="8963759"/>
+</properties>
+    </testcase>
+    <testcase name="a123/15" value_param="(&quot;blocks_channels&quot;, 1)" status="run" time="5.477" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="542795400"/>
+<property name="median" value="544507800"/>
+<property name="gmean" value="544909978"/>
+<property name="gstddev" value="0.003116"/>
+<property name="mean" value="544912360"/>
+<property name="stddev" value="1698992"/>
+</properties>
+    </testcase>
+    <testcase name="a123/16" value_param="(&quot;blocks_channels&quot;, 2)" status="run" time="5.389" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="530575000"/>
+<property name="median" value="534759400"/>
+<property name="gmean" value="536405283"/>
+<property name="gstddev" value="0.014044"/>
+<property name="mean" value="536453370"/>
+<property name="stddev" value="7647426"/>
+</properties>
+    </testcase>
+    <testcase name="a123/17" value_param="(&quot;blocks_channels&quot;, 3)" status="run" time="5.535" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="547426400"/>
+<property name="median" value="551656800"/>
+<property name="gmean" value="551077489"/>
+<property name="gstddev" value="0.004931"/>
+<property name="mean" value="551083520"/>
+<property name="stddev" value="2718384"/>
+</properties>
+    </testcase>
+    <testcase name="a123/18" value_param="(&quot;blocks_channels&quot;, 4)" status="run" time="5.761" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="567095100"/>
+<property name="median" value="570502050"/>
+<property name="gmean" value="573074036"/>
+<property name="gstddev" value="0.015007"/>
+<property name="mean" value="573132790"/>
+<property name="stddev" value="8751190"/>
+</properties>
+    </testcase>
+    <testcase name="a123/19" value_param="(&quot;blocks_channels&quot;, 5)" status="run" time="5.896" classname="stitchExposureCompMultiFeed_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="10"/>
+<property name="outliers" value="0"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="582291500"/>
+<property name="median" value="586772600"/>
+<property name="gmean" value="587102397"/>
+<property name="gstddev" value="0.004143"/>
+<property name="mean" value="587106930"/>
+<property name="stddev" value="2430547"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="stitch_b12" tests="2" failures="0" disabled="0" errors="0" time="12.512">
+    <testcase name="b12/0" value_param="&quot;orb&quot;" status="run" time="5.005" classname="stitch_b12">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="244903300"/>
+<property name="median" value="247441300"/>
+<property name="gmean" value="247302453"/>
+<property name="gstddev" value="0.005983"/>
+<property name="mean" value="247306647"/>
+<property name="stddev" value="1480074"/>
+</properties>
+    </testcase>
+    <testcase name="b12/1" value_param="&quot;akaze&quot;" status="run" time="7.507" classname="stitch_b12">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="367891400"/>
+<property name="median" value="372710600"/>
+<property name="gmean" value="373480119"/>
+<property name="gstddev" value="0.009533"/>
+<property name="mean" value="373496237"/>
+<property name="stddev" value="3573863"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="stitchDatasets_affine" tests="8" failures="0" disabled="0" errors="0" time="102.118">
+    <testcase name="affine/0" value_param="(&quot;s&quot;, &quot;orb&quot;)" status="run" time="4.433" classname="stitchDatasets_affine">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="215401000"/>
+<property name="median" value="217279100"/>
+<property name="gmean" value="217308060"/>
+<property name="gstddev" value="0.005600"/>
+<property name="mean" value="217311289"/>
+<property name="stddev" value="1217963"/>
+</properties>
+    </testcase>
+    <testcase name="affine/1" value_param="(&quot;s&quot;, &quot;akaze&quot;)" status="run" time="10.679" classname="stitchDatasets_affine">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="523584400"/>
+<property name="median" value="529698400"/>
+<property name="gmean" value="530460889"/>
+<property name="gstddev" value="0.007724"/>
+<property name="mean" value="530475895"/>
+<property name="stddev" value="4103724"/>
+</properties>
+    </testcase>
+    <testcase name="affine/2" value_param="(&quot;budapest&quot;, &quot;orb&quot;)" status="run" time="15.046" classname="stitchDatasets_affine">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="738513100"/>
+<property name="median" value="746207200"/>
+<property name="gmean" value="746728893"/>
+<property name="gstddev" value="0.004576"/>
+<property name="mean" value="746736295"/>
+<property name="stddev" value="3414236"/>
+</properties>
+    </testcase>
+    <testcase name="affine/3" value_param="(&quot;budapest&quot;, &quot;akaze&quot;)" status="run" time="27.087" classname="stitchDatasets_affine">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1334149200"/>
+<property name="median" value="1349187400"/>
+<property name="gmean" value="1349930326"/>
+<property name="gstddev" value="0.006704"/>
+<property name="mean" value="1349959111"/>
+<property name="stddev" value="9073056"/>
+</properties>
+    </testcase>
+    <testcase name="affine/4" value_param="(&quot;newspaper&quot;, &quot;orb&quot;)" status="run" time="9.908" classname="stitchDatasets_affine">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="481883800"/>
+<property name="median" value="484586100"/>
+<property name="gmean" value="489484676"/>
+<property name="gstddev" value="0.016506"/>
+<property name="mean" value="489548184"/>
+<property name="stddev" value="8144470"/>
+</properties>
+    </testcase>
+    <testcase name="affine/5" value_param="(&quot;newspaper&quot;, &quot;akaze&quot;)" status="run" time="23.622" classname="stitchDatasets_affine">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1160915800"/>
+<property name="median" value="1172756300"/>
+<property name="gmean" value="1176182681"/>
+<property name="gstddev" value="0.009770"/>
+<property name="mean" value="1176236026"/>
+<property name="stddev" value="11544160"/>
+</properties>
+    </testcase>
+    <testcase name="affine/6" value_param="(&quot;prague&quot;, &quot;orb&quot;)" status="run" time="2.55" classname="stitchDatasets_affine">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="121259500"/>
+<property name="median" value="124753900"/>
+<property name="gmean" value="125301297"/>
+<property name="gstddev" value="0.020006"/>
+<property name="mean" value="125325142"/>
+<property name="stddev" value="2521408"/>
+</properties>
+    </testcase>
+    <testcase name="affine/7" value_param="(&quot;prague&quot;, &quot;akaze&quot;)" status="run" time="8.793" classname="stitchDatasets_affine">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="428026800"/>
+<property name="median" value="435134500"/>
+<property name="gmean" value="436618481"/>
+<property name="gstddev" value="0.013228"/>
+<property name="mean" value="436654795"/>
+<property name="stddev" value="5805880"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="FeaturesFinderVec_ParallelFeaturesFinder" tests="3" failures="0" disabled="0" errors="0" time="3.945">
+    <testcase name="ParallelFeaturesFinder/0" value_param="1" status="run" time="0.155" classname="FeaturesFinderVec_ParallelFeaturesFinder">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4878900"/>
+<property name="median" value="4975950"/>
+<property name="gmean" value="4989031"/>
+<property name="gstddev" value="0.013293"/>
+<property name="mean" value="4989457"/>
+<property name="stddev" value="66564"/>
+</properties>
+    </testcase>
+    <testcase name="ParallelFeaturesFinder/1" value_param="5" status="run" time="0.756" classname="FeaturesFinderVec_ParallelFeaturesFinder">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="24725200"/>
+<property name="median" value="24973550"/>
+<property name="gmean" value="24986705"/>
+<property name="gstddev" value="0.006104"/>
+<property name="mean" value="24987154"/>
+<property name="stddev" value="152617"/>
+</properties>
+    </testcase>
+    <testcase name="ParallelFeaturesFinder/2" value_param="20" status="run" time="3.033" classname="FeaturesFinderVec_ParallelFeaturesFinder">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="99462700"/>
+<property name="median" value="99942850"/>
+<property name="gmean" value="100210498"/>
+<property name="gstddev" value="0.007905"/>
+<property name="mean" value="100213536"/>
+<property name="stddev" value="799580"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="FeaturesFinderVec_SerialFeaturesFinder" tests="3" failures="0" disabled="0" errors="0" time="3.053">
+    <testcase name="SerialFeaturesFinder/0" value_param="1" status="run" time="0.121" classname="FeaturesFinderVec_SerialFeaturesFinder">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3805300"/>
+<property name="median" value="3866850"/>
+<property name="gmean" value="3872619"/>
+<property name="gstddev" value="0.011941"/>
+<property name="mean" value="3872886"/>
+<property name="stddev" value="46435"/>
+</properties>
+    </testcase>
+    <testcase name="SerialFeaturesFinder/1" value_param="5" status="run" time="0.586" classname="FeaturesFinderVec_SerialFeaturesFinder">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="19225400"/>
+<property name="median" value="19326700"/>
+<property name="gmean" value="19374311"/>
+<property name="gstddev" value="0.005491"/>
+<property name="mean" value="19374593"/>
+<property name="stddev" value="106674"/>
+</properties>
+    </testcase>
+    <testcase name="SerialFeaturesFinder/2" value_param="20" status="run" time="2.346" classname="FeaturesFinderVec_SerialFeaturesFinder">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="77230100"/>
+<property name="median" value="77717800"/>
+<property name="gmean" value="77875263"/>
+<property name="gstddev" value="0.006904"/>
+<property name="mean" value="77877057"/>
+<property name="stddev" value="539602"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="match_bestOf2Nearest" tests="1" failures="0" disabled="0" errors="0" time="0.197">
+    <testcase name="bestOf2Nearest/0" value_param="&quot;orb&quot;" status="run" time="0.197" classname="match_bestOf2Nearest">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="32000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3937400"/>
+<property name="median" value="4030300"/>
+<property name="gmean" value="4066410"/>
+<property name="gstddev" value="0.030273"/>
+<property name="mean" value="4068254"/>
+<property name="stddev" value="128033"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="matchVector_bestOf2NearestVectorFeatures" tests="3" failures="0" disabled="0" errors="0" time="4.395">
+    <testcase name="bestOf2NearestVectorFeatures/0" value_param="(&quot;orb&quot;, 2)" status="run" time="0.172" classname="matchVector_bestOf2NearestVectorFeatures">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3849700"/>
+<property name="median" value="3881850"/>
+<property name="gmean" value="3885736"/>
+<property name="gstddev" value="0.006164"/>
+<property name="mean" value="3885807"/>
+<property name="stddev" value="24019"/>
+</properties>
+    </testcase>
+    <testcase name="bestOf2NearestVectorFeatures/1" value_param="(&quot;orb&quot;, 4)" status="run" time="0.792" classname="matchVector_bestOf2NearestVectorFeatures">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="23715400"/>
+<property name="median" value="24508100"/>
+<property name="gmean" value="24464404"/>
+<property name="gstddev" value="0.016119"/>
+<property name="mean" value="24467464"/>
+<property name="stddev" value="393495"/>
+</properties>
+    </testcase>
+    <testcase name="bestOf2NearestVectorFeatures/2" value_param="(&quot;orb&quot;, 8)" status="run" time="3.431" classname="matchVector_bestOf2NearestVectorFeatures">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="111369100"/>
+<property name="median" value="112496450"/>
+<property name="gmean" value="112460286"/>
+<property name="gstddev" value="0.005082"/>
+<property name="mean" value="112461686"/>
+<property name="stddev" value="570941"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="match_affineBestOf2Nearest" tests="1" failures="0" disabled="0" errors="0" time="0.167">
+    <testcase name="affineBestOf2Nearest/0" value_param="&quot;orb&quot;" status="run" time="0.166" classname="match_affineBestOf2Nearest">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="32000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3735400"/>
+<property name="median" value="3767850"/>
+<property name="gmean" value="3825203"/>
+<property name="gstddev" value="0.032617"/>
+<property name="mean" value="3827200"/>
+<property name="stddev" value="128111"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="matchVector_affineBestOf2NearestVectorFeatures" tests="3" failures="0" disabled="0" errors="0" time="4.321">
+    <testcase name="affineBestOf2NearestVectorFeatures/0" value_param="(&quot;orb&quot;, 2)" status="run" time="0.164" classname="matchVector_affineBestOf2NearestVectorFeatures">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3725400"/>
+<property name="median" value="3761100"/>
+<property name="gmean" value="3790989"/>
+<property name="gstddev" value="0.021817"/>
+<property name="mean" value="3791875"/>
+<property name="stddev" value="84960"/>
+</properties>
+    </testcase>
+    <testcase name="affineBestOf2NearestVectorFeatures/1" value_param="(&quot;orb&quot;, 4)" status="run" time="0.758" classname="matchVector_affineBestOf2NearestVectorFeatures">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="23183300"/>
+<property name="median" value="23338050"/>
+<property name="gmean" value="23468075"/>
+<property name="gstddev" value="0.016560"/>
+<property name="mean" value="23471214"/>
+<property name="stddev" value="395464"/>
+</properties>
+    </testcase>
+    <testcase name="affineBestOf2NearestVectorFeatures/2" value_param="(&quot;orb&quot;, 8)" status="run" time="3.399" classname="matchVector_affineBestOf2NearestVectorFeatures">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="109440600"/>
+<property name="median" value="111052950"/>
+<property name="gmean" value="111043264"/>
+<property name="gstddev" value="0.006844"/>
+<property name="mean" value="111045771"/>
+<property name="stddev" value="759861"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="bundleAdjuster_affine" tests="2" failures="0" disabled="0" errors="0" time="0.136">
+    <testcase name="affine/0" value_param="(&quot;orb&quot;, &quot;affinePartial&quot;)" status="run" time="0.061" classname="bundleAdjuster_affine">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="127300"/>
+<property name="median" value="132050"/>
+<property name="gmean" value="130881"/>
+<property name="gstddev" value="0.017175"/>
+<property name="mean" value="130900"/>
+<property name="stddev" value="2240"/>
+</properties>
+    </testcase>
+    <testcase name="affine/1" value_param="(&quot;orb&quot;, &quot;affine&quot;)" status="run" time="0.074" classname="bundleAdjuster_affine">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="580000"/>
+<property name="median" value="589900"/>
+<property name="gmean" value="590505"/>
+<property name="gstddev" value="0.010342"/>
+<property name="mean" value="590536"/>
+<property name="stddev" value="6114"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps" tests="16" failures="0" disabled="0" errors="0" time="64.886">
+    <testcase name="StitchingWarpers_BuildMaps/0" value_param="(640x480, SphericalWarperType)" status="run" time="0.837" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="27400800"/>
+<property name="median" value="27856550"/>
+<property name="gmean" value="27851196"/>
+<property name="gstddev" value="0.008888"/>
+<property name="mean" value="27852257"/>
+<property name="stddev" value="247553"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/1" value_param="(640x480, CylindricalWarperType)" status="run" time="0.438" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="14453800"/>
+<property name="median" value="14558900"/>
+<property name="gmean" value="14569042"/>
+<property name="gstddev" value="0.004953"/>
+<property name="mean" value="14569214"/>
+<property name="stddev" value="72216"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/2" value_param="(640x480, PlaneWarperType)" status="run" time="0.005" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="141200"/>
+<property name="median" value="141650"/>
+<property name="gmean" value="141900"/>
+<property name="gstddev" value="0.007299"/>
+<property name="mean" value="141904"/>
+<property name="stddev" value="1048"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/3" value_param="(640x480, AffineWarperType)" status="run" time="0.006" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="156700"/>
+<property name="median" value="159050"/>
+<property name="gmean" value="159640"/>
+<property name="gstddev" value="0.017647"/>
+<property name="mean" value="159664"/>
+<property name="stddev" value="2848"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/4" value_param="(1280x720, SphericalWarperType)" status="run" time="3.355" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="110123500"/>
+<property name="median" value="111631750"/>
+<property name="gmean" value="111614478"/>
+<property name="gstddev" value="0.007145"/>
+<property name="mean" value="111617225"/>
+<property name="stddev" value="797267"/>
+<property name="tags" value="size_hd"/>
+<property name="tags_implied" value=""/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/5" value_param="(1280x720, CylindricalWarperType)" status="run" time="1.758" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="57738000"/>
+<property name="median" value="58548200"/>
+<property name="gmean" value="58477635"/>
+<property name="gstddev" value="0.006970"/>
+<property name="mean" value="58479004"/>
+<property name="stddev" value="407217"/>
+<property name="tags" value="size_hd"/>
+<property name="tags_implied" value=""/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/6" value_param="(1280x720, PlaneWarperType)" status="run" time="0.02" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="550600"/>
+<property name="median" value="561100"/>
+<property name="gmean" value="563038"/>
+<property name="gstddev" value="0.022463"/>
+<property name="mean" value="563179"/>
+<property name="stddev" value="13176"/>
+<property name="tags" value="size_hd"/>
+<property name="tags_implied" value=""/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/7" value_param="(1280x720, AffineWarperType)" status="run" time="0.021" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="549700"/>
+<property name="median" value="562250"/>
+<property name="gmean" value="562247"/>
+<property name="gstddev" value="0.011405"/>
+<property name="mean" value="562282"/>
+<property name="stddev" value="6398"/>
+<property name="tags" value="size_hd"/>
+<property name="tags_implied" value=""/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/8" value_param="(1920x1080, SphericalWarperType)" status="run" time="7.59" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="248157200"/>
+<property name="median" value="251352850"/>
+<property name="gmean" value="252030604"/>
+<property name="gstddev" value="0.008245"/>
+<property name="mean" value="252038868"/>
+<property name="stddev" value="2079237"/>
+<property name="tags" value="size_fullhd"/>
+<property name="tags_implied" value="size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/9" value_param="(1920x1080, CylindricalWarperType)" status="run" time="3.989" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="130421400"/>
+<property name="median" value="131644050"/>
+<property name="gmean" value="131755270"/>
+<property name="gstddev" value="0.007804"/>
+<property name="mean" value="131759143"/>
+<property name="stddev" value="1029754"/>
+<property name="tags" value="size_fullhd"/>
+<property name="tags_implied" value="size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/10" value_param="(1920x1080, PlaneWarperType)" status="run" time="0.053" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1293500"/>
+<property name="median" value="1402750"/>
+<property name="gmean" value="1416678"/>
+<property name="gstddev" value="0.079210"/>
+<property name="mean" value="1421096"/>
+<property name="stddev" value="117682"/>
+<property name="tags" value="size_fullhd"/>
+<property name="tags_implied" value="size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/11" value_param="(1920x1080, AffineWarperType)" status="run" time="0.052" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1278700"/>
+<property name="median" value="1353250"/>
+<property name="gmean" value="1376605"/>
+<property name="gstddev" value="0.063560"/>
+<property name="mean" value="1379350"/>
+<property name="stddev" value="90735"/>
+<property name="tags" value="size_fullhd"/>
+<property name="tags_implied" value="size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/12" value_param="(3840x2160, SphericalWarperType)" status="run" time="30.263" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="993904400"/>
+<property name="median" value="1007707200"/>
+<property name="gmean" value="1006991132"/>
+<property name="gstddev" value="0.004708"/>
+<property name="mean" value="1007001875"/>
+<property name="stddev" value="4729479"/>
+<property name="tags" value="size_4k"/>
+<property name="tags_implied" value="size_fullhd,size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/13" value_param="(3840x2160, CylindricalWarperType)" status="run" time="15.851" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="522182200"/>
+<property name="median" value="526185900"/>
+<property name="gmean" value="526419542"/>
+<property name="gstddev" value="0.005503"/>
+<property name="mean" value="526427239"/>
+<property name="stddev" value="2903934"/>
+<property name="tags" value="size_4k"/>
+<property name="tags_implied" value="size_fullhd,size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/14" value_param="(3840x2160, PlaneWarperType)" status="run" time="0.328" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="9074200"/>
+<property name="median" value="9638000"/>
+<property name="gmean" value="9644573"/>
+<property name="gstddev" value="0.038612"/>
+<property name="mean" value="9651529"/>
+<property name="stddev" value="374379"/>
+<property name="tags" value="size_4k"/>
+<property name="tags_implied" value="size_fullhd,size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_BuildMaps/15" value_param="(3840x2160, AffineWarperType)" status="run" time="0.32" classname="OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="9113100"/>
+<property name="median" value="9564900"/>
+<property name="gmean" value="9556012"/>
+<property name="gstddev" value="0.027975"/>
+<property name="mean" value="9559614"/>
+<property name="stddev" value="266966"/>
+<property name="tags" value="size_4k"/>
+<property name="tags_implied" value="size_fullhd,size_hd"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_StitchingWarpersFixture_StitchingWarpers_Warp" tests="16" failures="0" disabled="0" errors="0" time="71.999">
+    <testcase name="StitchingWarpers_Warp/0" value_param="(640x480, SphericalWarperType)" status="run" time="0.866" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="307200"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="28235300"/>
+<property name="median" value="28758500"/>
+<property name="gmean" value="28789190"/>
+<property name="gstddev" value="0.010361"/>
+<property name="mean" value="28790682"/>
+<property name="stddev" value="298914"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/1" value_param="(640x480, CylindricalWarperType)" status="run" time="0.467" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="307200"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="15261600"/>
+<property name="median" value="15517850"/>
+<property name="gmean" value="15519942"/>
+<property name="gstddev" value="0.010384"/>
+<property name="mean" value="15520750"/>
+<property name="stddev" value="161532"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/2" value_param="(640x480, PlaneWarperType)" status="run" time="0.039" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="307200"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1191600"/>
+<property name="median" value="1277950"/>
+<property name="gmean" value="1278918"/>
+<property name="gstddev" value="0.037127"/>
+<property name="mean" value="1279775"/>
+<property name="stddev" value="48072"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/3" value_param="(640x480, AffineWarperType)" status="run" time="0.038" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="307200"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1177100"/>
+<property name="median" value="1259500"/>
+<property name="gmean" value="1251406"/>
+<property name="gstddev" value="0.031897"/>
+<property name="mean" value="1252018"/>
+<property name="stddev" value="39741"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/4" value_param="(1280x720, SphericalWarperType)" status="run" time="3.509" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="921600"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="114079600"/>
+<property name="median" value="116030250"/>
+<property name="gmean" value="116004355"/>
+<property name="gstddev" value="0.009661"/>
+<property name="mean" value="116009575"/>
+<property name="stddev" value="1120800"/>
+<property name="tags" value="size_hd"/>
+<property name="tags_implied" value=""/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/5" value_param="(1280x720, CylindricalWarperType)" status="run" time="1.894" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="921600"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="62120000"/>
+<property name="median" value="63055350"/>
+<property name="gmean" value="63010467"/>
+<property name="gstddev" value="0.010070"/>
+<property name="mean" value="63013550"/>
+<property name="stddev" value="635348"/>
+<property name="tags" value="size_hd"/>
+<property name="tags_implied" value=""/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/6" value_param="(1280x720, PlaneWarperType)" status="run" time="0.163" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="921600"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="5094300"/>
+<property name="median" value="5443200"/>
+<property name="gmean" value="5415113"/>
+<property name="gstddev" value="0.033051"/>
+<property name="mean" value="5417964"/>
+<property name="stddev" value="178902"/>
+<property name="tags" value="size_hd"/>
+<property name="tags_implied" value=""/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/7" value_param="(1280x720, AffineWarperType)" status="run" time="0.166" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="921600"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="5167400"/>
+<property name="median" value="5424650"/>
+<property name="gmean" value="5446892"/>
+<property name="gstddev" value="0.031387"/>
+<property name="mean" value="5449486"/>
+<property name="stddev" value="171601"/>
+<property name="tags" value="size_hd"/>
+<property name="tags_implied" value=""/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/8" value_param="(1920x1080, SphericalWarperType)" status="run" time="7.87" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="2073600"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="259467600"/>
+<property name="median" value="262353950"/>
+<property name="gmean" value="262042393"/>
+<property name="gstddev" value="0.004102"/>
+<property name="mean" value="262044518"/>
+<property name="stddev" value="1073588"/>
+<property name="tags" value="size_fullhd"/>
+<property name="tags_implied" value="size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/9" value_param="(1920x1080, CylindricalWarperType)" status="run" time="4.297" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="2073600"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="140512700"/>
+<property name="median" value="142211250"/>
+<property name="gmean" value="142176202"/>
+<property name="gstddev" value="0.006609"/>
+<property name="mean" value="142179196"/>
+<property name="stddev" value="939934"/>
+<property name="tags" value="size_fullhd"/>
+<property name="tags_implied" value="size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/10" value_param="(1920x1080, PlaneWarperType)" status="run" time="0.439" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="2073600"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="12377300"/>
+<property name="median" value="14257700"/>
+<property name="gmean" value="14373361"/>
+<property name="gstddev" value="0.074736"/>
+<property name="mean" value="14411979"/>
+<property name="stddev" value="1071870"/>
+<property name="tags" value="size_fullhd"/>
+<property name="tags_implied" value="size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/11" value_param="(1920x1080, AffineWarperType)" status="run" time="0.405" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="2073600"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="12163500"/>
+<property name="median" value="13215450"/>
+<property name="gmean" value="13352808"/>
+<property name="gstddev" value="0.050518"/>
+<property name="mean" value="13369264"/>
+<property name="stddev" value="676476"/>
+<property name="tags" value="size_fullhd"/>
+<property name="tags_implied" value="size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/12" value_param="(3840x2160, SphericalWarperType)" status="run" time="31.435" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="8294400"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1039186000"/>
+<property name="median" value="1044697350"/>
+<property name="gmean" value="1045795065"/>
+<property name="gstddev" value="0.004739"/>
+<property name="mean" value="1045806414"/>
+<property name="stddev" value="4973671"/>
+<property name="tags" value="size_4k"/>
+<property name="tags_implied" value="size_fullhd,size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/13" value_param="(3840x2160, CylindricalWarperType)" status="run" time="17.068" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="8294400"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="563373500"/>
+<property name="median" value="566780200"/>
+<property name="gmean" value="567183966"/>
+<property name="gstddev" value="0.003821"/>
+<property name="mean" value="567187961"/>
+<property name="stddev" value="2168407"/>
+<property name="tags" value="size_4k"/>
+<property name="tags_implied" value="size_fullhd,size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/14" value_param="(3840x2160, PlaneWarperType)" status="run" time="1.661" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="8294400"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="51792400"/>
+<property name="median" value="54705050"/>
+<property name="gmean" value="54647800"/>
+<property name="gstddev" value="0.023518"/>
+<property name="mean" value="54662361"/>
+<property name="stddev" value="1283825"/>
+<property name="tags" value="size_4k"/>
+<property name="tags_implied" value="size_fullhd,size_hd"/>
+</properties>
+    </testcase>
+    <testcase name="StitchingWarpers_Warp/15" value_param="(3840x2160, AffineWarperType)" status="run" time="1.68" classname="OCL_StitchingWarpersFixture_StitchingWarpers_Warp">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="8294400"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="51940900"/>
+<property name="median" value="55255600"/>
+<property name="gmean" value="55418258"/>
+<property name="gstddev" value="0.033697"/>
+<property name="mean" value="55448668"/>
+<property name="stddev" value="1874643"/>
+<property name="tags" value="size_4k"/>
+<property name="tags_implied" value="size_fullhd,size_hd"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_stitch_a123" tests="2" failures="0" disabled="0" errors="0" time="26.248">
+    <testcase name="a123/0" value_param="&quot;orb&quot;" status="run" time="10.792" classname="OCL_stitch_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="534046000"/>
+<property name="median" value="536771600"/>
+<property name="gmean" value="537170931"/>
+<property name="gstddev" value="0.004456"/>
+<property name="mean" value="537175989"/>
+<property name="stddev" value="2398316"/>
+</properties>
+    </testcase>
+    <testcase name="a123/1" value_param="&quot;akaze&quot;" status="run" time="15.456" classname="OCL_stitch_a123">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="762422300"/>
+<property name="median" value="768284000"/>
+<property name="gmean" value="769186625"/>
+<property name="gstddev" value="0.008915"/>
+<property name="mean" value="769215821"/>
+<property name="stddev" value="6942090"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_stitch_b12" tests="2" failures="0" disabled="0" errors="0" time="12.462">
+    <testcase name="b12/0" value_param="&quot;orb&quot;" status="run" time="4.964" classname="OCL_stitch_b12">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="244662000"/>
+<property name="median" value="246921600"/>
+<property name="gmean" value="247174884"/>
+<property name="gstddev" value="0.005380"/>
+<property name="mean" value="247178274"/>
+<property name="stddev" value="1330423"/>
+</properties>
+    </testcase>
+    <testcase name="b12/1" value_param="&quot;akaze&quot;" status="run" time="7.498" classname="OCL_stitch_b12">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="366463000"/>
+<property name="median" value="370924500"/>
+<property name="gmean" value="372129288"/>
+<property name="gstddev" value="0.010103"/>
+<property name="mean" value="372147305"/>
+<property name="stddev" value="3767472"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_stitch_boat" tests="2" failures="0" disabled="0" errors="0" time="465.228">
+    <testcase name="boat/0" value_param="&quot;orb&quot;" status="run" time="226.928" classname="OCL_stitch_boat">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="11264975500"/>
+<property name="median" value="11327813000"/>
+<property name="gmean" value="11326258806"/>
+<property name="gstddev" value="0.003535"/>
+<property name="mean" value="11326325905"/>
+<property name="stddev" value="40096505"/>
+</properties>
+    </testcase>
+    <testcase name="boat/1" value_param="&quot;akaze&quot;" status="run" time="238.3" classname="OCL_stitch_boat">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="20"/>
+<property name="outliers" value="1"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="11805163700"/>
+<property name="median" value="11901839300"/>
+<property name="gmean" value="11898650730"/>
+<property name="gstddev" value="0.003587"/>
+<property name="mean" value="11898723211"/>
+<property name="stddev" value="42642652"/>
+</properties>
+    </testcase>
+  </testsuite>
+</testsuites>

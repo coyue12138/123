@@ -1,0 +1,89 @@
+[----------]
+[ GPU INFO ] 	Run on OS Windows x64.
+[----------]
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.12.0
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: D:/project/cppproject/tools/mingw64/bin/g++.exe  (ver 14.2.0)
+Algorithm hint: ALGO_HINT_ACCURATE
+HAL: NO
+Parallel framework: openmp (nthreads=16)
+CPU features: SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX512-SKX?
+OpenCL is disabled
+[==========] Running 13 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from HDR
+[ RUN      ] HDR.Mertens
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=120.20   median=120.05   min=108.35   stddev=3.78 (3.1%))
+[       OK ] HDR.Mertens (3822 ms)
+[ RUN      ] HDR.Debevec
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=91.85   median=92.16   min=86.52   stddev=2.71 (3.0%))
+[       OK ] HDR.Debevec (2869 ms)
+[ RUN      ] HDR.Robertson
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=73.75   median=73.58   min=72.28   stddev=1.16 (1.6%))
+[       OK ] HDR.Robertson (2299 ms)
+[----------] 3 tests from HDR (8992 ms total)
+
+[----------] 1 test from OCL_Photo_DenoisingGrayscale
+[ RUN      ] OCL_Photo_DenoisingGrayscale.DenoisingGrayscale
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=44.21   median=43.98   min=43.06   stddev=0.99 (2.2%))
+[       OK ] OCL_Photo_DenoisingGrayscale.DenoisingGrayscale (458 ms)
+[----------] 1 test from OCL_Photo_DenoisingGrayscale (458 ms total)
+
+[----------] 1 test from OCL_Photo_DenoisingColored
+[ RUN      ] OCL_Photo_DenoisingColored.DenoisingColored
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=109.91   median=102.90   min=101.75   stddev=21.31 (19.4%))
+[       OK ] OCL_Photo_DenoisingColored.DenoisingColored (1105 ms)
+[----------] 1 test from OCL_Photo_DenoisingColored (1105 ms total)
+
+[----------] 6 tests from InpaintArea_InpaintingMethod_inpaint
+[ RUN      ] InpaintArea_InpaintingMethod_inpaint.inpaint/0, where GetParam() = (24x24, INPAINT_NS)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=3.02   median=3.00   min=2.90   stddev=0.09 (2.9%))
+[       OK ] InpaintArea_InpaintingMethod_inpaint.inpaint/0 (98 ms)
+[ RUN      ] InpaintArea_InpaintingMethod_inpaint.inpaint/1, where GetParam() = (24x24, INPAINT_TELEA)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.99   median=2.96   min=2.81   stddev=0.14 (4.8%))
+[       OK ] InpaintArea_InpaintingMethod_inpaint.inpaint/1 (97 ms)
+[ RUN      ] InpaintArea_InpaintingMethod_inpaint.inpaint/2, where GetParam() = (32x32, INPAINT_NS)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.49   median=4.49   min=4.37   stddev=0.08 (1.8%))
+[       OK ] InpaintArea_InpaintingMethod_inpaint.inpaint/2 (143 ms)
+[ RUN      ] InpaintArea_InpaintingMethod_inpaint.inpaint/3, where GetParam() = (32x32, INPAINT_TELEA)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.03   median=4.01   min=3.81   stddev=0.13 (3.2%))
+[       OK ] InpaintArea_InpaintingMethod_inpaint.inpaint/3 (129 ms)
+[ RUN      ] InpaintArea_InpaintingMethod_inpaint.inpaint/4, where GetParam() = (64x64, INPAINT_NS)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=13.94   median=13.94   min=13.78   stddev=0.10 (0.7%))
+[       OK ] InpaintArea_InpaintingMethod_inpaint.inpaint/4 (427 ms)
+[ RUN      ] InpaintArea_InpaintingMethod_inpaint.inpaint/5, where GetParam() = (64x64, INPAINT_TELEA)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=10.75   median=10.76   min=10.56   stddev=0.12 (1.1%))
+[       OK ] InpaintArea_InpaintingMethod_inpaint.inpaint/5 (331 ms)
+[----------] 6 tests from InpaintArea_InpaintingMethod_inpaint (1226 ms total)
+
+[----------] 2 tests from Perf_InpaintingMethod_inpaintDots
+[ RUN      ] Perf_InpaintingMethod_inpaintDots.inpaintDots/0, where GetParam() = INPAINT_NS
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=10.29   median=10.27   min=10.10   stddev=0.10 (1.0%))
+[       OK ] Perf_InpaintingMethod_inpaintDots.inpaintDots/0 (317 ms)
+[ RUN      ] Perf_InpaintingMethod_inpaintDots.inpaintDots/1, where GetParam() = INPAINT_TELEA
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=40.84   median=40.86   min=40.29   stddev=0.27 (0.7%))
+[       OK ] Perf_InpaintingMethod_inpaintDots.inpaintDots/1 (1235 ms)
+[----------] 2 tests from Perf_InpaintingMethod_inpaintDots (1552 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 5 test cases ran. (13333 ms total)
+[  PASSED  ] 13 tests.
+
+  YOU HAVE 2 DISABLED TESTS
+

@@ -1,0 +1,1002 @@
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.12.0
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: D:/project/cppproject/tools/mingw64/bin/g++.exe  (ver 14.2.0)
+Algorithm hint: ALGO_HINT_ACCURATE
+HAL: NO
+Parallel framework: openmp (nthreads=16)
+CPU features: SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX512-SKX?
+OpenCL is disabled
+[==========] Running 231 tests from 19 test cases.
+[----------] Global test environment set-up.
+[----------] 8 tests from DenseOpticalFlow_VariationalRefinement_perf
+[ RUN      ] DenseOpticalFlow_VariationalRefinement_perf.perf/0, where GetParam() = (320x240, 5, 5)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=8.08   median=7.75   min=7.24   stddev=0.95 (11.8%))
+[       OK ] DenseOpticalFlow_VariationalRefinement_perf.perf/0 (82 ms)
+[ RUN      ] DenseOpticalFlow_VariationalRefinement_perf.perf/1, where GetParam() = (320x240, 5, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=13.66   median=13.81   min=11.50   stddev=1.31 (9.6%))
+[       OK ] DenseOpticalFlow_VariationalRefinement_perf.perf/1 (137 ms)
+[ RUN      ] DenseOpticalFlow_VariationalRefinement_perf.perf/2, where GetParam() = (320x240, 10, 5)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=11.47   median=11.35   min=10.40   stddev=0.83 (7.2%))
+[       OK ] DenseOpticalFlow_VariationalRefinement_perf.perf/2 (115 ms)
+[ RUN      ] DenseOpticalFlow_VariationalRefinement_perf.perf/3, where GetParam() = (320x240, 10, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=18.57   median=18.66   min=17.78   stddev=0.49 (2.6%))
+[       OK ] DenseOpticalFlow_VariationalRefinement_perf.perf/3 (187 ms)
+[ RUN      ] DenseOpticalFlow_VariationalRefinement_perf.perf/4, where GetParam() = (640x480, 5, 5)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=19.51   median=19.38   min=18.58   stddev=0.66 (3.4%))
+[       OK ] DenseOpticalFlow_VariationalRefinement_perf.perf/4 (197 ms)
+[ RUN      ] DenseOpticalFlow_VariationalRefinement_perf.perf/5, where GetParam() = (640x480, 5, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=27.53   median=27.69   min=26.32   stddev=0.66 (2.4%))
+[       OK ] DenseOpticalFlow_VariationalRefinement_perf.perf/5 (277 ms)
+[ RUN      ] DenseOpticalFlow_VariationalRefinement_perf.perf/6, where GetParam() = (640x480, 10, 5)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=24.06   median=23.66   min=22.93   stddev=1.06 (4.4%))
+[       OK ] DenseOpticalFlow_VariationalRefinement_perf.perf/6 (242 ms)
+[ RUN      ] DenseOpticalFlow_VariationalRefinement_perf.perf/7, where GetParam() = (640x480, 10, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=39.99   median=39.65   min=37.13   stddev=2.02 (5.0%))
+[       OK ] DenseOpticalFlow_VariationalRefinement_perf.perf/7 (402 ms)
+[----------] 8 tests from DenseOpticalFlow_VariationalRefinement_perf (1639 ms total)
+
+[----------] 3 tests from Tracking_MIL
+[ RUN      ] Tracking_MIL.MIL/0, where GetParam() = ("david/data/david.webm", 300, [47 x 56 from (163, 62)])
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Can't open video file
+[       OK ] Tracking_MIL.MIL/0 (11 ms)
+[ RUN      ] Tracking_MIL.MIL/1, where GetParam() = ("dudek/data/dudek.webm", 1, [132 x 176 from (123, 87)])
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Can't open video file
+[       OK ] Tracking_MIL.MIL/1 (6 ms)
+[ RUN      ] Tracking_MIL.MIL/2, where GetParam() = ("faceocc2/data/faceocc2.webm", 1, [82 x 98 from (118, 57)])
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Can't open video file
+[       OK ] Tracking_MIL.MIL/2 (8 ms)
+[----------] 3 tests from Tracking_MIL (25 ms total)
+
+[----------] 3 tests from Tracking_GOTURN
+[ RUN      ] Tracking_GOTURN.GOTURN/0, where GetParam() = ("david/data/david.webm", 300, [47 x 56 from (163, 62)])
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] OpenCV tests: Can't find data file: dnn/gsoc2016-goturn/goturn.caffemodel
+[       OK ] Tracking_GOTURN.GOTURN/0 (12 ms)
+[ RUN      ] Tracking_GOTURN.GOTURN/1, where GetParam() = ("dudek/data/dudek.webm", 1, [132 x 176 from (123, 87)])
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] OpenCV tests: Can't find data file: dnn/gsoc2016-goturn/goturn.caffemodel
+[       OK ] Tracking_GOTURN.GOTURN/1 (0 ms)
+[ RUN      ] Tracking_GOTURN.GOTURN/2, where GetParam() = ("faceocc2/data/faceocc2.webm", 1, [82 x 98 from (118, 57)])
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] OpenCV tests: Can't find data file: dnn/gsoc2016-goturn/goturn.caffemodel
+[       OK ] Tracking_GOTURN.GOTURN/2 (1 ms)
+[----------] 3 tests from Tracking_GOTURN (13 ms total)
+
+[----------] 48 tests from Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/0, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.17   median=1.15   min=1.07   stddev=0.09 (7.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/0 (59 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/1, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.12   median=1.09   min=1.05   stddev=0.06 (5.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/1 (41 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/2, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.09   median=1.11   min=0.84   stddev=0.10 (8.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/2 (39 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/3, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.11   median=1.12   min=0.94   stddev=0.08 (7.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/3 (41 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/4, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.89   median=1.87   min=1.70   stddev=0.10 (5.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/4 (64 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/5, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.97   median=1.97   min=1.78   stddev=0.09 (4.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/5 (66 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/6, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.92   median=1.93   min=1.73   stddev=0.09 (4.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/6 (64 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/7, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.09   median=2.09   min=1.79   stddev=0.12 (5.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/7 (70 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/8, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.42   median=2.44   min=2.15   stddev=0.14 (5.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/8 (81 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/9, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.59   median=2.58   min=2.29   stddev=0.13 (5.1%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/9 (85 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/10, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.56   median=2.55   min=2.33   stddev=0.12 (4.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/10 (84 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/11, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.70   median=2.72   min=2.50   stddev=0.12 (4.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/11 (90 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/12, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.98   median=0.96   min=0.90   stddev=0.06 (6.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/12 (42 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/13, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.02   median=0.99   min=0.93   stddev=0.11 (10.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/13 (39 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/14, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.05   median=1.04   min=0.94   stddev=0.08 (8.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/14 (40 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/15, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.11   median=1.03   min=0.98   stddev=0.19 (17.1%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/15 (43 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/16, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.97   median=1.94   min=1.81   stddev=0.10 (5.2%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/16 (66 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/17, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.08   median=2.09   min=1.83   stddev=0.08 (4.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/17 (69 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/18, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.84   median=1.90   min=1.54   stddev=0.20 (10.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/18 (62 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/19, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.09   median=2.09   min=1.95   stddev=0.08 (3.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/19 (70 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/20, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.35   median=2.35   min=2.20   stddev=0.09 (3.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/20 (78 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/21, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.41   median=2.42   min=2.15   stddev=0.12 (4.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/21 (80 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/22, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.39   median=2.37   min=2.17   stddev=0.10 (4.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/22 (81 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/23, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.65   median=2.65   min=2.42   stddev=0.14 (5.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/23 (89 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/24, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.39   median=1.34   min=1.17   stddev=0.16 (11.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/24 (78 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/25, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.39   median=1.36   min=1.22   stddev=0.13 (9.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/25 (67 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/26, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.46   median=1.42   min=1.28   stddev=0.16 (11.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/26 (69 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/27, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.45   median=1.40   min=1.28   stddev=0.15 (10.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/27 (69 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/28, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.07   median=4.09   min=3.67   stddev=0.18 (4.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/28 (147 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/29, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.21   median=4.22   min=3.90   stddev=0.20 (4.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/29 (150 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/30, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.11   median=4.17   min=3.61   stddev=0.20 (5.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/30 (147 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/31, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.19   median=4.19   min=3.89   stddev=0.19 (4.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/31 (151 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/32, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=5.56   median=5.54   min=5.06   stddev=0.27 (4.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/32 (194 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/33, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=5.54   median=5.57   min=5.12   stddev=0.24 (4.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/33 (192 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/34, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=5.44   median=5.45   min=5.05   stddev=0.19 (3.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/34 (191 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/35, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=5.54   median=5.58   min=5.06   stddev=0.24 (4.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/35 (192 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/36, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.34   median=1.33   min=1.12   stddev=0.14 (10.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/36 (72 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/37, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.35   median=1.35   min=1.15   stddev=0.11 (8.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/37 (65 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/38, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.36   median=1.34   min=1.20   stddev=0.11 (7.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/38 (66 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/39, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.40   median=1.37   min=1.23   stddev=0.12 (8.2%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/39 (66 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/40, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.52   median=4.50   min=4.08   stddev=0.23 (5.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/40 (160 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/41, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.29   median=4.27   min=4.02   stddev=0.15 (3.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/41 (153 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/42, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.13   median=4.11   min=3.91   stddev=0.16 (4.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/42 (148 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/43, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.33   median=4.36   min=4.01   stddev=0.20 (4.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/43 (156 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/44, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (9, 9), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=5.17   median=5.15   min=4.72   stddev=0.18 (3.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/44 (181 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/45, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (9, 9), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=5.53   median=5.53   min=5.12   stddev=0.24 (4.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/45 (192 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/46, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (15, 15), 7)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=5.66   median=5.60   min=5.14   stddev=0.33 (5.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/46 (197 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/47, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (15, 15), 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=5.84   median=5.79   min=5.53   stddev=0.19 (3.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full.OpticalFlowPyrLK_full/47 (201 ms)
+[----------] 48 tests from Path_Idx_Cn_NPoints_WSize_OpticalFlowPyrLK_full (4851 ms total)
+
+[----------] 96 tests from Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/0, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.65   median=0.64   min=0.59   stddev=0.05 (7.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/0 (67 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/1, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.18   median=0.18   min=0.17   stddev=0.01 (4.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/1 (25 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/2, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.67   median=0.66   min=0.61   stddev=0.06 (8.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/2 (70 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/3, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.17   median=0.17   min=0.16   stddev=0.01 (3.1%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/3 (25 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/4, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.68   median=0.67   min=0.60   stddev=0.04 (6.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/4 (70 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/5, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.22   median=0.22   min=0.20   stddev=0.01 (6.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/5 (29 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/6, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.73   median=0.72   min=0.68   stddev=0.04 (5.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/6 (73 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/7, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 1, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.23   median=0.23   min=0.22   stddev=0.01 (5.1%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/7 (30 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/8, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.03   median=1.04   min=0.95   stddev=0.04 (3.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/8 (102 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/9, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.20   median=0.20   min=0.18   stddev=0.01 (6.1%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/9 (29 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/10, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.06   median=1.06   min=0.94   stddev=0.05 (4.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/10 (104 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/11, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.20   median=0.20   min=0.18   stddev=0.02 (7.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/11 (31 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/12, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.09   median=1.10   min=1.05   stddev=0.03 (2.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/12 (108 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/13, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.27   median=0.27   min=0.25   stddev=0.01 (3.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/13 (35 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/14, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.17   median=1.17   min=1.12   stddev=0.04 (3.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/14 (115 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/15, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 3, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.28   median=0.29   min=0.25   stddev=0.02 (7.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/15 (43 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/16, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.14   median=1.14   min=1.05   stddev=0.04 (3.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/16 (112 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/17, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.21   median=0.20   min=0.19   stddev=0.01 (6.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/17 (32 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/18, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.22   median=1.21   min=1.13   stddev=0.07 (5.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/18 (121 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/19, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.20   median=0.20   min=0.19   stddev=0.01 (6.2%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/19 (30 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/20, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.24   median=1.24   min=1.16   stddev=0.03 (2.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/20 (121 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/21, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.25   median=0.25   min=0.23   stddev=0.01 (3.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/21 (34 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/22, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.29   median=1.29   min=1.22   stddev=0.04 (3.2%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/22 (125 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/23, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 1, 4, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.28   median=0.28   min=0.26   stddev=0.01 (3.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/23 (38 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/24, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.67   median=0.67   min=0.63   stddev=0.04 (5.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/24 (69 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/25, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.19   median=0.19   min=0.17   stddev=0.01 (6.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/25 (27 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/26, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.68   median=0.67   min=0.63   stddev=0.04 (5.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/26 (69 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/27, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.18   median=0.19   min=0.17   stddev=0.01 (3.1%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/27 (26 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/28, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.69   median=0.69   min=0.62   stddev=0.05 (6.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/28 (70 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/29, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.21   median=0.21   min=0.20   stddev=0.01 (4.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/29 (28 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/30, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.70   median=0.69   min=0.62   stddev=0.06 (7.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/30 (71 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/31, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 1, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.22   median=0.22   min=0.21   stddev=0.01 (3.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/31 (28 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/32, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.99   median=0.99   min=0.92   stddev=0.04 (3.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/32 (99 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/33, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.19   median=0.19   min=0.18   stddev=0.01 (5.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/33 (29 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/34, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.03   median=1.03   min=0.97   stddev=0.03 (3.1%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/34 (101 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/35, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.20   median=0.19   min=0.17   stddev=0.05 (26.2%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/35 (33 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/36, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.04   median=1.04   min=0.98   stddev=0.02 (2.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/36 (102 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/37, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.25   median=0.25   min=0.23   stddev=0.01 (3.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/37 (32 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/38, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.11   median=1.12   min=1.03   stddev=0.03 (2.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/38 (109 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/39, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 3, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.26   median=0.26   min=0.25   stddev=0.01 (2.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/39 (34 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/40, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.13   median=1.12   min=1.06   stddev=0.04 (3.2%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/40 (111 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/41, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.19   median=0.19   min=0.17   stddev=0.01 (5.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/41 (30 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/42, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.26   median=1.25   min=1.18   stddev=0.06 (4.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/42 (125 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/43, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.23   median=0.22   min=0.21   stddev=0.01 (6.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/43 (33 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/44, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.27   median=1.26   min=1.19   stddev=0.04 (3.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/44 (123 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/45, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.26   median=0.26   min=0.24   stddev=0.01 (4.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/45 (35 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/46, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.30   median=1.31   min=1.24   stddev=0.04 (2.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/46 (128 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/47, where GetParam() = ("cv/optflow/frames/VGA_%02d.png", 2, 4, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.28   median=0.28   min=0.27   stddev=0.01 (4.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/47 (39 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/48, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.02   median=1.02   min=0.95   stddev=0.03 (3.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/48 (120 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/49, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.19   median=0.19   min=0.17   stddev=0.01 (6.1%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/49 (45 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/50, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.99   median=0.98   min=0.92   stddev=0.04 (3.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/50 (114 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/51, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.20   median=0.20   min=0.17   stddev=0.01 (6.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/51 (46 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/52, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.03   median=1.04   min=0.96   stddev=0.05 (4.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/52 (119 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/53, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.23   median=0.23   min=0.21   stddev=0.01 (5.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/53 (48 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/54, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.14   median=1.13   min=1.06   stddev=0.04 (3.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/54 (129 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/55, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 1, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.26   median=0.26   min=0.24   stddev=0.01 (4.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/55 (51 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/56, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.80   median=1.81   min=1.64   stddev=0.06 (3.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/56 (190 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/57, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.18   median=0.19   min=0.17   stddev=0.01 (4.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/57 (50 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/58, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.86   median=1.86   min=1.76   stddev=0.05 (2.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/58 (195 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/59, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.19   median=0.19   min=0.18   stddev=0.01 (4.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/59 (50 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/60, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.85   median=1.86   min=1.74   stddev=0.04 (2.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/60 (193 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/61, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.25   median=0.25   min=0.23   stddev=0.01 (3.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/61 (56 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/62, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.98   median=1.99   min=1.89   stddev=0.06 (3.2%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/62 (206 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/63, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 3, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.27   median=0.26   min=0.25   stddev=0.01 (3.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/63 (59 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/64, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.08   median=2.08   min=1.95   stddev=0.07 (3.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/64 (216 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/65, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.21   median=0.21   min=0.19   stddev=0.01 (5.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/65 (56 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/66, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.14   median=2.14   min=2.01   stddev=0.09 (4.1%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/66 (225 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/67, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.21   median=0.21   min=0.19   stddev=0.02 (7.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/67 (56 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/68, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.08   median=2.07   min=1.96   stddev=0.07 (3.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/68 (217 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/69, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.26   median=0.26   min=0.24   stddev=0.02 (5.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/69 (62 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/70, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.37   median=2.37   min=2.18   stddev=0.10 (4.1%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/70 (245 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/71, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 1, 4, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.29   median=0.29   min=0.26   stddev=0.01 (5.2%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/71 (65 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/72, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.99   median=0.99   min=0.91   stddev=0.04 (4.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/72 (115 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/73, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.20   median=0.19   min=0.18   stddev=0.01 (5.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/73 (45 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/74, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.01   median=1.01   min=0.92   stddev=0.04 (4.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/74 (115 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/75, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.19   median=0.19   min=0.17   stddev=0.01 (6.4%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/75 (45 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/76, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.03   median=1.03   min=0.97   stddev=0.04 (3.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/76 (120 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/77, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.23   median=0.23   min=0.21   stddev=0.01 (4.2%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/77 (48 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/78, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.08   median=1.08   min=0.99   stddev=0.03 (2.8%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/78 (122 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/79, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 1, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.24   median=0.24   min=0.23   stddev=0.01 (4.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/79 (50 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/80, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.87   median=1.87   min=1.73   stddev=0.07 (4.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/80 (197 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/81, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.22   median=0.22   min=0.19   stddev=0.01 (6.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/81 (54 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/82, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.86   median=1.87   min=1.75   stddev=0.06 (3.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/82 (195 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/83, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.20   median=0.20   min=0.18   stddev=0.01 (5.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/83 (52 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/84, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.87   median=1.86   min=1.75   stddev=0.07 (3.5%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/84 (197 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/85, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.24   median=0.24   min=0.22   stddev=0.01 (3.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/85 (54 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/86, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.90   median=1.89   min=1.78   stddev=0.06 (3.2%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/86 (199 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/87, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 3, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.26   median=0.25   min=0.24   stddev=0.01 (4.3%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/87 (56 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/88, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (9, 9), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.11   median=2.09   min=1.94   stddev=0.13 (6.1%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/88 (221 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/89, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (9, 9), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.20   median=0.20   min=0.18   stddev=0.01 (5.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/89 (56 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/90, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (9, 9), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.21   median=2.21   min=2.14   stddev=0.04 (1.9%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/90 (228 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/91, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (9, 9), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.21   median=0.21   min=0.20   stddev=0.01 (5.2%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/91 (57 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/92, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (15, 15), 7, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.11   median=2.11   min=1.95   stddev=0.10 (4.6%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/92 (222 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/93, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (15, 15), 7, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.25   median=0.25   min=0.22   stddev=0.01 (5.0%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/93 (61 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/94, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (15, 15), 11, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.18   median=2.19   min=2.06   stddev=0.06 (2.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/94 (226 ms)
+[ RUN      ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/95, where GetParam() = ("cv/optflow/frames/720p_%02d.png", 2, 4, (15, 15), 11, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.29   median=0.29   min=0.26   stddev=0.02 (6.7%))
+[       OK ] Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self.OpticalFlowPyrLK_self/95 (68 ms)
+[----------] 96 tests from Path_Idx_Cn_NPoints_WSize_Deriv_OpticalFlowPyrLK_self (8744 ms total)
+
+[----------] 16 tests from Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/0, where GetParam() = ("cv/optflow/frames/720p_01.png", 7, false, BORDER_DEFAULT, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.57   median=0.56   min=0.52   stddev=0.04 (7.4%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/0 (32 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/1, where GetParam() = ("cv/optflow/frames/720p_01.png", 7, false, BORDER_DEFAULT, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.58   median=0.55   min=0.52   stddev=0.05 (9.3%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/1 (31 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/2, where GetParam() = ("cv/optflow/frames/720p_01.png", 7, false, BORDER_TRANSPARENT, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.53   median=0.53   min=0.48   stddev=0.03 (5.8%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/2 (30 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/3, where GetParam() = ("cv/optflow/frames/720p_01.png", 7, false, BORDER_TRANSPARENT, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.56   median=0.55   min=0.50   stddev=0.04 (7.8%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/3 (31 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/4, where GetParam() = ("cv/optflow/frames/720p_01.png", 7, true, BORDER_DEFAULT, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.05   median=1.03   min=0.92   stddev=0.08 (7.9%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/4 (50 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/5, where GetParam() = ("cv/optflow/frames/720p_01.png", 7, true, BORDER_DEFAULT, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.04   median=1.04   min=0.93   stddev=0.06 (5.5%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/5 (47 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/6, where GetParam() = ("cv/optflow/frames/720p_01.png", 7, true, BORDER_TRANSPARENT, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.98   median=0.96   min=0.87   stddev=0.07 (7.0%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/6 (46 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/7, where GetParam() = ("cv/optflow/frames/720p_01.png", 7, true, BORDER_TRANSPARENT, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.99   median=0.99   min=0.90   stddev=0.07 (7.5%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/7 (46 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/8, where GetParam() = ("cv/optflow/frames/720p_01.png", 11, false, BORDER_DEFAULT, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.56   median=0.56   min=0.52   stddev=0.02 (4.3%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/8 (30 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/9, where GetParam() = ("cv/optflow/frames/720p_01.png", 11, false, BORDER_DEFAULT, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.55   median=0.56   min=0.49   stddev=0.04 (6.6%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/9 (30 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/10, where GetParam() = ("cv/optflow/frames/720p_01.png", 11, false, BORDER_TRANSPARENT, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.51   median=0.50   min=0.45   stddev=0.03 (6.4%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/10 (28 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/11, where GetParam() = ("cv/optflow/frames/720p_01.png", 11, false, BORDER_TRANSPARENT, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.49   median=0.49   min=0.45   stddev=0.03 (5.8%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/11 (28 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/12, where GetParam() = ("cv/optflow/frames/720p_01.png", 11, true, BORDER_DEFAULT, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.10   median=1.10   min=1.01   stddev=0.06 (5.0%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/12 (51 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/13, where GetParam() = ("cv/optflow/frames/720p_01.png", 11, true, BORDER_DEFAULT, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.09   median=1.06   min=0.98   stddev=0.08 (7.1%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/13 (49 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/14, where GetParam() = ("cv/optflow/frames/720p_01.png", 11, true, BORDER_TRANSPARENT, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.99   median=0.98   min=0.89   stddev=0.06 (6.2%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/14 (47 ms)
+[ RUN      ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/15, where GetParam() = ("cv/optflow/frames/720p_01.png", 11, true, BORDER_TRANSPARENT, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.07   median=1.00   min=0.94   stddev=0.21 (19.6%))
+[       OK ] Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr.OpticalFlowPyrLK_pyr/15 (52 ms)
+[----------] 16 tests from Path_Win_Deriv_Border_Reuse_OpticalFlowPyrLK_pyr (631 ms total)
+
+[----------] 4 tests from TransformationType_findTransformECC
+[ RUN      ] TransformationType_findTransformECC.findTransformECC/0, where GetParam() = (MOTION_TRANSLATION)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.82   median=2.82   min=2.60   stddev=0.15 (5.2%))
+[       OK ] TransformationType_findTransformECC.findTransformECC/0 (93 ms)
+[ RUN      ] TransformationType_findTransformECC.findTransformECC/1, where GetParam() = (MOTION_EUCLIDEAN)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=3.38   median=3.39   min=3.22   stddev=0.08 (2.4%))
+[       OK ] TransformationType_findTransformECC.findTransformECC/1 (103 ms)
+[ RUN      ] TransformationType_findTransformECC.findTransformECC/2, where GetParam() = (MOTION_AFFINE)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=3.72   median=3.75   min=3.57   stddev=0.09 (2.4%))
+[       OK ] TransformationType_findTransformECC.findTransformECC/2 (113 ms)
+[ RUN      ] TransformationType_findTransformECC.findTransformECC/3, where GetParam() = (MOTION_HOMOGRAPHY)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=6.56   median=6.61   min=6.04   stddev=0.29 (4.4%))
+[       OK ] TransformationType_findTransformECC.findTransformECC/3 (199 ms)
+[----------] 4 tests from TransformationType_findTransformECC (508 ms total)
+
+[----------] 9 tests from DenseOpticalFlow_DIS_perf
+[ RUN      ] DenseOpticalFlow_DIS_perf.perf/0, where GetParam() = ("PRESET_ULTRAFAST", 640x480)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=1.72   median=1.76   min=1.55   stddev=0.10 (5.6%))
+[       OK ] DenseOpticalFlow_DIS_perf.perf/0 (18 ms)
+[ RUN      ] DenseOpticalFlow_DIS_perf.perf/1, where GetParam() = ("PRESET_ULTRAFAST", 1280x720)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=4.25   median=4.34   min=3.01   stddev=0.53 (12.5%))
+[       OK ] DenseOpticalFlow_DIS_perf.perf/1 (46 ms)
+[ RUN      ] DenseOpticalFlow_DIS_perf.perf/2, where GetParam() = ("PRESET_ULTRAFAST", 1920x1080)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=9.66   median=10.03   min=6.55   stddev=1.18 (12.2%))
+[       OK ] DenseOpticalFlow_DIS_perf.perf/2 (104 ms)
+[ RUN      ] DenseOpticalFlow_DIS_perf.perf/3, where GetParam() = ("PRESET_FAST", 640x480)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=15.10   median=15.03   min=14.23   stddev=0.59 (3.9%))
+[       OK ] DenseOpticalFlow_DIS_perf.perf/3 (152 ms)
+[ RUN      ] DenseOpticalFlow_DIS_perf.perf/4, where GetParam() = ("PRESET_FAST", 1280x720)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=24.69   median=24.86   min=23.40   stddev=1.11 (4.5%))
+[       OK ] DenseOpticalFlow_DIS_perf.perf/4 (251 ms)
+[ RUN      ] DenseOpticalFlow_DIS_perf.perf/5, where GetParam() = ("PRESET_FAST", 1920x1080)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=39.74   median=39.43   min=35.92   stddev=2.37 (6.0%))
+[       OK ] DenseOpticalFlow_DIS_perf.perf/5 (404 ms)
+[ RUN      ] DenseOpticalFlow_DIS_perf.perf/6, where GetParam() = ("PRESET_MEDIUM", 640x480)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=26.97   median=26.19   min=23.34   stddev=4.04 (15.0%))
+[       OK ] DenseOpticalFlow_DIS_perf.perf/6 (272 ms)
+[ RUN      ] DenseOpticalFlow_DIS_perf.perf/7, where GetParam() = ("PRESET_MEDIUM", 1280x720)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=46.93   median=46.71   min=45.27   stddev=1.44 (3.1%))
+[       OK ] DenseOpticalFlow_DIS_perf.perf/7 (474 ms)
+[ RUN      ] DenseOpticalFlow_DIS_perf.perf/8, where GetParam() = ("PRESET_MEDIUM", 1920x1080)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=10   mean=88.43   median=88.06   min=81.02   stddev=3.88 (4.4%))
+[       OK ] DenseOpticalFlow_DIS_perf.perf/8 (891 ms)
+[----------] 9 tests from DenseOpticalFlow_DIS_perf (2613 ms total)
+
+[----------] 4 tests from MOG2_Apply_Mog2
+[ RUN      ] MOG2_Apply_Mog2.Mog2/0, where GetParam() = ("cv/video/768x576.avi", 1)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] MOG2_Apply_Mog2.Mog2/0 (10 ms)
+[ RUN      ] MOG2_Apply_Mog2.Mog2/1, where GetParam() = ("cv/video/768x576.avi", 3)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] MOG2_Apply_Mog2.Mog2/1 (1 ms)
+[ RUN      ] MOG2_Apply_Mog2.Mog2/2, where GetParam() = ("cv/video/1920x1080.avi", 1)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] MOG2_Apply_Mog2.Mog2/2 (6 ms)
+[ RUN      ] MOG2_Apply_Mog2.Mog2/3, where GetParam() = ("cv/video/1920x1080.avi", 3)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] MOG2_Apply_Mog2.Mog2/3 (0 ms)
+[----------] 4 tests from MOG2_Apply_Mog2 (17 ms total)
+
+[----------] 2 tests from MOG2_GetBackgroundImage_Mog2
+[ RUN      ] MOG2_GetBackgroundImage_Mog2.Mog2/0, where GetParam() = ("cv/video/768x576.avi", 5)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] MOG2_GetBackgroundImage_Mog2.Mog2/0 (1 ms)
+[ RUN      ] MOG2_GetBackgroundImage_Mog2.Mog2/1, where GetParam() = ("cv/video/1920x1080.avi", 5)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] MOG2_GetBackgroundImage_Mog2.Mog2/1 (0 ms)
+[----------] 2 tests from MOG2_GetBackgroundImage_Mog2 (1 ms total)
+
+[----------] 4 tests from KNN_Apply_KNN
+[ RUN      ] KNN_Apply_KNN.KNN/0, where GetParam() = ("cv/video/768x576.avi", 1)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] KNN_Apply_KNN.KNN/0 (0 ms)
+[ RUN      ] KNN_Apply_KNN.KNN/1, where GetParam() = ("cv/video/768x576.avi", 3)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] KNN_Apply_KNN.KNN/1 (1 ms)
+[ RUN      ] KNN_Apply_KNN.KNN/2, where GetParam() = ("cv/video/1920x1080.avi", 1)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] KNN_Apply_KNN.KNN/2 (0 ms)
+[ RUN      ] KNN_Apply_KNN.KNN/3, where GetParam() = ("cv/video/1920x1080.avi", 3)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] KNN_Apply_KNN.KNN/3 (0 ms)
+[----------] 4 tests from KNN_Apply_KNN (1 ms total)
+
+[----------] 2 tests from KNN_GetBackgroundImage_KNN
+[ RUN      ] KNN_GetBackgroundImage_KNN.KNN/0, where GetParam() = ("cv/video/768x576.avi", 5)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] KNN_GetBackgroundImage_KNN.KNN/0 (0 ms)
+[ RUN      ] KNN_GetBackgroundImage_KNN.KNN/1, where GetParam() = ("cv/video/1920x1080.avi", 5)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] KNN_GetBackgroundImage_KNN.KNN/1 (1 ms)
+[----------] 2 tests from KNN_GetBackgroundImage_KNN (1 ms total)
+
+[----------] 3 tests from OCL_PyrLKOpticalFlowFixture_PyrLKOpticalFlow
+[ RUN      ] OCL_PyrLKOpticalFlowFixture_PyrLKOpticalFlow.PyrLKOpticalFlow/0, where GetParam() = (1000)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.01   median=2.00   min=1.78   stddev=0.13 (6.5%))
+[       OK ] OCL_PyrLKOpticalFlowFixture_PyrLKOpticalFlow.PyrLKOpticalFlow/0 (77 ms)
+[ RUN      ] OCL_PyrLKOpticalFlowFixture_PyrLKOpticalFlow.PyrLKOpticalFlow/1, where GetParam() = (2000)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.68   median=2.68   min=2.46   stddev=0.11 (4.0%))
+[       OK ] OCL_PyrLKOpticalFlowFixture_PyrLKOpticalFlow.PyrLKOpticalFlow/1 (91 ms)
+[ RUN      ] OCL_PyrLKOpticalFlowFixture_PyrLKOpticalFlow.PyrLKOpticalFlow/2, where GetParam() = (4000)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=3.88   median=3.86   min=3.34   stddev=0.26 (6.6%))
+[       OK ] OCL_PyrLKOpticalFlowFixture_PyrLKOpticalFlow.PyrLKOpticalFlow/2 (131 ms)
+[----------] 3 tests from OCL_PyrLKOpticalFlowFixture_PyrLKOpticalFlow (299 ms total)
+
+[----------] 8 tests from OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow
+[ RUN      ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/0, where GetParam() = ((5, 1.1), 0, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=48.71   median=48.61   min=47.81   stddev=0.56 (1.1%))
+[       OK ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/0 (1476 ms)
+[ RUN      ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/1, where GetParam() = ((5, 1.1), 0, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=49.30   median=49.19   min=48.41   stddev=0.68 (1.4%))
+[       OK ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/1 (1542 ms)
+[ RUN      ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/2, where GetParam() = ((5, 1.1), OPTFLOW_FARNEBACK_GAUSSIAN, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=58.91   median=58.85   min=58.22   stddev=0.62 (1.1%))
+[       OK ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/2 (1782 ms)
+[ RUN      ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/3, where GetParam() = ((5, 1.1), OPTFLOW_FARNEBACK_GAUSSIAN, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=58.97   median=59.00   min=58.36   stddev=0.35 (0.6%))
+[       OK ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/3 (1841 ms)
+[ RUN      ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/4, where GetParam() = ((7, 1.5), 0, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=51.64   median=51.45   min=50.92   stddev=0.62 (1.2%))
+[       OK ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/4 (1568 ms)
+[ RUN      ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/5, where GetParam() = ((7, 1.5), 0, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=52.13   median=51.71   min=51.16   stddev=1.06 (2.0%))
+[       OK ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/5 (1641 ms)
+[ RUN      ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/6, where GetParam() = ((7, 1.5), OPTFLOW_FARNEBACK_GAUSSIAN, false)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=61.50   median=61.46   min=61.02   stddev=0.41 (0.7%))
+[       OK ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/6 (1858 ms)
+[ RUN      ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/7, where GetParam() = ((7, 1.5), OPTFLOW_FARNEBACK_GAUSSIAN, true)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=61.87   median=61.68   min=61.29   stddev=0.63 (1.0%))
+[       OK ] OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow.FarnebackOpticalFlow/7 (1931 ms)
+[----------] 8 tests from OCL_FarnebackOpticalFlowFixture_FarnebackOpticalFlow (13639 ms total)
+
+[----------] 9 tests from OCL_DenseOpticalFlow_DIS_perf
+[ RUN      ] OCL_DenseOpticalFlow_DIS_perf.perf/0, where GetParam() = ("PRESET_ULTRAFAST", 640x480)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.59   median=1.57   min=1.44   stddev=0.10 (6.6%))
+[       OK ] OCL_DenseOpticalFlow_DIS_perf.perf/0 (50 ms)
+[ RUN      ] OCL_DenseOpticalFlow_DIS_perf.perf/1, where GetParam() = ("PRESET_ULTRAFAST", 1280x720)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.02   median=4.09   min=2.81   stddev=0.27 (6.8%))
+[       OK ] OCL_DenseOpticalFlow_DIS_perf.perf/1 (125 ms)
+[ RUN      ] OCL_DenseOpticalFlow_DIS_perf.perf/2, where GetParam() = ("PRESET_ULTRAFAST", 1920x1080)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=9.25   median=9.20   min=6.85   stddev=0.74 (8.0%))
+[       OK ] OCL_DenseOpticalFlow_DIS_perf.perf/2 (290 ms)
+[ RUN      ] OCL_DenseOpticalFlow_DIS_perf.perf/3, where GetParam() = ("PRESET_FAST", 640x480)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=15.13   median=14.94   min=14.22   stddev=0.53 (3.5%))
+[       OK ] OCL_DenseOpticalFlow_DIS_perf.perf/3 (458 ms)
+[ RUN      ] OCL_DenseOpticalFlow_DIS_perf.perf/4, where GetParam() = ("PRESET_FAST", 1280x720)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=24.67   median=24.14   min=22.65   stddev=1.46 (5.9%))
+[       OK ] OCL_DenseOpticalFlow_DIS_perf.perf/4 (752 ms)
+[ RUN      ] OCL_DenseOpticalFlow_DIS_perf.perf/5, where GetParam() = ("PRESET_FAST", 1920x1080)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=35.52   median=34.09   min=32.97   stddev=3.14 (8.9%))
+[       OK ] OCL_DenseOpticalFlow_DIS_perf.perf/5 (1091 ms)
+[ RUN      ] OCL_DenseOpticalFlow_DIS_perf.perf/6, where GetParam() = ("PRESET_MEDIUM", 640x480)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=22.31   median=22.19   min=21.39   stddev=0.70 (3.1%))
+[       OK ] OCL_DenseOpticalFlow_DIS_perf.perf/6 (683 ms)
+[ RUN      ] OCL_DenseOpticalFlow_DIS_perf.perf/7, where GetParam() = ("PRESET_MEDIUM", 1280x720)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=43.61   median=43.03   min=40.41   stddev=2.36 (5.4%))
+[       OK ] OCL_DenseOpticalFlow_DIS_perf.perf/7 (1325 ms)
+[ RUN      ] OCL_DenseOpticalFlow_DIS_perf.perf/8, where GetParam() = ("PRESET_MEDIUM", 1920x1080)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=74.61   median=73.92   min=70.54   stddev=3.12 (4.2%))
+[       OK ] OCL_DenseOpticalFlow_DIS_perf.perf/8 (2286 ms)
+[----------] 9 tests from OCL_DenseOpticalFlow_DIS_perf (7061 ms total)
+
+[----------] 4 tests from OCL_MOG2_Apply_Mog2
+[ RUN      ] OCL_MOG2_Apply_Mog2.Mog2/0, where GetParam() = ("cv/video/768x576.avi", 1)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_MOG2_Apply_Mog2.Mog2/0 (0 ms)
+[ RUN      ] OCL_MOG2_Apply_Mog2.Mog2/1, where GetParam() = ("cv/video/768x576.avi", 3)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_MOG2_Apply_Mog2.Mog2/1 (0 ms)
+[ RUN      ] OCL_MOG2_Apply_Mog2.Mog2/2, where GetParam() = ("cv/video/1920x1080.avi", 1)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_MOG2_Apply_Mog2.Mog2/2 (0 ms)
+[ RUN      ] OCL_MOG2_Apply_Mog2.Mog2/3, where GetParam() = ("cv/video/1920x1080.avi", 3)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_MOG2_Apply_Mog2.Mog2/3 (0 ms)
+[----------] 4 tests from OCL_MOG2_Apply_Mog2 (1 ms total)
+
+[----------] 2 tests from OCL_MOG2_GetBackgroundImage_Mog2
+[ RUN      ] OCL_MOG2_GetBackgroundImage_Mog2.Mog2/0, where GetParam() = ("cv/video/768x576.avi", 5)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_MOG2_GetBackgroundImage_Mog2.Mog2/0 (0 ms)
+[ RUN      ] OCL_MOG2_GetBackgroundImage_Mog2.Mog2/1, where GetParam() = ("cv/video/1920x1080.avi", 5)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_MOG2_GetBackgroundImage_Mog2.Mog2/1 (1 ms)
+[----------] 2 tests from OCL_MOG2_GetBackgroundImage_Mog2 (1 ms total)
+
+[----------] 4 tests from OCL_KNN_Apply_KNN
+[ RUN      ] OCL_KNN_Apply_KNN.KNN/0, where GetParam() = ("cv/video/768x576.avi", 1)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_KNN_Apply_KNN.KNN/0 (0 ms)
+[ RUN      ] OCL_KNN_Apply_KNN.KNN/1, where GetParam() = ("cv/video/768x576.avi", 3)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_KNN_Apply_KNN.KNN/1 (0 ms)
+[ RUN      ] OCL_KNN_Apply_KNN.KNN/2, where GetParam() = ("cv/video/1920x1080.avi", 1)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_KNN_Apply_KNN.KNN/2 (0 ms)
+[ RUN      ] OCL_KNN_Apply_KNN.KNN/3, where GetParam() = ("cv/video/1920x1080.avi", 3)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_KNN_Apply_KNN.KNN/3 (1 ms)
+[----------] 4 tests from OCL_KNN_Apply_KNN (1 ms total)
+
+[----------] 2 tests from OCL_KNN_GetBackgroundImage_KNN
+[ RUN      ] OCL_KNN_GetBackgroundImage_KNN.KNN/0, where GetParam() = ("cv/video/768x576.avi", 5)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_KNN_GetBackgroundImage_KNN.KNN/0 (0 ms)
+[ RUN      ] OCL_KNN_GetBackgroundImage_KNN.KNN/1, where GetParam() = ("cv/video/1920x1080.avi", 5)
+[ INFO     ] process affinity mask = 0xffff
+[     SKIP ] Video file can not be opened
+[       OK ] OCL_KNN_GetBackgroundImage_KNN.KNN/1 (0 ms)
+[----------] 2 tests from OCL_KNN_GetBackgroundImage_KNN (0 ms total)
+
+[----------] Global test environment tear-down
+[ SKIPSTAT ] 30 tests skipped
+[ SKIPSTAT ] TAG='skip_other' skip 30 tests
+[==========] 231 tests from 19 test cases ran. (40046 ms total)
+[  PASSED  ] 231 tests.
+
+  YOU HAVE 16 DISABLED TESTS
+

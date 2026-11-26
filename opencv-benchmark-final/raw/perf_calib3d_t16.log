@@ -1,0 +1,530 @@
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.12.0
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: D:/project/cppproject/tools/mingw64/bin/g++.exe  (ver 14.2.0)
+Algorithm hint: ALGO_HINT_ACCURATE
+HAL: NO
+Parallel framework: openmp (nthreads=16)
+CPU features: SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX512-SKX?
+OpenCL is disabled
+[==========] Running 121 tests from 9 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from Undistort
+[ RUN      ] Undistort.InitUndistortMap
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.12   median=0.12   min=0.11   stddev=0.01 (7.0%))
+[       OK ] Undistort.InitUndistortMap (5 ms)
+[ RUN      ] Undistort.fisheye_undistortPoints_100k_10iter
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=8.51   median=8.51   min=8.36   stddev=0.07 (0.8%))
+[       OK ] Undistort.fisheye_undistortPoints_100k_10iter (257 ms)
+[----------] 2 tests from Undistort (263 ms total)
+
+[----------] 12 tests from TestStereoCorrespSGBM_SGBM
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/0, where GetParam() = (1280x720, 256, StereoSGBM::MODE_SGBM)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=305.94   median=306.32   min=297.39   stddev=3.51 (1.1%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/0 (9215 ms)
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/1, where GetParam() = (1280x720, 256, StereoSGBM::MODE_SGBM_3WAY)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=71.11   median=71.07   min=69.69   stddev=0.90 (1.3%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/1 (2158 ms)
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/2, where GetParam() = (1280x720, 256, StereoSGBM::MODE_HH4)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=297.55   median=296.50   min=289.00   stddev=5.30 (1.8%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/2 (8982 ms)
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/3, where GetParam() = (1280x720, 128, StereoSGBM::MODE_SGBM)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=159.54   median=159.33   min=158.26   stddev=0.90 (0.6%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/3 (4812 ms)
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/4, where GetParam() = (1280x720, 128, StereoSGBM::MODE_SGBM_3WAY)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=38.43   median=38.51   min=37.24   stddev=0.60 (1.6%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/4 (1176 ms)
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/5, where GetParam() = (1280x720, 128, StereoSGBM::MODE_HH4)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=169.77   median=170.08   min=165.47   stddev=2.72 (1.6%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/5 (5121 ms)
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/6, where GetParam() = (640x480, 256, StereoSGBM::MODE_SGBM)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=65.86   median=65.62   min=65.01   stddev=0.69 (1.0%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/6 (1988 ms)
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/7, where GetParam() = (640x480, 256, StereoSGBM::MODE_SGBM_3WAY)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=15.69   median=15.71   min=15.28   stddev=0.24 (1.5%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/7 (479 ms)
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/8, where GetParam() = (640x480, 256, StereoSGBM::MODE_HH4)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=76.02   median=75.59   min=72.50   stddev=2.61 (3.4%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/8 (2307 ms)
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/9, where GetParam() = (640x480, 128, StereoSGBM::MODE_SGBM)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=47.85   median=47.83   min=47.47   stddev=0.33 (0.7%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/9 (1445 ms)
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/10, where GetParam() = (640x480, 128, StereoSGBM::MODE_SGBM_3WAY)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=11.72   median=11.71   min=11.32   stddev=0.28 (2.4%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/10 (359 ms)
+[ RUN      ] TestStereoCorrespSGBM_SGBM.SGBM/11, where GetParam() = (640x480, 128, StereoSGBM::MODE_HH4)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=54.56   median=54.79   min=48.46   stddev=3.21 (5.9%))
+[       OK ] TestStereoCorrespSGBM_SGBM.SGBM/11 (1657 ms)
+[----------] 12 tests from TestStereoCorrespSGBM_SGBM (39701 ms total)
+
+[----------] 4 tests from TestStereoCorrespBM_BM
+[ RUN      ] TestStereoCorrespBM_BM.BM/0, where GetParam() = (1280x720, 256)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=13.17   median=12.96   min=12.15   stddev=0.74 (5.6%))
+[       OK ] TestStereoCorrespBM_BM.BM/0 (406 ms)
+[ RUN      ] TestStereoCorrespBM_BM.BM/1, where GetParam() = (1280x720, 128)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=8.51   median=8.35   min=7.86   stddev=0.52 (6.1%))
+[       OK ] TestStereoCorrespBM_BM.BM/1 (264 ms)
+[ RUN      ] TestStereoCorrespBM_BM.BM/2, where GetParam() = (640x480, 256)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=5.02   median=5.05   min=4.48   stddev=0.34 (6.7%))
+[       OK ] TestStereoCorrespBM_BM.BM/2 (156 ms)
+[ RUN      ] TestStereoCorrespBM_BM.BM/3, where GetParam() = (640x480, 128)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=3.53   median=3.39   min=3.26   stddev=0.31 (8.7%))
+[       OK ] TestStereoCorrespBM_BM.BM/3 (110 ms)
+[----------] 4 tests from TestStereoCorrespBM_BM (937 ms total)
+
+[----------] 12 tests from PointsNum_Algo_solvePnP
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/0, where GetParam() = (6, SOLVEPNP_ITERATIVE)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.03   median=0.03   min=0.03   stddev=0.00 (3.3%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/0 (1 ms)
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/1, where GetParam() = (6, SOLVEPNP_EPNP)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.02   stddev=0.00 (2.5%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/1 (1 ms)
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/2, where GetParam() = (6, SOLVEPNP_UPNP)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.02   stddev=0.00 (0.9%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/2 (1 ms)
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/3, where GetParam() = (6, SOLVEPNP_DLS)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.02   stddev=0.00 (2.0%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/3 (1 ms)
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/4, where GetParam() = (27, SOLVEPNP_ITERATIVE)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.03   median=0.03   min=0.03   stddev=0.00 (2.4%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/4 (1 ms)
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/5, where GetParam() = (27, SOLVEPNP_EPNP)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.02   stddev=0.00 (1.3%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/5 (0 ms)
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/6, where GetParam() = (27, SOLVEPNP_UPNP)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.02   stddev=0.00 (0.4%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/6 (1 ms)
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/7, where GetParam() = (27, SOLVEPNP_DLS)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.02   stddev=0.00 (1.2%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/7 (1 ms)
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/8, where GetParam() = (91, SOLVEPNP_ITERATIVE)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.10   median=0.10   min=0.10   stddev=0.00 (4.0%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/8 (3 ms)
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/9, where GetParam() = (91, SOLVEPNP_EPNP)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.03   median=0.03   min=0.03   stddev=0.00 (1.2%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/9 (1 ms)
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/10, where GetParam() = (91, SOLVEPNP_UPNP)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.03   median=0.03   min=0.03   stddev=0.00 (0.7%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/10 (1 ms)
+[ RUN      ] PointsNum_Algo_solvePnP.solvePnP/11, where GetParam() = (91, SOLVEPNP_DLS)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.03   median=0.03   min=0.03   stddev=0.00 (0.3%))
+[       OK ] PointsNum_Algo_solvePnP.solvePnP/11 (1 ms)
+[----------] 12 tests from PointsNum_Algo_solvePnP (13 ms total)
+
+[----------] 4 tests from PointsNum_Algo_solvePnPSmallPoints
+[ RUN      ] PointsNum_Algo_solvePnPSmallPoints.solvePnPSmallPoints/0, where GetParam() = (5, SOLVEPNP_P3P)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (1.6%))
+[       OK ] PointsNum_Algo_solvePnPSmallPoints.solvePnPSmallPoints/0 (0 ms)
+[ RUN      ] PointsNum_Algo_solvePnPSmallPoints.solvePnPSmallPoints/1, where GetParam() = (5, SOLVEPNP_EPNP)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.02   stddev=0.00 (1.5%))
+[       OK ] PointsNum_Algo_solvePnPSmallPoints.solvePnPSmallPoints/1 (1 ms)
+[ RUN      ] PointsNum_Algo_solvePnPSmallPoints.solvePnPSmallPoints/2, where GetParam() = (5, SOLVEPNP_DLS)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.02   stddev=0.00 (1.0%))
+[       OK ] PointsNum_Algo_solvePnPSmallPoints.solvePnPSmallPoints/2 (0 ms)
+[ RUN      ] PointsNum_Algo_solvePnPSmallPoints.solvePnPSmallPoints/3, where GetParam() = (5, SOLVEPNP_UPNP)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.02   stddev=0.00 (1.0%))
+[       OK ] PointsNum_Algo_solvePnPSmallPoints.solvePnPSmallPoints/3 (1 ms)
+[----------] 4 tests from PointsNum_Algo_solvePnPSmallPoints (2 ms total)
+
+[----------] 9 tests from String_Size_asymm_circles_grid
+[ RUN      ] String_Size_asymm_circles_grid.asymm_circles_grid/0, where GetParam() = ("cv/cameracalibration/asymmetric_circles/acircles1.png", 7x13)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=11.25   median=11.09   min=10.34   stddev=0.50 (4.5%))
+[       OK ] String_Size_asymm_circles_grid.asymm_circles_grid/0 (349 ms)
+[ RUN      ] String_Size_asymm_circles_grid.asymm_circles_grid/1, where GetParam() = ("cv/cameracalibration/asymmetric_circles/acircles2.png", 7x13)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=11.41   median=11.23   min=10.71   stddev=0.60 (5.3%))
+[       OK ] String_Size_asymm_circles_grid.asymm_circles_grid/1 (358 ms)
+[ RUN      ] String_Size_asymm_circles_grid.asymm_circles_grid/2, where GetParam() = ("cv/cameracalibration/asymmetric_circles/acircles3.png", 7x13)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=11.67   median=11.63   min=10.70   stddev=0.52 (4.4%))
+[       OK ] String_Size_asymm_circles_grid.asymm_circles_grid/2 (361 ms)
+[ RUN      ] String_Size_asymm_circles_grid.asymm_circles_grid/3, where GetParam() = ("cv/cameracalibration/asymmetric_circles/acircles4.png", 5x5)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=6.28   median=6.26   min=6.05   stddev=0.16 (2.5%))
+[       OK ] String_Size_asymm_circles_grid.asymm_circles_grid/3 (198 ms)
+[ RUN      ] String_Size_asymm_circles_grid.asymm_circles_grid/4, where GetParam() = ("cv/cameracalibration/asymmetric_circles/acircles5.png", 5x5)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=6.17   median=6.17   min=5.94   stddev=0.17 (2.8%))
+[       OK ] String_Size_asymm_circles_grid.asymm_circles_grid/4 (195 ms)
+[ RUN      ] String_Size_asymm_circles_grid.asymm_circles_grid/5, where GetParam() = ("cv/cameracalibration/asymmetric_circles/acircles6.png", 5x5)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=6.71   median=6.65   min=6.31   stddev=0.25 (3.7%))
+[       OK ] String_Size_asymm_circles_grid.asymm_circles_grid/5 (213 ms)
+[ RUN      ] String_Size_asymm_circles_grid.asymm_circles_grid/6, where GetParam() = ("cv/cameracalibration/asymmetric_circles/acircles7.png", 3x9)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=7.76   median=7.65   min=6.96   stddev=0.53 (6.9%))
+[       OK ] String_Size_asymm_circles_grid.asymm_circles_grid/6 (244 ms)
+[ RUN      ] String_Size_asymm_circles_grid.asymm_circles_grid/7, where GetParam() = ("cv/cameracalibration/asymmetric_circles/acircles8.png", 3x9)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=6.71   median=6.74   min=6.25   stddev=0.24 (3.5%))
+[       OK ] String_Size_asymm_circles_grid.asymm_circles_grid/7 (212 ms)
+[ RUN      ] String_Size_asymm_circles_grid.asymm_circles_grid/8, where GetParam() = ("cv/cameracalibration/asymmetric_circles/acircles9.png", 3x9)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=6.10   median=6.11   min=5.74   stddev=0.25 (4.1%))
+[       OK ] String_Size_asymm_circles_grid.asymm_circles_grid/8 (194 ms)
+[----------] 9 tests from String_Size_asymm_circles_grid (2325 ms total)
+
+[----------] 36 tests from EstimateAffine_EstimateAffine2D
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/0, where GetParam() = (100000, 0.99, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=12.95   median=12.89   min=12.39   stddev=0.44 (3.4%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/0 (399 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/1, where GetParam() = (100000, 0.99, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=3.25   median=3.23   min=3.14   stddev=0.08 (2.5%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/1 (100 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/2, where GetParam() = (100000, 0.99, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=23.61   median=23.53   min=23.01   stddev=0.28 (1.2%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/2 (711 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/3, where GetParam() = (100000, 0.99, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=14.65   median=14.61   min=14.31   stddev=0.24 (1.6%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/3 (443 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/4, where GetParam() = (100000, 0.95, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=11.64   median=11.62   min=11.43   stddev=0.13 (1.1%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/4 (351 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/5, where GetParam() = (100000, 0.95, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=2.24   median=2.23   min=2.18   stddev=0.04 (1.6%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/5 (69 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/6, where GetParam() = (100000, 0.95, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=37.00   median=36.87   min=36.38   stddev=0.52 (1.4%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/6 (1115 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/7, where GetParam() = (100000, 0.95, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=9.93   median=9.92   min=9.67   stddev=0.15 (1.5%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/7 (299 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/8, where GetParam() = (100000, 0.9, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=11.22   median=11.19   min=10.96   stddev=0.14 (1.2%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/8 (340 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/9, where GetParam() = (100000, 0.9, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.89   median=1.84   min=1.79   stddev=0.10 (5.5%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/9 (59 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/10, where GetParam() = (100000, 0.9, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=29.06   median=28.96   min=28.24   stddev=0.44 (1.5%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/10 (875 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/11, where GetParam() = (100000, 0.9, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=8.12   median=8.12   min=7.92   stddev=0.08 (1.0%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/11 (246 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/12, where GetParam() = (5000, 0.99, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.30   median=0.30   min=0.30   stddev=0.01 (1.8%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/12 (9 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/13, where GetParam() = (5000, 0.99, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.15   median=0.15   min=0.14   stddev=0.00 (0.9%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/13 (5 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/14, where GetParam() = (5000, 0.99, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.79   median=0.80   min=0.76   stddev=0.02 (2.0%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/14 (24 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/15, where GetParam() = (5000, 0.99, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.63   median=0.64   min=0.58   stddev=0.03 (4.1%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/15 (19 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/16, where GetParam() = (5000, 0.95, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.25   median=0.25   min=0.25   stddev=0.00 (1.2%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/16 (7 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/17, where GetParam() = (5000, 0.95, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.09   median=0.09   min=0.09   stddev=0.00 (1.0%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/17 (3 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/18, where GetParam() = (5000, 0.95, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.62   median=0.62   min=0.59   stddev=0.02 (2.8%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/18 (19 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/19, where GetParam() = (5000, 0.95, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.37   median=0.36   min=0.34   stddev=0.02 (4.3%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/19 (12 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/20, where GetParam() = (5000, 0.9, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.23   median=0.23   min=0.23   stddev=0.00 (2.1%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/20 (7 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/21, where GetParam() = (5000, 0.9, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.07   median=0.07   min=0.07   stddev=0.00 (2.0%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/21 (2 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/22, where GetParam() = (5000, 0.9, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.53   median=0.54   min=0.51   stddev=0.01 (2.6%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/22 (16 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/23, where GetParam() = (5000, 0.9, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.29   median=0.29   min=0.29   stddev=0.01 (2.3%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/23 (9 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/24, where GetParam() = (100, 0.99, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.02   stddev=0.00 (3.2%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/24 (1 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/25, where GetParam() = (100, 0.99, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (1.1%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/25 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/26, where GetParam() = (100, 0.99, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (8.0%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/26 (1 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/27, where GetParam() = (100, 0.99, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (1.3%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/27 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/28, where GetParam() = (100, 0.95, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.02   stddev=0.00 (0.8%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/28 (1 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/29, where GetParam() = (100, 0.95, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (1.3%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/29 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/30, where GetParam() = (100, 0.95, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (2.0%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/30 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/31, where GetParam() = (100, 0.95, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (1.6%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/31 (1 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/32, where GetParam() = (100, 0.9, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (4.0%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/32 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/33, where GetParam() = (100, 0.9, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (3.4%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/33 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/34, where GetParam() = (100, 0.9, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.02   median=0.02   min=0.01   stddev=0.00 (1.0%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/34 (1 ms)
+[ RUN      ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/35, where GetParam() = (100, 0.9, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (1.4%))
+[       OK ] EstimateAffine_EstimateAffine2D.EstimateAffine2D/35 (0 ms)
+[----------] 36 tests from EstimateAffine_EstimateAffine2D (5144 ms total)
+
+[----------] 36 tests from EstimateAffine_EstimateAffinePartial2D
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/0, where GetParam() = (100000, 0.99, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.47   median=4.48   min=4.34   stddev=0.09 (2.0%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/0 (136 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/1, where GetParam() = (100000, 0.99, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.47   median=1.47   min=1.40   stddev=0.04 (2.8%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/1 (45 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/2, where GetParam() = (100000, 0.99, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=15.67   median=15.72   min=15.00   stddev=0.38 (2.4%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/2 (473 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/3, where GetParam() = (100000, 0.99, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=7.29   median=7.31   min=7.15   stddev=0.07 (1.0%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/3 (221 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/4, where GetParam() = (100000, 0.95, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.11   median=4.10   min=3.95   stddev=0.10 (2.5%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/4 (125 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/5, where GetParam() = (100000, 0.95, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=1.11   median=1.11   min=1.05   stddev=0.04 (3.5%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/5 (34 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/6, where GetParam() = (100000, 0.95, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=13.00   median=13.02   min=12.47   stddev=0.33 (2.5%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/6 (394 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/7, where GetParam() = (100000, 0.95, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.68   median=4.68   min=4.56   stddev=0.04 (0.9%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/7 (141 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/8, where GetParam() = (100000, 0.9, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=3.95   median=3.93   min=3.80   stddev=0.08 (2.1%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/8 (121 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/9, where GetParam() = (100000, 0.9, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.95   median=0.94   min=0.90   stddev=0.03 (3.0%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/9 (29 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/10, where GetParam() = (100000, 0.9, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=11.78   median=11.85   min=11.35   stddev=0.28 (2.4%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/10 (356 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/11, where GetParam() = (100000, 0.9, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=3.48   median=3.48   min=3.40   stddev=0.04 (1.1%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/11 (106 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/12, where GetParam() = (5000, 0.99, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.14   median=0.14   min=0.14   stddev=0.00 (2.8%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/12 (5 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/13, where GetParam() = (5000, 0.99, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.05   median=0.05   min=0.05   stddev=0.00 (2.1%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/13 (1 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/14, where GetParam() = (5000, 0.99, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.38   median=0.38   min=0.37   stddev=0.01 (3.5%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/14 (12 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/15, where GetParam() = (5000, 0.99, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.28   median=0.28   min=0.27   stddev=0.01 (2.9%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/15 (9 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/16, where GetParam() = (5000, 0.95, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.13   median=0.13   min=0.12   stddev=0.01 (6.3%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/16 (4 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/17, where GetParam() = (5000, 0.95, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.04   median=0.04   min=0.04   stddev=0.00 (2.4%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/17 (1 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/18, where GetParam() = (5000, 0.95, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.30   median=0.29   min=0.28   stddev=0.01 (3.1%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/18 (9 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/19, where GetParam() = (5000, 0.95, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.16   median=0.16   min=0.15   stddev=0.01 (3.6%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/19 (5 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/20, where GetParam() = (5000, 0.9, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.12   median=0.12   min=0.12   stddev=0.00 (0.6%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/20 (4 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/21, where GetParam() = (5000, 0.9, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.03   median=0.03   min=0.03   stddev=0.00 (0.3%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/21 (1 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/22, where GetParam() = (5000, 0.9, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.25   median=0.25   min=0.24   stddev=0.00 (2.0%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/22 (7 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/23, where GetParam() = (5000, 0.9, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.11   median=0.11   min=0.11   stddev=0.00 (0.6%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/23 (4 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/24, where GetParam() = (100, 0.99, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (1.7%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/24 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/25, where GetParam() = (100, 0.99, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (1.8%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/25 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/26, where GetParam() = (100, 0.99, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (6.2%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/26 (1 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/27, where GetParam() = (100, 0.99, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.00   median=0.00   min=0.00   stddev=0.00 (1.8%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/27 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/28, where GetParam() = (100, 0.95, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (3.1%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/28 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/29, where GetParam() = (100, 0.95, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.00   median=0.00   min=0.00   stddev=0.00 (1.3%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/29 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/30, where GetParam() = (100, 0.95, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (3.2%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/30 (1 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/31, where GetParam() = (100, 0.95, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.00   median=0.00   min=0.00   stddev=0.00 (2.1%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/31 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/32, where GetParam() = (100, 0.9, RANSAC, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (1.9%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/32 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/33, where GetParam() = (100, 0.9, RANSAC, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.00   median=0.00   min=0.00   stddev=0.00 (1.6%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/33 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/34, where GetParam() = (100, 0.9, LMEDS, 10)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.01   median=0.01   min=0.01   stddev=0.00 (1.2%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/34 (0 ms)
+[ RUN      ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/35, where GetParam() = (100, 0.9, LMEDS, 0)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=0.00   median=0.00   min=0.00   stddev=0.00 (2.4%))
+[       OK ] EstimateAffine_EstimateAffinePartial2D.EstimateAffinePartial2D/35 (1 ms)
+[----------] 36 tests from EstimateAffine_EstimateAffinePartial2D (2247 ms total)
+
+[----------] 6 tests from OCL_StereoBMFixture_StereoBM
+[ RUN      ] OCL_StereoBMFixture_StereoBM.StereoBM/0, where GetParam() = (32, 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.07   median=4.06   min=3.87   stddev=0.14 (3.4%))
+[       OK ] OCL_StereoBMFixture_StereoBM.StereoBM/0 (144 ms)
+[ RUN      ] OCL_StereoBMFixture_StereoBM.StereoBM/1, where GetParam() = (32, 21)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=4.30   median=4.29   min=4.18   stddev=0.08 (1.9%))
+[       OK ] OCL_StereoBMFixture_StereoBM.StereoBM/1 (142 ms)
+[ RUN      ] OCL_StereoBMFixture_StereoBM.StereoBM/2, where GetParam() = (64, 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=3.72   median=3.57   min=3.42   stddev=0.34 (9.2%))
+[       OK ] OCL_StereoBMFixture_StereoBM.StereoBM/2 (125 ms)
+[ RUN      ] OCL_StereoBMFixture_StereoBM.StereoBM/3, where GetParam() = (64, 21)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=3.58   median=3.56   min=3.48   stddev=0.07 (2.0%))
+[       OK ] OCL_StereoBMFixture_StereoBM.StereoBM/3 (121 ms)
+[ RUN      ] OCL_StereoBMFixture_StereoBM.StereoBM/4, where GetParam() = (128, 11)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=3.40   median=3.54   min=2.65   stddev=0.38 (11.1%))
+[       OK ] OCL_StereoBMFixture_StereoBM.StereoBM/4 (115 ms)
+[ RUN      ] OCL_StereoBMFixture_StereoBM.StereoBM/5, where GetParam() = (128, 21)
+[ INFO     ] process affinity mask = 0xffff
+[ PERFSTAT ]    (samples=30   mean=5.18   median=5.11   min=4.86   stddev=0.29 (5.6%))
+[       OK ] OCL_StereoBMFixture_StereoBM.StereoBM/5 (169 ms)
+[----------] 6 tests from OCL_StereoBMFixture_StereoBM (816 ms total)
+
+[----------] Global test environment tear-down
+[==========] 121 tests from 9 test cases ran. (51448 ms total)
+[  PASSED  ] 121 tests.
+
+  YOU HAVE 4 DISABLED TESTS
+

@@ -1,0 +1,4002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="233" failures="0" disabled="0" errors="0" timestamp="2026-11-26T12:34:56" time="433.475" cv_module_name="features2d" cv_implementation="plain" cv_num_threads="1" test_tags="" test_tags_skip="mem_6gb,verylong" test_tags_force="" cv_version="4.12.0" cv_version_build="4.12.0" cv_vcs_version="unknown" cv_build_type="Release" cv_build_type_build="Release" cv_compiler="D:/project/cppproject/tools/mingw64/bin/g++.exe  (ver 14.2.0)" implementation_hint="ALGO_HINT_ACCURATE" hal="NO" cv_parallel_framework="openmp" cv_parallel_threads="1" cv_cpu_features="SSE SSE2 SSE3 *SSE4.1 *SSE4.2 *AVX *FP16 *AVX2 *AVX512-SKX?" cv_ocl="disabled" name="AllTests">
+  <testsuite name="feature2d_detect" tests="60" failures="0" disabled="0" errors="0" time="72.17">
+    <testcase name="detect/0" value_param="(FAST_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.048" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1276300"/>
+<property name="median" value="1284850"/>
+<property name="gmean" value="1290075"/>
+<property name="gstddev" value="0.011667"/>
+<property name="mean" value="1290161"/>
+<property name="stddev" value="15217"/>
+</properties>
+    </testcase>
+    <testcase name="detect/1" value_param="(FAST_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.039" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1026300"/>
+<property name="median" value="1037100"/>
+<property name="gmean" value="1041687"/>
+<property name="gstddev" value="0.016498"/>
+<property name="mean" value="1041825"/>
+<property name="stddev" value="17454"/>
+</properties>
+    </testcase>
+    <testcase name="detect/2" value_param="(FAST_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="0.164" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4816800"/>
+<property name="median" value="4867700"/>
+<property name="gmean" value="4868870"/>
+<property name="gstddev" value="0.006688"/>
+<property name="mean" value="4868975"/>
+<property name="stddev" value="32629"/>
+</properties>
+    </testcase>
+    <testcase name="detect/3" value_param="(FAST_20_TRUE_TYPE5_8, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.031" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="734000"/>
+<property name="median" value="740200"/>
+<property name="gmean" value="743472"/>
+<property name="gstddev" value="0.013318"/>
+<property name="mean" value="743536"/>
+<property name="stddev" value="10013"/>
+</properties>
+    </testcase>
+    <testcase name="detect/4" value_param="(FAST_20_TRUE_TYPE5_8, &quot;stitching/a3.png&quot;)" status="run" time="0.019" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="375900"/>
+<property name="median" value="380900"/>
+<property name="gmean" value="384396"/>
+<property name="gstddev" value="0.022287"/>
+<property name="mean" value="384489"/>
+<property name="stddev" value="8710"/>
+</properties>
+    </testcase>
+    <testcase name="detect/5" value_param="(FAST_20_TRUE_TYPE5_8, &quot;stitching/s2.jpg&quot;)" status="run" time="0.12" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3358600"/>
+<property name="median" value="3389000"/>
+<property name="gmean" value="3398268"/>
+<property name="gstddev" value="0.007384"/>
+<property name="mean" value="3398357"/>
+<property name="stddev" value="25156"/>
+</properties>
+    </testcase>
+    <testcase name="detect/6" value_param="(FAST_20_TRUE_TYPE7_12, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.09" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2664600"/>
+<property name="median" value="2681300"/>
+<property name="gmean" value="2688735"/>
+<property name="gstddev" value="0.007065"/>
+<property name="mean" value="2688800"/>
+<property name="stddev" value="19064"/>
+</properties>
+    </testcase>
+    <testcase name="detect/7" value_param="(FAST_20_TRUE_TYPE7_12, &quot;stitching/a3.png&quot;)" status="run" time="0.053" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1506500"/>
+<property name="median" value="1519200"/>
+<property name="gmean" value="1524166"/>
+<property name="gstddev" value="0.010686"/>
+<property name="mean" value="1524250"/>
+<property name="stddev" value="16374"/>
+</properties>
+    </testcase>
+    <testcase name="detect/8" value_param="(FAST_20_TRUE_TYPE7_12, &quot;stitching/s2.jpg&quot;)" status="run" time="0.353" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="11047500"/>
+<property name="median" value="11118450"/>
+<property name="gmean" value="11134863"/>
+<property name="gstddev" value="0.007107"/>
+<property name="mean" value="11135136"/>
+<property name="stddev" value="79747"/>
+</properties>
+    </testcase>
+    <testcase name="detect/9" value_param="(FAST_20_TRUE_TYPE9_16, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.032" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="712300"/>
+<property name="median" value="719850"/>
+<property name="gmean" value="723796"/>
+<property name="gstddev" value="0.020345"/>
+<property name="mean" value="723943"/>
+<property name="stddev" value="15146"/>
+</properties>
+    </testcase>
+    <testcase name="detect/10" value_param="(FAST_20_TRUE_TYPE9_16, &quot;stitching/a3.png&quot;)" status="run" time="0.024" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="544500"/>
+<property name="median" value="552250"/>
+<property name="gmean" value="555012"/>
+<property name="gstddev" value="0.016182"/>
+<property name="mean" value="555082"/>
+<property name="stddev" value="9087"/>
+</properties>
+    </testcase>
+    <testcase name="detect/11" value_param="(FAST_20_TRUE_TYPE9_16, &quot;stitching/s2.jpg&quot;)" status="run" time="0.103" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2796200"/>
+<property name="median" value="2832750"/>
+<property name="gmean" value="2834803"/>
+<property name="gstddev" value="0.009426"/>
+<property name="mean" value="2834925"/>
+<property name="stddev" value="26778"/>
+</properties>
+    </testcase>
+    <testcase name="detect/12" value_param="(FAST_20_FALSE_TYPE5_8, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.032" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="736100"/>
+<property name="median" value="745150"/>
+<property name="gmean" value="747242"/>
+<property name="gstddev" value="0.010129"/>
+<property name="mean" value="747279"/>
+<property name="stddev" value="7595"/>
+</properties>
+    </testcase>
+    <testcase name="detect/13" value_param="(FAST_20_FALSE_TYPE5_8, &quot;stitching/a3.png&quot;)" status="run" time="0.018" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="375500"/>
+<property name="median" value="380900"/>
+<property name="gmean" value="381726"/>
+<property name="gstddev" value="0.015029"/>
+<property name="mean" value="381768"/>
+<property name="stddev" value="5813"/>
+</properties>
+    </testcase>
+    <testcase name="detect/14" value_param="(FAST_20_FALSE_TYPE5_8, &quot;stitching/s2.jpg&quot;)" status="run" time="0.116" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3274400"/>
+<property name="median" value="3305000"/>
+<property name="gmean" value="3305525"/>
+<property name="gstddev" value="0.006159"/>
+<property name="mean" value="3305586"/>
+<property name="stddev" value="20373"/>
+</properties>
+    </testcase>
+    <testcase name="detect/15" value_param="(FAST_20_FALSE_TYPE7_12, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.085" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2488800"/>
+<property name="median" value="2512850"/>
+<property name="gmean" value="2520296"/>
+<property name="gstddev" value="0.010715"/>
+<property name="mean" value="2520436"/>
+<property name="stddev" value="27170"/>
+</properties>
+    </testcase>
+    <testcase name="detect/16" value_param="(FAST_20_FALSE_TYPE7_12, &quot;stitching/a3.png&quot;)" status="run" time="0.049" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1375000"/>
+<property name="median" value="1387200"/>
+<property name="gmean" value="1388746"/>
+<property name="gstddev" value="0.007005"/>
+<property name="mean" value="1388779"/>
+<property name="stddev" value="9752"/>
+</properties>
+    </testcase>
+    <testcase name="detect/17" value_param="(FAST_20_FALSE_TYPE7_12, &quot;stitching/s2.jpg&quot;)" status="run" time="0.321" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="9963800"/>
+<property name="median" value="10035700"/>
+<property name="gmean" value="10048255"/>
+<property name="gstddev" value="0.010666"/>
+<property name="mean" value="10048814"/>
+<property name="stddev" value="109421"/>
+</properties>
+    </testcase>
+    <testcase name="detect/18" value_param="(FAST_20_FALSE_TYPE9_16, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.025" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="488000"/>
+<property name="median" value="493300"/>
+<property name="gmean" value="495766"/>
+<property name="gstddev" value="0.018255"/>
+<property name="mean" value="495846"/>
+<property name="stddev" value="9228"/>
+</properties>
+    </testcase>
+    <testcase name="detect/19" value_param="(FAST_20_FALSE_TYPE9_16, &quot;stitching/a3.png&quot;)" status="run" time="0.017" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="322400"/>
+<property name="median" value="328300"/>
+<property name="gmean" value="331208"/>
+<property name="gstddev" value="0.029494"/>
+<property name="mean" value="331350"/>
+<property name="stddev" value="10134"/>
+</properties>
+    </testcase>
+    <testcase name="detect/20" value_param="(FAST_20_FALSE_TYPE9_16, &quot;stitching/s2.jpg&quot;)" status="run" time="0.067" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1574900"/>
+<property name="median" value="1596650"/>
+<property name="gmean" value="1604007"/>
+<property name="gstddev" value="0.011781"/>
+<property name="mean" value="1604114"/>
+<property name="stddev" value="18982"/>
+</properties>
+    </testcase>
+    <testcase name="detect/21" value_param="(AGAST_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.256" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="8070900"/>
+<property name="median" value="8223250"/>
+<property name="gmean" value="8228989"/>
+<property name="gstddev" value="0.010528"/>
+<property name="mean" value="8229429"/>
+<property name="stddev" value="86572"/>
+</properties>
+    </testcase>
+    <testcase name="detect/22" value_param="(AGAST_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.227" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="7135300"/>
+<property name="median" value="7259200"/>
+<property name="gmean" value="7265583"/>
+<property name="gstddev" value="0.011672"/>
+<property name="mean" value="7266061"/>
+<property name="stddev" value="84921"/>
+</properties>
+    </testcase>
+    <testcase name="detect/23" value_param="(AGAST_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="1.077" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="34766100"/>
+<property name="median" value="35246750"/>
+<property name="gmean" value="35236303"/>
+<property name="gstddev" value="0.009336"/>
+<property name="mean" value="35237789"/>
+<property name="stddev" value="330964"/>
+</properties>
+    </testcase>
+    <testcase name="detect/24" value_param="(AGAST_5_8, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.026" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="533600"/>
+<property name="median" value="539550"/>
+<property name="gmean" value="541661"/>
+<property name="gstddev" value="0.015165"/>
+<property name="mean" value="541721"/>
+<property name="stddev" value="8340"/>
+</properties>
+    </testcase>
+    <testcase name="detect/25" value_param="(AGAST_5_8, &quot;stitching/a3.png&quot;)" status="run" time="0.019" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="393300"/>
+<property name="median" value="404050"/>
+<property name="gmean" value="404505"/>
+<property name="gstddev" value="0.017439"/>
+<property name="mean" value="404564"/>
+<property name="stddev" value="7090"/>
+</properties>
+    </testcase>
+    <testcase name="detect/26" value_param="(AGAST_5_8, &quot;stitching/s2.jpg&quot;)" status="run" time="0.068" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1641700"/>
+<property name="median" value="1686550"/>
+<property name="gmean" value="1677220"/>
+<property name="gstddev" value="0.013698"/>
+<property name="mean" value="1677371"/>
+<property name="stddev" value="22944"/>
+</properties>
+    </testcase>
+    <testcase name="detect/27" value_param="(AGAST_7_12d, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.032" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="746200"/>
+<property name="median" value="755200"/>
+<property name="gmean" value="758707"/>
+<property name="gstddev" value="0.016204"/>
+<property name="mean" value="758804"/>
+<property name="stddev" value="12485"/>
+</properties>
+    </testcase>
+    <testcase name="detect/28" value_param="(AGAST_7_12d, &quot;stitching/a3.png&quot;)" status="run" time="0.032" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="799400"/>
+<property name="median" value="830750"/>
+<property name="gmean" value="829796"/>
+<property name="gstddev" value="0.019852"/>
+<property name="mean" value="829954"/>
+<property name="stddev" value="16451"/>
+</properties>
+    </testcase>
+    <testcase name="detect/29" value_param="(AGAST_7_12d, &quot;stitching/s2.jpg&quot;)" status="run" time="0.096" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2577100"/>
+<property name="median" value="2622600"/>
+<property name="gmean" value="2624938"/>
+<property name="gstddev" value="0.011404"/>
+<property name="mean" value="2625104"/>
+<property name="stddev" value="30084"/>
+</properties>
+    </testcase>
+    <testcase name="detect/30" value_param="(AGAST_7_12s, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.032" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="719600"/>
+<property name="median" value="731350"/>
+<property name="gmean" value="737216"/>
+<property name="gstddev" value="0.022413"/>
+<property name="mean" value="737396"/>
+<property name="stddev" value="16795"/>
+</properties>
+    </testcase>
+    <testcase name="detect/31" value_param="(AGAST_7_12s, &quot;stitching/a3.png&quot;)" status="run" time="0.031" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="752900"/>
+<property name="median" value="775950"/>
+<property name="gmean" value="774177"/>
+<property name="gstddev" value="0.017584"/>
+<property name="mean" value="774293"/>
+<property name="stddev" value="13607"/>
+</properties>
+    </testcase>
+    <testcase name="detect/32" value_param="(AGAST_7_12s, &quot;stitching/s2.jpg&quot;)" status="run" time="0.091" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2393000"/>
+<property name="median" value="2474050"/>
+<property name="gmean" value="2470468"/>
+<property name="gstddev" value="0.014798"/>
+<property name="mean" value="2470729"/>
+<property name="stddev" value="36521"/>
+</properties>
+    </testcase>
+    <testcase name="detect/33" value_param="(AGAST_OAST_9_16, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.033" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="795000"/>
+<property name="median" value="805700"/>
+<property name="gmean" value="807293"/>
+<property name="gstddev" value="0.012023"/>
+<property name="mean" value="807350"/>
+<property name="stddev" value="9797"/>
+</properties>
+    </testcase>
+    <testcase name="detect/34" value_param="(AGAST_OAST_9_16, &quot;stitching/a3.png&quot;)" status="run" time="0.037" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="945100"/>
+<property name="median" value="966100"/>
+<property name="gmean" value="969845"/>
+<property name="gstddev" value="0.015717"/>
+<property name="mean" value="969961"/>
+<property name="stddev" value="15279"/>
+</properties>
+    </testcase>
+    <testcase name="detect/35" value_param="(AGAST_OAST_9_16, &quot;stitching/s2.jpg&quot;)" status="run" time="0.098" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2585600"/>
+<property name="median" value="2685600"/>
+<property name="gmean" value="2678327"/>
+<property name="gstddev" value="0.015215"/>
+<property name="mean" value="2678625"/>
+<property name="stddev" value="40519"/>
+</properties>
+    </testcase>
+    <testcase name="detect/36" value_param="(MSER_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="3.28" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="103562800"/>
+<property name="median" value="106164100"/>
+<property name="gmean" value="108118209"/>
+<property name="gstddev" value="0.035177"/>
+<property name="mean" value="108183275"/>
+<property name="stddev" value="3853808"/>
+</properties>
+    </testcase>
+    <testcase name="detect/37" value_param="(MSER_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="1.478" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="48187400"/>
+<property name="median" value="48611700"/>
+<property name="gmean" value="48649216"/>
+<property name="gstddev" value="0.007854"/>
+<property name="mean" value="48650668"/>
+<property name="stddev" value="384189"/>
+</properties>
+    </testcase>
+    <testcase name="detect/38" value_param="(MSER_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="4.59" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="148456500"/>
+<property name="median" value="151411250"/>
+<property name="gmean" value="151365652"/>
+<property name="gstddev" value="0.011974"/>
+<property name="mean" value="151376132"/>
+<property name="stddev" value="1816842"/>
+</properties>
+    </testcase>
+    <testcase name="detect/39" value_param="(ORB_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.128" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3824400"/>
+<property name="median" value="3939300"/>
+<property name="gmean" value="3930358"/>
+<property name="gstddev" value="0.014073"/>
+<property name="mean" value="3930732"/>
+<property name="stddev" value="55115"/>
+</properties>
+    </testcase>
+    <testcase name="detect/40" value_param="(ORB_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.107" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3210500"/>
+<property name="median" value="3299250"/>
+<property name="gmean" value="3291114"/>
+<property name="gstddev" value="0.010641"/>
+<property name="mean" value="3291293"/>
+<property name="stddev" value="34898"/>
+</properties>
+    </testcase>
+    <testcase name="detect/41" value_param="(ORB_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="0.381" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="11737800"/>
+<property name="median" value="12036850"/>
+<property name="gmean" value="12072833"/>
+<property name="gstddev" value="0.016693"/>
+<property name="mean" value="12074461"/>
+<property name="stddev" value="202587"/>
+</properties>
+    </testcase>
+    <testcase name="detect/42" value_param="(ORB_1500_13_1, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.056" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1536000"/>
+<property name="median" value="1562600"/>
+<property name="gmean" value="1577266"/>
+<property name="gstddev" value="0.023074"/>
+<property name="mean" value="1577675"/>
+<property name="stddev" value="36920"/>
+</properties>
+    </testcase>
+    <testcase name="detect/43" value_param="(ORB_1500_13_1, &quot;stitching/a3.png&quot;)" status="run" time="0.045" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="968400"/>
+<property name="median" value="1232500"/>
+<property name="gmean" value="1216113"/>
+<property name="gstddev" value="0.073772"/>
+<property name="mean" value="1219139"/>
+<property name="stddev" value="82976"/>
+</properties>
+    </testcase>
+    <testcase name="detect/44" value_param="(ORB_1500_13_1, &quot;stitching/s2.jpg&quot;)" status="run" time="0.158" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4443400"/>
+<property name="median" value="4689300"/>
+<property name="gmean" value="4678622"/>
+<property name="gstddev" value="0.028287"/>
+<property name="mean" value="4680425"/>
+<property name="stddev" value="132156"/>
+</properties>
+    </testcase>
+    <testcase name="detect/45" value_param="(AKAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.303" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="39788500"/>
+<property name="median" value="41618300"/>
+<property name="gmean" value="42237291"/>
+<property name="gstddev" value="0.044734"/>
+<property name="mean" value="42279068"/>
+<property name="stddev" value="1962598"/>
+</properties>
+    </testcase>
+    <testcase name="detect/46" value_param="(AKAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="1.006" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="31287500"/>
+<property name="median" value="32968400"/>
+<property name="gmean" value="33034079"/>
+<property name="gstddev" value="0.028609"/>
+<property name="mean" value="33047075"/>
+<property name="stddev" value="940883"/>
+</properties>
+    </testcase>
+    <testcase name="detect/47" value_param="(AKAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="2.572" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="80426300"/>
+<property name="median" value="85104950"/>
+<property name="gmean" value="84536928"/>
+<property name="gstddev" value="0.027753"/>
+<property name="mean" value="84568282"/>
+<property name="stddev" value="2342164"/>
+</properties>
+    </testcase>
+    <testcase name="detect/48" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.211" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="37785000"/>
+<property name="median" value="39744200"/>
+<property name="gmean" value="39636304"/>
+<property name="gstddev" value="0.030466"/>
+<property name="mean" value="39654171"/>
+<property name="stddev" value="1221265"/>
+</properties>
+    </testcase>
+    <testcase name="detect/49" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/a3.png&quot;)" status="run" time="0.974" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="30697400"/>
+<property name="median" value="31791400"/>
+<property name="gmean" value="31812408"/>
+<property name="gstddev" value="0.025780"/>
+<property name="mean" value="31822625"/>
+<property name="stddev" value="823042"/>
+</properties>
+    </testcase>
+    <testcase name="detect/50" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/s2.jpg&quot;)" status="run" time="2.514" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="78973500"/>
+<property name="median" value="82696950"/>
+<property name="gmean" value="82720753"/>
+<property name="gstddev" value="0.026827"/>
+<property name="mean" value="82749511"/>
+<property name="stddev" value="2225821"/>
+</properties>
+    </testcase>
+    <testcase name="detect/51" value_param="(BRISK_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.366" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="44252600"/>
+<property name="median" value="44538450"/>
+<property name="gmean" value="44606811"/>
+<property name="gstddev" value="0.006733"/>
+<property name="mean" value="44607789"/>
+<property name="stddev" value="301736"/>
+</properties>
+    </testcase>
+    <testcase name="detect/52" value_param="(BRISK_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.704" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="21735000"/>
+<property name="median" value="21870950"/>
+<property name="gmean" value="21942573"/>
+<property name="gstddev" value="0.011890"/>
+<property name="mean" value="21944086"/>
+<property name="stddev" value="265479"/>
+</properties>
+    </testcase>
+    <testcase name="detect/53" value_param="(BRISK_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="11.448" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="378499900"/>
+<property name="median" value="379372450"/>
+<property name="gmean" value="379691289"/>
+<property name="gstddev" value="0.002858"/>
+<property name="mean" value="379692786"/>
+<property name="stddev" value="1087039"/>
+</properties>
+    </testcase>
+    <testcase name="detect/54" value_param="(KAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="7.159" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="232357200"/>
+<property name="median" value="237302650"/>
+<property name="gmean" value="237914365"/>
+<property name="gstddev" value="0.012131"/>
+<property name="mean" value="237931243"/>
+<property name="stddev" value="2885467"/>
+</properties>
+    </testcase>
+    <testcase name="detect/55" value_param="(KAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="6.033" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="193029800"/>
+<property name="median" value="199400550"/>
+<property name="gmean" value="199493834"/>
+<property name="gstddev" value="0.018119"/>
+<property name="mean" value="199525386"/>
+<property name="stddev" value="3610411"/>
+</properties>
+    </testcase>
+    <testcase name="detect/56" value_param="(KAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="13.47" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="437831100"/>
+<property name="median" value="447339900"/>
+<property name="gmean" value="446868668"/>
+<property name="gstddev" value="0.010497"/>
+<property name="mean" value="446892389"/>
+<property name="stddev" value="4685534"/>
+</properties>
+    </testcase>
+    <testcase name="detect/57" value_param="(SIFT_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="2.125" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="66073400"/>
+<property name="median" value="70265550"/>
+<property name="gmean" value="70034134"/>
+<property name="gstddev" value="0.025975"/>
+<property name="mean" value="70056875"/>
+<property name="stddev" value="1814537"/>
+</properties>
+    </testcase>
+    <testcase name="detect/58" value_param="(SIFT_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="1.913" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="59668900"/>
+<property name="median" value="62269700"/>
+<property name="gmean" value="62360226"/>
+<property name="gstddev" value="0.031698"/>
+<property name="mean" value="62390921"/>
+<property name="stddev" value="2025495"/>
+</properties>
+    </testcase>
+    <testcase name="detect/59" value_param="(SIFT_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="4.184" classname="feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="132497300"/>
+<property name="median" value="138436400"/>
+<property name="gmean" value="138157588"/>
+<property name="gstddev" value="0.024607"/>
+<property name="mean" value="138198004"/>
+<property name="stddev" value="3410704"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="feature2d_extract" tests="21" failures="0" disabled="0" errors="0" time="41.755">
+    <testcase name="extract/0" value_param="(ORB_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.107" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1893300"/>
+<property name="median" value="1935000"/>
+<property name="gmean" value="1947347"/>
+<property name="gstddev" value="0.019550"/>
+<property name="mean" value="1947707"/>
+<property name="stddev" value="38253"/>
+</properties>
+    </testcase>
+    <testcase name="extract/1" value_param="(ORB_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.092" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1502500"/>
+<property name="median" value="1547350"/>
+<property name="gmean" value="1580910"/>
+<property name="gstddev" value="0.052148"/>
+<property name="mean" value="1583036"/>
+<property name="stddev" value="85692"/>
+</properties>
+    </testcase>
+    <testcase name="extract/2" value_param="(ORB_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="0.273" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="5571100"/>
+<property name="median" value="5675600"/>
+<property name="gmean" value="5673635"/>
+<property name="gstddev" value="0.010418"/>
+<property name="mean" value="5673932"/>
+<property name="stddev" value="59112"/>
+</properties>
+    </testcase>
+    <testcase name="extract/3" value_param="(ORB_1500_13_1, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.103" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1797200"/>
+<property name="median" value="1833050"/>
+<property name="gmean" value="1837949"/>
+<property name="gstddev" value="0.015169"/>
+<property name="mean" value="1838154"/>
+<property name="stddev" value="27963"/>
+</properties>
+    </testcase>
+    <testcase name="extract/4" value_param="(ORB_1500_13_1, &quot;stitching/a3.png&quot;)" status="run" time="0.085" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1427800"/>
+<property name="median" value="1456650"/>
+<property name="gmean" value="1469678"/>
+<property name="gstddev" value="0.025905"/>
+<property name="mean" value="1470157"/>
+<property name="stddev" value="38481"/>
+</properties>
+    </testcase>
+    <testcase name="extract/5" value_param="(ORB_1500_13_1, &quot;stitching/s2.jpg&quot;)" status="run" time="0.261" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="5271400"/>
+<property name="median" value="5381800"/>
+<property name="gmean" value="5390427"/>
+<property name="gstddev" value="0.012633"/>
+<property name="mean" value="5390843"/>
+<property name="stddev" value="68474"/>
+</properties>
+    </testcase>
+    <testcase name="extract/6" value_param="(AKAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.328" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="39566100"/>
+<property name="median" value="41410500"/>
+<property name="gmean" value="42153453"/>
+<property name="gstddev" value="0.052051"/>
+<property name="mean" value="42209418"/>
+<property name="stddev" value="2249083"/>
+</properties>
+    </testcase>
+    <testcase name="extract/7" value_param="(AKAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="1.022" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="30754600"/>
+<property name="median" value="31941300"/>
+<property name="gmean" value="32351013"/>
+<property name="gstddev" value="0.035835"/>
+<property name="mean" value="32371236"/>
+<property name="stddev" value="1176550"/>
+</properties>
+    </testcase>
+    <testcase name="extract/8" value_param="(AKAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="3.02" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="89279200"/>
+<property name="median" value="96930850"/>
+<property name="gmean" value="95974724"/>
+<property name="gstddev" value="0.040227"/>
+<property name="mean" value="96049657"/>
+<property name="stddev" value="3866302"/>
+</properties>
+    </testcase>
+    <testcase name="extract/9" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.538" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="47813200"/>
+<property name="median" value="48751400"/>
+<property name="gmean" value="49141905"/>
+<property name="gstddev" value="0.021480"/>
+<property name="mean" value="49152889"/>
+<property name="stddev" value="1063138"/>
+</properties>
+    </testcase>
+    <testcase name="extract/10" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/a3.png&quot;)" status="run" time="1.186" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="37385600"/>
+<property name="median" value="37678400"/>
+<property name="gmean" value="37931917"/>
+<property name="gstddev" value="0.015494"/>
+<property name="mean" value="37936339"/>
+<property name="stddev" value="594214"/>
+</properties>
+    </testcase>
+    <testcase name="extract/11" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/s2.jpg&quot;)" status="run" time="3.902" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="123827900"/>
+<property name="median" value="126397400"/>
+<property name="gmean" value="126300585"/>
+<property name="gstddev" value="0.012895"/>
+<property name="mean" value="126310711"/>
+<property name="stddev" value="1628926"/>
+</properties>
+    </testcase>
+    <testcase name="extract/12" value_param="(BRISK_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.244" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="5755700"/>
+<property name="median" value="5920900"/>
+<property name="gmean" value="5924041"/>
+<property name="gstddev" value="0.016136"/>
+<property name="mean" value="5924786"/>
+<property name="stddev" value="95805"/>
+</properties>
+    </testcase>
+    <testcase name="extract/13" value_param="(BRISK_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.185" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4050800"/>
+<property name="median" value="4212950"/>
+<property name="gmean" value="4214402"/>
+<property name="gstddev" value="0.015445"/>
+<property name="mean" value="4214886"/>
+<property name="stddev" value="64857"/>
+</properties>
+    </testcase>
+    <testcase name="extract/14" value_param="(BRISK_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="0.801" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="22614600"/>
+<property name="median" value="22824750"/>
+<property name="gmean" value="22840366"/>
+<property name="gstddev" value="0.007006"/>
+<property name="mean" value="22840907"/>
+<property name="stddev" value="160294"/>
+</properties>
+    </testcase>
+    <testcase name="extract/15" value_param="(KAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="5.559" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="179599700"/>
+<property name="median" value="182176650"/>
+<property name="gmean" value="182833014"/>
+<property name="gstddev" value="0.012797"/>
+<property name="mean" value="182847493"/>
+<property name="stddev" value="2350303"/>
+</properties>
+    </testcase>
+    <testcase name="extract/16" value_param="(KAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="4.432" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="143912100"/>
+<property name="median" value="146168300"/>
+<property name="gmean" value="146117005"/>
+<property name="gstddev" value="0.009355"/>
+<property name="mean" value="146123175"/>
+<property name="stddev" value="1368470"/>
+</properties>
+    </testcase>
+    <testcase name="extract/17" value_param="(KAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="12.155" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="387182600"/>
+<property name="median" value="393970300"/>
+<property name="gmean" value="396285753"/>
+<property name="gstddev" value="0.021412"/>
+<property name="mean" value="396374800"/>
+<property name="stddev" value="8698627"/>
+</properties>
+    </testcase>
+    <testcase name="extract/18" value_param="(SIFT_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.119" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="35098100"/>
+<property name="median" value="35324600"/>
+<property name="gmean" value="35421446"/>
+<property name="gstddev" value="0.007255"/>
+<property name="mean" value="35422346"/>
+<property name="stddev" value="257843"/>
+</properties>
+    </testcase>
+    <testcase name="extract/19" value_param="(SIFT_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.749" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="22389400"/>
+<property name="median" value="22760850"/>
+<property name="gmean" value="22878926"/>
+<property name="gstddev" value="0.015630"/>
+<property name="mean" value="22881643"/>
+<property name="stddev" value="361959"/>
+</properties>
+    </testcase>
+    <testcase name="extract/20" value_param="(SIFT_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="3.59" classname="feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="114701900"/>
+<property name="median" value="115815900"/>
+<property name="gmean" value="115942578"/>
+<property name="gstddev" value="0.007696"/>
+<property name="mean" value="115945900"/>
+<property name="stddev" value="896626"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="feature2d_detectAndExtract" tests="21" failures="0" disabled="0" errors="0" time="78.928">
+    <testcase name="detectAndExtract/0" value_param="(ORB_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.151" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4626900"/>
+<property name="median" value="4702300"/>
+<property name="gmean" value="4720501"/>
+<property name="gstddev" value="0.012674"/>
+<property name="mean" value="4720868"/>
+<property name="stddev" value="60193"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/1" value_param="(ORB_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.13" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4001500"/>
+<property name="median" value="4056200"/>
+<property name="gmean" value="4074767"/>
+<property name="gstddev" value="0.014933"/>
+<property name="mean" value="4075207"/>
+<property name="stddev" value="61363"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/2" value_param="(ORB_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="0.421" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="13198400"/>
+<property name="median" value="13427550"/>
+<property name="gmean" value="13429246"/>
+<property name="gstddev" value="0.010504"/>
+<property name="mean" value="13429961"/>
+<property name="stddev" value="141120"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/3" value_param="(ORB_1500_13_1, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.078" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2264200"/>
+<property name="median" value="2282500"/>
+<property name="gmean" value="2291045"/>
+<property name="gstddev" value="0.009064"/>
+<property name="mean" value="2291136"/>
+<property name="stddev" value="20839"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/4" value_param="(ORB_1500_13_1, &quot;stitching/a3.png&quot;)" status="run" time="0.068" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1994700"/>
+<property name="median" value="2028350"/>
+<property name="gmean" value="2033477"/>
+<property name="gstddev" value="0.013934"/>
+<property name="mean" value="2033668"/>
+<property name="stddev" value="28428"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/5" value_param="(ORB_1500_13_1, &quot;stitching/s2.jpg&quot;)" status="run" time="0.192" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="5690600"/>
+<property name="median" value="5794650"/>
+<property name="gmean" value="5782659"/>
+<property name="gstddev" value="0.008661"/>
+<property name="mean" value="5782868"/>
+<property name="stddev" value="49976"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/6" value_param="(AKAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.421" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="44874600"/>
+<property name="median" value="46735900"/>
+<property name="gmean" value="46722100"/>
+<property name="gstddev" value="0.028636"/>
+<property name="mean" value="46740700"/>
+<property name="stddev" value="1352237"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/7" value_param="(AKAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="1.116" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="35532800"/>
+<property name="median" value="36487250"/>
+<property name="gmean" value="36682393"/>
+<property name="gstddev" value="0.024337"/>
+<property name="mean" value="36692954"/>
+<property name="stddev" value="903757"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/8" value_param="(AKAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="3.359" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="106869600"/>
+<property name="median" value="109907700"/>
+<property name="gmean" value="110361444"/>
+<property name="gstddev" value="0.022395"/>
+<property name="mean" value="110388296"/>
+<property name="stddev" value="2495159"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/9" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.642" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="52852300"/>
+<property name="median" value="53937100"/>
+<property name="gmean" value="54120116"/>
+<property name="gstddev" value="0.016171"/>
+<property name="mean" value="54126954"/>
+<property name="stddev" value="877946"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/10" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/a3.png&quot;)" status="run" time="1.276" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="40899000"/>
+<property name="median" value="41724700"/>
+<property name="gmean" value="42006121"/>
+<property name="gstddev" value="0.018762"/>
+<property name="mean" value="42013271"/>
+<property name="stddev" value="791649"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/11" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/s2.jpg&quot;)" status="run" time="4.314" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="139232400"/>
+<property name="median" value="141928300"/>
+<property name="gmean" value="142512518"/>
+<property name="gstddev" value="0.018426"/>
+<property name="mean" value="142535968"/>
+<property name="stddev" value="2646750"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/12" value_param="(BRISK_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.685" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="54743700"/>
+<property name="median" value="55138500"/>
+<property name="gmean" value="55213891"/>
+<property name="gstddev" value="0.006630"/>
+<property name="mean" value="55215064"/>
+<property name="stddev" value="367526"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/13" value_param="(BRISK_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.874" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="28037900"/>
+<property name="median" value="28195200"/>
+<property name="gmean" value="28282775"/>
+<property name="gstddev" value="0.007678"/>
+<property name="mean" value="28283582"/>
+<property name="stddev" value="218396"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/14" value_param="(BRISK_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="13.925" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="459144800"/>
+<property name="median" value="461589350"/>
+<property name="gmean" value="461554327"/>
+<property name="gstddev" value="0.002694"/>
+<property name="mean" value="461555943"/>
+<property name="stddev" value="1244180"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/15" value_param="(KAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="8.594" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="278870000"/>
+<property name="median" value="284483850"/>
+<property name="gmean" value="284631578"/>
+<property name="gstddev" value="0.010762"/>
+<property name="mean" value="284647468"/>
+<property name="stddev" value="3061786"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/16" value_param="(KAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="6.988" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="227970100"/>
+<property name="median" value="231422050"/>
+<property name="gmean" value="232167759"/>
+<property name="gstddev" value="0.012322"/>
+<property name="mean" value="232184793"/>
+<property name="stddev" value="2870612"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/17" value_param="(KAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="17.744" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="580587000"/>
+<property name="median" value="588028700"/>
+<property name="gmean" value="589022041"/>
+<property name="gstddev" value="0.009321"/>
+<property name="mean" value="589046739"/>
+<property name="stddev" value="5498439"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/18" value_param="(SIFT_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="3.071" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="99246700"/>
+<property name="median" value="101519200"/>
+<property name="gmean" value="101739529"/>
+<property name="gstddev" value="0.013932"/>
+<property name="mean" value="101749061"/>
+<property name="stddev" value="1419867"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/19" value_param="(SIFT_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="3.457" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="111695200"/>
+<property name="median" value="114005950"/>
+<property name="gmean" value="114316684"/>
+<property name="gstddev" value="0.014371"/>
+<property name="mean" value="114328107"/>
+<property name="stddev" value="1651626"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/20" value_param="(SIFT_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="8.421" classname="feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="274573500"/>
+<property name="median" value="279188150"/>
+<property name="gmean" value="279588535"/>
+<property name="gstddev" value="0.010805"/>
+<property name="mean" value="279604311"/>
+<property name="stddev" value="3032118"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="Norm_Destination_CrossCheck_batchDistance_8U" tests="8" failures="0" disabled="0" errors="0" time="11.574">
+    <testcase name="batchDistance_8U/0" value_param="(NORM_L1, 32SC1, false)" status="run" time="0.585" classname="Norm_Destination_CrossCheck_batchDistance_8U">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="18780400"/>
+<property name="median" value="18844700"/>
+<property name="gmean" value="18894698"/>
+<property name="gstddev" value="0.008642"/>
+<property name="mean" value="18895386"/>
+<property name="stddev" value="166062"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_8U/1" value_param="(NORM_L1, 32SC1, true)" status="run" time="1.143" classname="Norm_Destination_CrossCheck_batchDistance_8U">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="37756700"/>
+<property name="median" value="37991600"/>
+<property name="gmean" value="38028634"/>
+<property name="gstddev" value="0.005078"/>
+<property name="mean" value="38029107"/>
+<property name="stddev" value="193418"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_8U/2" value_param="(NORM_L1, 32FC1, false)" status="run" time="1.348" classname="Norm_Destination_CrossCheck_batchDistance_8U">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="44480400"/>
+<property name="median" value="44778100"/>
+<property name="gmean" value="44775448"/>
+<property name="gstddev" value="0.004424"/>
+<property name="mean" value="44775871"/>
+<property name="stddev" value="198736"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_8U/3" value_param="(NORM_L1, 32FC1, true)" status="run" time="2.689" classname="Norm_Destination_CrossCheck_batchDistance_8U">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="89181000"/>
+<property name="median" value="89421750"/>
+<property name="gmean" value="89534505"/>
+<property name="gstddev" value="0.003283"/>
+<property name="mean" value="89534971"/>
+<property name="stddev" value="294648"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_8U/4" value_param="(NORM_L2SQR, 32SC1, false)" status="run" time="0.562" classname="Norm_Destination_CrossCheck_batchDistance_8U">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="18589300"/>
+<property name="median" value="18661200"/>
+<property name="gmean" value="18664416"/>
+<property name="gstddev" value="0.003246"/>
+<property name="mean" value="18664511"/>
+<property name="stddev" value="60779"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_8U/5" value_param="(NORM_L2SQR, 32SC1, true)" status="run" time="1.126" classname="Norm_Destination_CrossCheck_batchDistance_8U">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="37277200"/>
+<property name="median" value="37401650"/>
+<property name="gmean" value="37465060"/>
+<property name="gstddev" value="0.005006"/>
+<property name="mean" value="37465514"/>
+<property name="stddev" value="188816"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_8U/6" value_param="(NORM_L2SQR, 32FC1, false)" status="run" time="1.368" classname="Norm_Destination_CrossCheck_batchDistance_8U">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="45076300"/>
+<property name="median" value="45436000"/>
+<property name="gmean" value="45447071"/>
+<property name="gstddev" value="0.006196"/>
+<property name="mean" value="45447914"/>
+<property name="stddev" value="282688"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_8U/7" value_param="(NORM_L2SQR, 32FC1, true)" status="run" time="2.753" classname="Norm_Destination_CrossCheck_batchDistance_8U">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="90239200"/>
+<property name="median" value="91245700"/>
+<property name="gmean" value="91239435"/>
+<property name="gstddev" value="0.006626"/>
+<property name="mean" value="91241368"/>
+<property name="stddev" value="605298"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="Norm_CrossCheck_batchDistance_Dest_32S" tests="4" failures="0" disabled="0" errors="0" time="1.423">
+    <testcase name="batchDistance_Dest_32S/0" value_param="(NORM_HAMMING, false)" status="run" time="0.123" classname="Norm_CrossCheck_batchDistance_Dest_32S">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4044000"/>
+<property name="median" value="4066250"/>
+<property name="gmean" value="4068437"/>
+<property name="gstddev" value="0.004997"/>
+<property name="mean" value="4068486"/>
+<property name="stddev" value="20355"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_Dest_32S/1" value_param="(NORM_HAMMING, true)" status="run" time="0.248" classname="Norm_CrossCheck_batchDistance_Dest_32S">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="8103200"/>
+<property name="median" value="8159800"/>
+<property name="gmean" value="8171364"/>
+<property name="gstddev" value="0.007546"/>
+<property name="mean" value="8171589"/>
+<property name="stddev" value="62240"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_Dest_32S/2" value_param="(NORM_HAMMING2, false)" status="run" time="0.349" classname="Norm_CrossCheck_batchDistance_Dest_32S">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="11536900"/>
+<property name="median" value="11594900"/>
+<property name="gmean" value="11592844"/>
+<property name="gstddev" value="0.002612"/>
+<property name="mean" value="11592882"/>
+<property name="stddev" value="30282"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_Dest_32S/3" value_param="(NORM_HAMMING2, true)" status="run" time="0.703" classname="Norm_CrossCheck_batchDistance_Dest_32S">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="23279100"/>
+<property name="median" value="23367950"/>
+<property name="gmean" value="23374543"/>
+<property name="gstddev" value="0.002318"/>
+<property name="mean" value="23374604"/>
+<property name="stddev" value="54228"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="Source_CrossCheck_batchDistance_L2" tests="4" failures="0" disabled="0" errors="0" time="5.468">
+    <testcase name="batchDistance_L2/0" value_param="(8UC1, false)" status="run" time="1.42" classname="Source_CrossCheck_batchDistance_L2">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="46668400"/>
+<property name="median" value="46947150"/>
+<property name="gmean" value="47039451"/>
+<property name="gstddev" value="0.007900"/>
+<property name="mean" value="47040871"/>
+<property name="stddev" value="373457"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_L2/1" value_param="(8UC1, true)" status="run" time="2.841" classname="Source_CrossCheck_batchDistance_L2">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="93638200"/>
+<property name="median" value="94344350"/>
+<property name="gmean" value="94548163"/>
+<property name="gstddev" value="0.008566"/>
+<property name="mean" value="94551518"/>
+<property name="stddev" value="813464"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_L2/2" value_param="(32FC1, false)" status="run" time="0.481" classname="Source_CrossCheck_batchDistance_L2">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="15749500"/>
+<property name="median" value="15883600"/>
+<property name="gmean" value="15933150"/>
+<property name="gstddev" value="0.008484"/>
+<property name="mean" value="15933704"/>
+<property name="stddev" value="135518"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_L2/3" value_param="(32FC1, true)" status="run" time="0.726" classname="Source_CrossCheck_batchDistance_L2">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="23890300"/>
+<property name="median" value="24048950"/>
+<property name="gmean" value="24102078"/>
+<property name="gstddev" value="0.008041"/>
+<property name="mean" value="24102832"/>
+<property name="stddev" value="195015"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="Norm_CrossCheck_batchDistance_32F" tests="4" failures="0" disabled="0" errors="0" time="4.311">
+    <testcase name="batchDistance_32F/0" value_param="(NORM_L1, false)" status="run" time="1.026" classname="Norm_CrossCheck_batchDistance_32F">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="33943200"/>
+<property name="median" value="34061000"/>
+<property name="gmean" value="34089610"/>
+<property name="gstddev" value="0.004344"/>
+<property name="mean" value="34089921"/>
+<property name="stddev" value="148807"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_32F/1" value_param="(NORM_L1, true)" status="run" time="2.07" classname="Norm_CrossCheck_batchDistance_32F">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="67784000"/>
+<property name="median" value="68170300"/>
+<property name="gmean" value="68326834"/>
+<property name="gstddev" value="0.005766"/>
+<property name="mean" value="68327932"/>
+<property name="stddev" value="395254"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_32F/2" value_param="(NORM_L2SQR, false)" status="run" time="0.46" classname="Norm_CrossCheck_batchDistance_32F">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="14853000"/>
+<property name="median" value="15283800"/>
+<property name="gmean" value="15234250"/>
+<property name="gstddev" value="0.010596"/>
+<property name="mean" value="15235071"/>
+<property name="stddev" value="160557"/>
+</properties>
+    </testcase>
+    <testcase name="batchDistance_32F/3" value_param="(NORM_L2SQR, true)" status="run" time="0.755" classname="Norm_CrossCheck_batchDistance_32F">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="0"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="24744000"/>
+<property name="median" value="24916200"/>
+<property name="gmean" value="25029729"/>
+<property name="gstddev" value="0.009568"/>
+<property name="mean" value="25030836"/>
+<property name="stddev" value="240213"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_feature2d_detect" tests="60" failures="0" disabled="0" errors="0" time="71.648">
+    <testcase name="detect/0" value_param="(FAST_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.048" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1271500"/>
+<property name="median" value="1282500"/>
+<property name="gmean" value="1287785"/>
+<property name="gstddev" value="0.011301"/>
+<property name="mean" value="1287864"/>
+<property name="stddev" value="14629"/>
+</properties>
+    </testcase>
+    <testcase name="detect/1" value_param="(FAST_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.038" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1015100"/>
+<property name="median" value="1024200"/>
+<property name="gmean" value="1030604"/>
+<property name="gstddev" value="0.014379"/>
+<property name="mean" value="1030707"/>
+<property name="stddev" value="14950"/>
+</properties>
+    </testcase>
+    <testcase name="detect/2" value_param="(FAST_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="0.165" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4743500"/>
+<property name="median" value="4807550"/>
+<property name="gmean" value="4860570"/>
+<property name="gstddev" value="0.025224"/>
+<property name="mean" value="4862086"/>
+<property name="stddev" value="125643"/>
+</properties>
+    </testcase>
+    <testcase name="detect/3" value_param="(FAST_20_TRUE_TYPE5_8, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.032" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="732900"/>
+<property name="median" value="740100"/>
+<property name="gmean" value="746804"/>
+<property name="gstddev" value="0.019828"/>
+<property name="mean" value="746946"/>
+<property name="stddev" value="15003"/>
+</properties>
+    </testcase>
+    <testcase name="detect/4" value_param="(FAST_20_TRUE_TYPE5_8, &quot;stitching/a3.png&quot;)" status="run" time="0.018" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="369200"/>
+<property name="median" value="373250"/>
+<property name="gmean" value="375033"/>
+<property name="gstddev" value="0.014473"/>
+<property name="mean" value="375071"/>
+<property name="stddev" value="5492"/>
+</properties>
+    </testcase>
+    <testcase name="detect/5" value_param="(FAST_20_TRUE_TYPE5_8, &quot;stitching/s2.jpg&quot;)" status="run" time="0.118" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3342100"/>
+<property name="median" value="3369350"/>
+<property name="gmean" value="3377972"/>
+<property name="gstddev" value="0.008598"/>
+<property name="mean" value="3378093"/>
+<property name="stddev" value="29168"/>
+</properties>
+    </testcase>
+    <testcase name="detect/6" value_param="(FAST_20_TRUE_TYPE7_12, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.09" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2662600"/>
+<property name="median" value="2680850"/>
+<property name="gmean" value="2684928"/>
+<property name="gstddev" value="0.006238"/>
+<property name="mean" value="2684979"/>
+<property name="stddev" value="16775"/>
+</properties>
+    </testcase>
+    <testcase name="detect/7" value_param="(FAST_20_TRUE_TYPE7_12, &quot;stitching/a3.png&quot;)" status="run" time="0.053" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1504200"/>
+<property name="median" value="1521250"/>
+<property name="gmean" value="1523189"/>
+<property name="gstddev" value="0.008306"/>
+<property name="mean" value="1523239"/>
+<property name="stddev" value="12672"/>
+</properties>
+    </testcase>
+    <testcase name="detect/8" value_param="(FAST_20_TRUE_TYPE7_12, &quot;stitching/s2.jpg&quot;)" status="run" time="0.355" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="11105400"/>
+<property name="median" value="11176100"/>
+<property name="gmean" value="11209339"/>
+<property name="gstddev" value="0.008812"/>
+<property name="mean" value="11209761"/>
+<property name="stddev" value="99609"/>
+</properties>
+    </testcase>
+    <testcase name="detect/9" value_param="(FAST_20_TRUE_TYPE9_16, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.03" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="693500"/>
+<property name="median" value="703850"/>
+<property name="gmean" value="706830"/>
+<property name="gstddev" value="0.013894"/>
+<property name="mean" value="706896"/>
+<property name="stddev" value="9916"/>
+</properties>
+    </testcase>
+    <testcase name="detect/10" value_param="(FAST_20_TRUE_TYPE9_16, &quot;stitching/a3.png&quot;)" status="run" time="0.024" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="529800"/>
+<property name="median" value="538100"/>
+<property name="gmean" value="539186"/>
+<property name="gstddev" value="0.014232"/>
+<property name="mean" value="539239"/>
+<property name="stddev" value="7783"/>
+</properties>
+    </testcase>
+    <testcase name="detect/11" value_param="(FAST_20_TRUE_TYPE9_16, &quot;stitching/s2.jpg&quot;)" status="run" time="0.102" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2774700"/>
+<property name="median" value="2815300"/>
+<property name="gmean" value="2825530"/>
+<property name="gstddev" value="0.013570"/>
+<property name="mean" value="2825782"/>
+<property name="stddev" value="38624"/>
+</properties>
+    </testcase>
+    <testcase name="detect/12" value_param="(FAST_20_FALSE_TYPE5_8, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.032" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="730900"/>
+<property name="median" value="736800"/>
+<property name="gmean" value="742582"/>
+<property name="gstddev" value="0.019861"/>
+<property name="mean" value="742725"/>
+<property name="stddev" value="15087"/>
+</properties>
+    </testcase>
+    <testcase name="detect/13" value_param="(FAST_20_FALSE_TYPE5_8, &quot;stitching/a3.png&quot;)" status="run" time="0.019" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="372800"/>
+<property name="median" value="379400"/>
+<property name="gmean" value="381322"/>
+<property name="gstddev" value="0.021443"/>
+<property name="mean" value="381407"/>
+<property name="stddev" value="8300"/>
+</properties>
+    </testcase>
+    <testcase name="detect/14" value_param="(FAST_20_FALSE_TYPE5_8, &quot;stitching/s2.jpg&quot;)" status="run" time="0.117" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3266300"/>
+<property name="median" value="3293250"/>
+<property name="gmean" value="3304102"/>
+<property name="gstddev" value="0.009142"/>
+<property name="mean" value="3304236"/>
+<property name="stddev" value="30287"/>
+</properties>
+    </testcase>
+    <testcase name="detect/15" value_param="(FAST_20_FALSE_TYPE7_12, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.085" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2481500"/>
+<property name="median" value="2502450"/>
+<property name="gmean" value="2504820"/>
+<property name="gstddev" value="0.006750"/>
+<property name="mean" value="2504875"/>
+<property name="stddev" value="16940"/>
+</properties>
+    </testcase>
+    <testcase name="detect/16" value_param="(FAST_20_FALSE_TYPE7_12, &quot;stitching/a3.png&quot;)" status="run" time="0.049" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1371000"/>
+<property name="median" value="1380800"/>
+<property name="gmean" value="1385095"/>
+<property name="gstddev" value="0.009325"/>
+<property name="mean" value="1385154"/>
+<property name="stddev" value="12985"/>
+</properties>
+    </testcase>
+    <testcase name="detect/17" value_param="(FAST_20_FALSE_TYPE7_12, &quot;stitching/s2.jpg&quot;)" status="run" time="0.319" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="9959600"/>
+<property name="median" value="10029350"/>
+<property name="gmean" value="10032039"/>
+<property name="gstddev" value="0.004482"/>
+<property name="mean" value="10032136"/>
+<property name="stddev" value="44983"/>
+</properties>
+    </testcase>
+    <testcase name="detect/18" value_param="(FAST_20_FALSE_TYPE9_16, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.023" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="481300"/>
+<property name="median" value="486700"/>
+<property name="gmean" value="489770"/>
+<property name="gstddev" value="0.019871"/>
+<property name="mean" value="489864"/>
+<property name="stddev" value="9944"/>
+</properties>
+    </testcase>
+    <testcase name="detect/19" value_param="(FAST_20_FALSE_TYPE9_16, &quot;stitching/a3.png&quot;)" status="run" time="0.017" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="323100"/>
+<property name="median" value="327550"/>
+<property name="gmean" value="327979"/>
+<property name="gstddev" value="0.009215"/>
+<property name="mean" value="327993"/>
+<property name="stddev" value="3040"/>
+</properties>
+    </testcase>
+    <testcase name="detect/20" value_param="(FAST_20_FALSE_TYPE9_16, &quot;stitching/s2.jpg&quot;)" status="run" time="0.067" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1581100"/>
+<property name="median" value="1602350"/>
+<property name="gmean" value="1606179"/>
+<property name="gstddev" value="0.010047"/>
+<property name="mean" value="1606257"/>
+<property name="stddev" value="16215"/>
+</properties>
+    </testcase>
+    <testcase name="detect/21" value_param="(AGAST_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.245" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="7691400"/>
+<property name="median" value="7795200"/>
+<property name="gmean" value="7805589"/>
+<property name="gstddev" value="0.008549"/>
+<property name="mean" value="7805864"/>
+<property name="stddev" value="66993"/>
+</properties>
+    </testcase>
+    <testcase name="detect/22" value_param="(AGAST_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.214" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="6810000"/>
+<property name="median" value="6883900"/>
+<property name="gmean" value="6887270"/>
+<property name="gstddev" value="0.006177"/>
+<property name="mean" value="6887396"/>
+<property name="stddev" value="42558"/>
+</properties>
+    </testcase>
+    <testcase name="detect/23" value_param="(AGAST_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="1.068" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="34706200"/>
+<property name="median" value="34887400"/>
+<property name="gmean" value="34962798"/>
+<property name="gstddev" value="0.007859"/>
+<property name="mean" value="34963843"/>
+<property name="stddev" value="276362"/>
+</properties>
+    </testcase>
+    <testcase name="detect/24" value_param="(AGAST_5_8, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.025" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="533700"/>
+<property name="median" value="538950"/>
+<property name="gmean" value="542085"/>
+<property name="gstddev" value="0.015759"/>
+<property name="mean" value="542150"/>
+<property name="stddev" value="8640"/>
+</properties>
+    </testcase>
+    <testcase name="detect/25" value_param="(AGAST_5_8, &quot;stitching/a3.png&quot;)" status="run" time="0.02" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="394700"/>
+<property name="median" value="403350"/>
+<property name="gmean" value="405503"/>
+<property name="gstddev" value="0.022974"/>
+<property name="mean" value="405607"/>
+<property name="stddev" value="9461"/>
+</properties>
+    </testcase>
+    <testcase name="detect/26" value_param="(AGAST_5_8, &quot;stitching/s2.jpg&quot;)" status="run" time="0.067" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1639600"/>
+<property name="median" value="1657750"/>
+<property name="gmean" value="1663985"/>
+<property name="gstddev" value="0.011378"/>
+<property name="mean" value="1664089"/>
+<property name="stddev" value="19081"/>
+</properties>
+    </testcase>
+    <testcase name="detect/27" value_param="(AGAST_7_12d, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.032" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="749200"/>
+<property name="median" value="758000"/>
+<property name="gmean" value="760601"/>
+<property name="gstddev" value="0.013463"/>
+<property name="mean" value="760668"/>
+<property name="stddev" value="10353"/>
+</properties>
+    </testcase>
+    <testcase name="detect/28" value_param="(AGAST_7_12d, &quot;stitching/a3.png&quot;)" status="run" time="0.03" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="741900"/>
+<property name="median" value="769100"/>
+<property name="gmean" value="770206"/>
+<property name="gstddev" value="0.022818"/>
+<property name="mean" value="770400"/>
+<property name="stddev" value="17638"/>
+</properties>
+    </testcase>
+    <testcase name="detect/29" value_param="(AGAST_7_12d, &quot;stitching/s2.jpg&quot;)" status="run" time="0.093" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2474600"/>
+<property name="median" value="2503450"/>
+<property name="gmean" value="2507535"/>
+<property name="gstddev" value="0.009263"/>
+<property name="mean" value="2507639"/>
+<property name="stddev" value="23284"/>
+</properties>
+    </testcase>
+    <testcase name="detect/30" value_param="(AGAST_7_12s, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.032" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="719500"/>
+<property name="median" value="734900"/>
+<property name="gmean" value="737038"/>
+<property name="gstddev" value="0.018190"/>
+<property name="mean" value="737157"/>
+<property name="stddev" value="13633"/>
+</properties>
+    </testcase>
+    <testcase name="detect/31" value_param="(AGAST_7_12s, &quot;stitching/a3.png&quot;)" status="run" time="0.029" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="697700"/>
+<property name="median" value="725450"/>
+<property name="gmean" value="724260"/>
+<property name="gstddev" value="0.028384"/>
+<property name="mean" value="724543"/>
+<property name="stddev" value="20677"/>
+</properties>
+    </testcase>
+    <testcase name="detect/32" value_param="(AGAST_7_12s, &quot;stitching/s2.jpg&quot;)" status="run" time="0.088" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2355600"/>
+<property name="median" value="2370150"/>
+<property name="gmean" value="2378172"/>
+<property name="gstddev" value="0.008772"/>
+<property name="mean" value="2378261"/>
+<property name="stddev" value="20987"/>
+</properties>
+    </testcase>
+    <testcase name="detect/33" value_param="(AGAST_OAST_9_16, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.034" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="801300"/>
+<property name="median" value="809150"/>
+<property name="gmean" value="811949"/>
+<property name="gstddev" value="0.010087"/>
+<property name="mean" value="811989"/>
+<property name="stddev" value="8228"/>
+</properties>
+    </testcase>
+    <testcase name="detect/34" value_param="(AGAST_OAST_9_16, &quot;stitching/a3.png&quot;)" status="run" time="0.035" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="894600"/>
+<property name="median" value="915700"/>
+<property name="gmean" value="915216"/>
+<property name="gstddev" value="0.015425"/>
+<property name="mean" value="915321"/>
+<property name="stddev" value="14169"/>
+</properties>
+    </testcase>
+    <testcase name="detect/35" value_param="(AGAST_OAST_9_16, &quot;stitching/s2.jpg&quot;)" status="run" time="0.095" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2565400"/>
+<property name="median" value="2601400"/>
+<property name="gmean" value="2600301"/>
+<property name="gstddev" value="0.008200"/>
+<property name="mean" value="2600386"/>
+<property name="stddev" value="21339"/>
+</properties>
+    </testcase>
+    <testcase name="detect/36" value_param="(MSER_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="2.977" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="97495000"/>
+<property name="median" value="98310700"/>
+<property name="gmean" value="98492643"/>
+<property name="gstddev" value="0.008025"/>
+<property name="mean" value="98495711"/>
+<property name="stddev" value="794065"/>
+</properties>
+    </testcase>
+    <testcase name="detect/37" value_param="(MSER_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="1.499" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="48352400"/>
+<property name="median" value="48697100"/>
+<property name="gmean" value="48870480"/>
+<property name="gstddev" value="0.010820"/>
+<property name="mean" value="48873254"/>
+<property name="stddev" value="533009"/>
+</properties>
+    </testcase>
+    <testcase name="detect/38" value_param="(MSER_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="4.33" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="141905600"/>
+<property name="median" value="142689650"/>
+<property name="gmean" value="142974577"/>
+<property name="gstddev" value="0.006299"/>
+<property name="mean" value="142977318"/>
+<property name="stddev" value="903721"/>
+</properties>
+    </testcase>
+    <testcase name="detect/39" value_param="(ORB_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.123" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3626400"/>
+<property name="median" value="3758300"/>
+<property name="gmean" value="3751815"/>
+<property name="gstddev" value="0.015823"/>
+<property name="mean" value="3752268"/>
+<property name="stddev" value="59297"/>
+</properties>
+    </testcase>
+    <testcase name="detect/40" value_param="(ORB_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.102" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3069200"/>
+<property name="median" value="3149150"/>
+<property name="gmean" value="3140488"/>
+<property name="gstddev" value="0.015622"/>
+<property name="mean" value="3140857"/>
+<property name="stddev" value="49071"/>
+</properties>
+    </testcase>
+    <testcase name="detect/41" value_param="(ORB_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="0.372" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="11589100"/>
+<property name="median" value="11741500"/>
+<property name="gmean" value="11780671"/>
+<property name="gstddev" value="0.013416"/>
+<property name="mean" value="11781700"/>
+<property name="stddev" value="159680"/>
+</properties>
+    </testcase>
+    <testcase name="detect/42" value_param="(ORB_1500_13_1, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.049" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1220200"/>
+<property name="median" value="1251700"/>
+<property name="gmean" value="1265418"/>
+<property name="gstddev" value="0.045629"/>
+<property name="mean" value="1266736"/>
+<property name="stddev" value="61073"/>
+</properties>
+    </testcase>
+    <testcase name="detect/43" value_param="(ORB_1500_13_1, &quot;stitching/a3.png&quot;)" status="run" time="0.036" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="955000"/>
+<property name="median" value="971600"/>
+<property name="gmean" value="977376"/>
+<property name="gstddev" value="0.016662"/>
+<property name="mean" value="977507"/>
+<property name="stddev" value="16342"/>
+</properties>
+    </testcase>
+    <testcase name="detect/44" value_param="(ORB_1500_13_1, &quot;stitching/s2.jpg&quot;)" status="run" time="0.153" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4392000"/>
+<property name="median" value="4540350"/>
+<property name="gmean" value="4528426"/>
+<property name="gstddev" value="0.015081"/>
+<property name="mean" value="4528921"/>
+<property name="stddev" value="68088"/>
+</properties>
+    </testcase>
+    <testcase name="detect/45" value_param="(AKAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.223" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="38170400"/>
+<property name="median" value="40031700"/>
+<property name="gmean" value="40163298"/>
+<property name="gstddev" value="0.034006"/>
+<property name="mean" value="40185775"/>
+<property name="stddev" value="1373757"/>
+</properties>
+    </testcase>
+    <testcase name="detect/46" value_param="(AKAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.982" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="30705000"/>
+<property name="median" value="31839100"/>
+<property name="gmean" value="32068696"/>
+<property name="gstddev" value="0.029216"/>
+<property name="mean" value="32082014"/>
+<property name="stddev" value="949997"/>
+</properties>
+    </testcase>
+    <testcase name="detect/47" value_param="(AKAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="2.526" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="80517200"/>
+<property name="median" value="82886250"/>
+<property name="gmean" value="83097591"/>
+<property name="gstddev" value="0.024369"/>
+<property name="mean" value="83121500"/>
+<property name="stddev" value="2040055"/>
+</properties>
+    </testcase>
+    <testcase name="detect/48" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.243" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="37489400"/>
+<property name="median" value="39392150"/>
+<property name="gmean" value="39836927"/>
+<property name="gstddev" value="0.042573"/>
+<property name="mean" value="39872239"/>
+<property name="stddev" value="1733458"/>
+</properties>
+    </testcase>
+    <testcase name="detect/49" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/a3.png&quot;)" status="run" time="0.98" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="30735400"/>
+<property name="median" value="31950350"/>
+<property name="gmean" value="32112971"/>
+<property name="gstddev" value="0.026620"/>
+<property name="mean" value="32123996"/>
+<property name="stddev" value="861234"/>
+</properties>
+    </testcase>
+    <testcase name="detect/50" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/s2.jpg&quot;)" status="run" time="2.522" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="79633800"/>
+<property name="median" value="82086550"/>
+<property name="gmean" value="83014987"/>
+<property name="gstddev" value="0.030142"/>
+<property name="mean" value="83051582"/>
+<property name="stddev" value="2526600"/>
+</properties>
+    </testcase>
+    <testcase name="detect/51" value_param="(BRISK_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.37" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="44393000"/>
+<property name="median" value="44672500"/>
+<property name="gmean" value="44732162"/>
+<property name="gstddev" value="0.006132"/>
+<property name="mean" value="44732975"/>
+<property name="stddev" value="275329"/>
+</properties>
+    </testcase>
+    <testcase name="detect/52" value_param="(BRISK_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.684" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="21719000"/>
+<property name="median" value="21911500"/>
+<property name="gmean" value="21949220"/>
+<property name="gstddev" value="0.007296"/>
+<property name="mean" value="21949786"/>
+<property name="stddev" value="161248"/>
+</properties>
+    </testcase>
+    <testcase name="detect/53" value_param="(BRISK_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="11.452" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="378145600"/>
+<property name="median" value="379742500"/>
+<property name="gmean" value="379948341"/>
+<property name="gstddev" value="0.002705"/>
+<property name="mean" value="379949682"/>
+<property name="stddev" value="1028317"/>
+</properties>
+    </testcase>
+    <testcase name="detect/54" value_param="(KAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="7.223" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="233815800"/>
+<property name="median" value="238167250"/>
+<property name="gmean" value="239198769"/>
+<property name="gstddev" value="0.016765"/>
+<property name="mean" value="239231314"/>
+<property name="stddev" value="4034790"/>
+</properties>
+    </testcase>
+    <testcase name="detect/55" value_param="(KAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="6.01" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="195503000"/>
+<property name="median" value="199205200"/>
+<property name="gmean" value="199660575"/>
+<property name="gstddev" value="0.012085"/>
+<property name="mean" value="199674643"/>
+<property name="stddev" value="2415460"/>
+</properties>
+    </testcase>
+    <testcase name="detect/56" value_param="(KAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="13.594" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="436733700"/>
+<property name="median" value="448251850"/>
+<property name="gmean" value="450415259"/>
+<property name="gstddev" value="0.019274"/>
+<property name="mean" value="450496225"/>
+<property name="stddev" value="8729694"/>
+</properties>
+    </testcase>
+    <testcase name="detect/57" value_param="(SIFT_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="2.119" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="67633100"/>
+<property name="median" value="69476050"/>
+<property name="gmean" value="69837455"/>
+<property name="gstddev" value="0.020798"/>
+<property name="mean" value="69852086"/>
+<property name="stddev" value="1462527"/>
+</properties>
+    </testcase>
+    <testcase name="detect/58" value_param="(SIFT_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="1.895" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="59568900"/>
+<property name="median" value="62160850"/>
+<property name="gmean" value="62318670"/>
+<property name="gstddev" value="0.020179"/>
+<property name="mean" value="62330907"/>
+<property name="stddev" value="1258086"/>
+</properties>
+    </testcase>
+    <testcase name="detect/59" value_param="(SIFT_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="4.271" classname="OCL_feature2d_detect">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="134079500"/>
+<property name="median" value="139993500"/>
+<property name="gmean" value="140782604"/>
+<property name="gstddev" value="0.027152"/>
+<property name="mean" value="140832875"/>
+<property name="stddev" value="3849672"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_feature2d_extract" tests="21" failures="0" disabled="0" errors="0" time="41.445">
+    <testcase name="extract/0" value_param="(ORB_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.114" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1917800"/>
+<property name="median" value="2011600"/>
+<property name="gmean" value="2038634"/>
+<property name="gstddev" value="0.043971"/>
+<property name="mean" value="2040546"/>
+<property name="stddev" value="90532"/>
+</properties>
+    </testcase>
+    <testcase name="extract/1" value_param="(ORB_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.092" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1499500"/>
+<property name="median" value="1531900"/>
+<property name="gmean" value="1551206"/>
+<property name="gstddev" value="0.027927"/>
+<property name="mean" value="1551793"/>
+<property name="stddev" value="43761"/>
+</properties>
+    </testcase>
+    <testcase name="extract/2" value_param="(ORB_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="0.277" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="5614300"/>
+<property name="median" value="5725100"/>
+<property name="gmean" value="5731360"/>
+<property name="gstddev" value="0.012866"/>
+<property name="mean" value="5731818"/>
+<property name="stddev" value="73863"/>
+</properties>
+    </testcase>
+    <testcase name="extract/3" value_param="(ORB_1500_13_1, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.105" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1812100"/>
+<property name="median" value="1858050"/>
+<property name="gmean" value="1861821"/>
+<property name="gstddev" value="0.019520"/>
+<property name="mean" value="1862164"/>
+<property name="stddev" value="36550"/>
+</properties>
+    </testcase>
+    <testcase name="extract/4" value_param="(ORB_1500_13_1, &quot;stitching/a3.png&quot;)" status="run" time="0.084" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1434700"/>
+<property name="median" value="1451300"/>
+<property name="gmean" value="1465057"/>
+<property name="gstddev" value="0.020179"/>
+<property name="mean" value="1465346"/>
+<property name="stddev" value="29870"/>
+</properties>
+    </testcase>
+    <testcase name="extract/5" value_param="(ORB_1500_13_1, &quot;stitching/s2.jpg&quot;)" status="run" time="0.263" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="5294200"/>
+<property name="median" value="5417200"/>
+<property name="gmean" value="5414789"/>
+<property name="gstddev" value="0.014258"/>
+<property name="mean" value="5415321"/>
+<property name="stddev" value="77475"/>
+</properties>
+    </testcase>
+    <testcase name="extract/6" value_param="(AKAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.285" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="38776700"/>
+<property name="median" value="40292000"/>
+<property name="gmean" value="40799747"/>
+<property name="gstddev" value="0.041298"/>
+<property name="mean" value="40833632"/>
+<property name="stddev" value="1710831"/>
+</properties>
+    </testcase>
+    <testcase name="extract/7" value_param="(AKAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="1.025" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="30960900"/>
+<property name="median" value="32007450"/>
+<property name="gmean" value="32475407"/>
+<property name="gstddev" value="0.039974"/>
+<property name="mean" value="32500821"/>
+<property name="stddev" value="1329363"/>
+</properties>
+    </testcase>
+    <testcase name="extract/8" value_param="(AKAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="2.897" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="90322500"/>
+<property name="median" value="92456600"/>
+<property name="gmean" value="92717365"/>
+<property name="gstddev" value="0.019503"/>
+<property name="mean" value="92734418"/>
+<property name="stddev" value="1816242"/>
+</properties>
+    </testcase>
+    <testcase name="extract/9" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.534" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="47304900"/>
+<property name="median" value="48906600"/>
+<property name="gmean" value="49006010"/>
+<property name="gstddev" value="0.020110"/>
+<property name="mean" value="49015575"/>
+<property name="stddev" value="987124"/>
+</properties>
+    </testcase>
+    <testcase name="extract/10" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/a3.png&quot;)" status="run" time="1.211" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="37207400"/>
+<property name="median" value="38176550"/>
+<property name="gmean" value="38597985"/>
+<property name="gstddev" value="0.032259"/>
+<property name="mean" value="38617607"/>
+<property name="stddev" value="1270309"/>
+</properties>
+    </testcase>
+    <testcase name="extract/11" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/s2.jpg&quot;)" status="run" time="3.963" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="124831900"/>
+<property name="median" value="127147600"/>
+<property name="gmean" value="127746308"/>
+<property name="gstddev" value="0.017785"/>
+<property name="mean" value="127765918"/>
+<property name="stddev" value="2294600"/>
+</properties>
+    </testcase>
+    <testcase name="extract/12" value_param="(BRISK_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.245" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="5750500"/>
+<property name="median" value="5893000"/>
+<property name="gmean" value="5883228"/>
+<property name="gstddev" value="0.011387"/>
+<property name="mean" value="5883596"/>
+<property name="stddev" value="67029"/>
+</properties>
+    </testcase>
+    <testcase name="extract/13" value_param="(BRISK_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.182" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4057800"/>
+<property name="median" value="4200550"/>
+<property name="gmean" value="4205270"/>
+<property name="gstddev" value="0.017588"/>
+<property name="mean" value="4205896"/>
+<property name="stddev" value="73851"/>
+</properties>
+    </testcase>
+    <testcase name="extract/14" value_param="(BRISK_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="0.801" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="22464700"/>
+<property name="median" value="22737200"/>
+<property name="gmean" value="22773731"/>
+<property name="gstddev" value="0.006361"/>
+<property name="mean" value="22774175"/>
+<property name="stddev" value="144943"/>
+</properties>
+    </testcase>
+    <testcase name="extract/15" value_param="(KAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="5.544" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="179093400"/>
+<property name="median" value="182735850"/>
+<property name="gmean" value="182825475"/>
+<property name="gstddev" value="0.009557"/>
+<property name="mean" value="182833514"/>
+<property name="stddev" value="1743555"/>
+</properties>
+    </testcase>
+    <testcase name="extract/16" value_param="(KAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="4.521" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="139508000"/>
+<property name="median" value="146922200"/>
+<property name="gmean" value="146903250"/>
+<property name="gstddev" value="0.027129"/>
+<property name="mean" value="146956179"/>
+<property name="stddev" value="4079819"/>
+</properties>
+    </testcase>
+    <testcase name="extract/17" value_param="(KAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="11.923" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="383586300"/>
+<property name="median" value="392788650"/>
+<property name="gmean" value="392910655"/>
+<property name="gstddev" value="0.009890"/>
+<property name="mean" value="392929168"/>
+<property name="stddev" value="3880903"/>
+</properties>
+    </testcase>
+    <testcase name="extract/18" value_param="(SIFT_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.11" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="34669900"/>
+<property name="median" value="35192400"/>
+<property name="gmean" value="35232596"/>
+<property name="gstddev" value="0.007133"/>
+<property name="mean" value="35233461"/>
+<property name="stddev" value="251630"/>
+</properties>
+    </testcase>
+    <testcase name="extract/19" value_param="(SIFT_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.716" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="22142900"/>
+<property name="median" value="22345650"/>
+<property name="gmean" value="22397838"/>
+<property name="gstddev" value="0.008007"/>
+<property name="mean" value="22398532"/>
+<property name="stddev" value="180171"/>
+</properties>
+    </testcase>
+    <testcase name="extract/20" value_param="(SIFT_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="3.55" classname="OCL_feature2d_extract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="113537900"/>
+<property name="median" value="114252700"/>
+<property name="gmean" value="114377261"/>
+<property name="gstddev" value="0.006096"/>
+<property name="mean" value="114379314"/>
+<property name="stddev" value="699116"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_feature2d_detectAndExtract" tests="21" failures="0" disabled="0" errors="0" time="79.217">
+    <testcase name="detectAndExtract/0" value_param="(ORB_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.152" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="4575100"/>
+<property name="median" value="4719850"/>
+<property name="gmean" value="4730199"/>
+<property name="gstddev" value="0.019119"/>
+<property name="mean" value="4731036"/>
+<property name="stddev" value="90979"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/1" value_param="(ORB_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.128" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="3936200"/>
+<property name="median" value="4010050"/>
+<property name="gmean" value="4021197"/>
+<property name="gstddev" value="0.011169"/>
+<property name="mean" value="4021439"/>
+<property name="stddev" value="44974"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/2" value_param="(ORB_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="0.42" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="13040400"/>
+<property name="median" value="13335350"/>
+<property name="gmean" value="13337179"/>
+<property name="gstddev" value="0.013352"/>
+<property name="mean" value="13338329"/>
+<property name="stddev" value="178759"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/3" value_param="(ORB_1500_13_1, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="0.078" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="2263500"/>
+<property name="median" value="2290000"/>
+<property name="gmean" value="2295556"/>
+<property name="gstddev" value="0.013066"/>
+<property name="mean" value="2295746"/>
+<property name="stddev" value="30275"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/4" value_param="(ORB_1500_13_1, &quot;stitching/a3.png&quot;)" status="run" time="0.068" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="1988000"/>
+<property name="median" value="2013500"/>
+<property name="gmean" value="2017995"/>
+<property name="gstddev" value="0.010718"/>
+<property name="mean" value="2018107"/>
+<property name="stddev" value="21737"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/5" value_param="(ORB_1500_13_1, &quot;stitching/s2.jpg&quot;)" status="run" time="0.191" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="5613600"/>
+<property name="median" value="5726450"/>
+<property name="gmean" value="5743596"/>
+<property name="gstddev" value="0.012066"/>
+<property name="mean" value="5744000"/>
+<property name="stddev" value="69440"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/6" value_param="(AKAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.419" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="44607200"/>
+<property name="median" value="46102850"/>
+<property name="gmean" value="46507889"/>
+<property name="gstddev" value="0.029227"/>
+<property name="mean" value="46527189"/>
+<property name="stddev" value="1375196"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/7" value_param="(AKAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="1.121" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="35579100"/>
+<property name="median" value="36522300"/>
+<property name="gmean" value="36748064"/>
+<property name="gstddev" value="0.023169"/>
+<property name="mean" value="36757643"/>
+<property name="stddev" value="860726"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/8" value_param="(AKAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="3.321" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="106045500"/>
+<property name="median" value="109369650"/>
+<property name="gmean" value="109531817"/>
+<property name="gstddev" value="0.018457"/>
+<property name="mean" value="109549886"/>
+<property name="stddev" value="2035115"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/9" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.629" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="52398000"/>
+<property name="median" value="53183300"/>
+<property name="gmean" value="53609442"/>
+<property name="gstddev" value="0.021249"/>
+<property name="mean" value="53621189"/>
+<property name="stddev" value="1150404"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/10" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/a3.png&quot;)" status="run" time="1.272" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="40865300"/>
+<property name="median" value="41749250"/>
+<property name="gmean" value="41902044"/>
+<property name="gstddev" value="0.019935"/>
+<property name="mean" value="41910114"/>
+<property name="stddev" value="841860"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/11" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/s2.jpg&quot;)" status="run" time="4.333" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="139356100"/>
+<property name="median" value="141315550"/>
+<property name="gmean" value="142330567"/>
+<property name="gstddev" value="0.020309"/>
+<property name="mean" value="142359157"/>
+<property name="stddev" value="2934697"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/12" value_param="(BRISK_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="1.69" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="54851900"/>
+<property name="median" value="55175050"/>
+<property name="gmean" value="55324191"/>
+<property name="gstddev" value="0.006647"/>
+<property name="mean" value="55325371"/>
+<property name="stddev" value="368887"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/13" value_param="(BRISK_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="0.874" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="28027900"/>
+<property name="median" value="28224100"/>
+<property name="gmean" value="28286576"/>
+<property name="gstddev" value="0.007569"/>
+<property name="mean" value="28287361"/>
+<property name="stddev" value="215518"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/14" value_param="(BRISK_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="13.893" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="459702800"/>
+<property name="median" value="461212000"/>
+<property name="gmean" value="461281492"/>
+<property name="gstddev" value="0.002181"/>
+<property name="mean" value="461282550"/>
+<property name="stddev" value="1006433"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/15" value_param="(KAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="8.62" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="277558900"/>
+<property name="median" value="285651400"/>
+<property name="gmean" value="286016220"/>
+<property name="gstddev" value="0.012292"/>
+<property name="mean" value="286037043"/>
+<property name="stddev" value="3512783"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/16" value_param="(KAZE_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="7.025" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="226451800"/>
+<property name="median" value="232091450"/>
+<property name="gmean" value="232818219"/>
+<property name="gstddev" value="0.016807"/>
+<property name="mean" value="232850061"/>
+<property name="stddev" value="3937948"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/17" value_param="(KAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="17.769" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="576824800"/>
+<property name="median" value="589147450"/>
+<property name="gmean" value="589886634"/>
+<property name="gstddev" value="0.010576"/>
+<property name="mean" value="589918500"/>
+<property name="stddev" value="6254742"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/18" value_param="(SIFT_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" status="run" time="3.14" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="540000"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="100855200"/>
+<property name="median" value="102970600"/>
+<property name="gmean" value="103841570"/>
+<property name="gstddev" value="0.023193"/>
+<property name="mean" value="103868629"/>
+<property name="stddev" value="2425571"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/19" value_param="(SIFT_DEFAULT, &quot;stitching/a3.png&quot;)" status="run" time="3.475" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="460800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="112113800"/>
+<property name="median" value="114628950"/>
+<property name="gmean" value="115141656"/>
+<property name="gstddev" value="0.018772"/>
+<property name="mean" value="115161300"/>
+<property name="stddev" value="2175082"/>
+</properties>
+    </testcase>
+    <testcase name="detectAndExtract/20" value_param="(SIFT_DEFAULT, &quot;stitching/s2.jpg&quot;)" status="run" time="8.597" classname="OCL_feature2d_detectAndExtract">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="969500"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="275281700"/>
+<property name="median" value="283806800"/>
+<property name="gmean" value="284632615"/>
+<property name="gstddev" value="0.020595"/>
+<property name="mean" value="284691107"/>
+<property name="stddev" value="5905613"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_BruteForceMatcherFixture_Match" tests="3" failures="0" disabled="0" errors="0" time="8.507">
+    <testcase name="Match/0" value_param="(640x480, 32FC1)" status="run" time="0.327" classname="OCL_BruteForceMatcherFixture_Match">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="2457600"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="9809200"/>
+<property name="median" value="10218250"/>
+<property name="gmean" value="10627398"/>
+<property name="gstddev" value="0.096969"/>
+<property name="mean" value="10677786"/>
+<property name="stddev" value="1103242"/>
+</properties>
+    </testcase>
+    <testcase name="Match/1" value_param="(1280x720, 32FC1)" status="run" time="1.657" classname="OCL_BruteForceMatcherFixture_Match">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="7372800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="54501700"/>
+<property name="median" value="55012800"/>
+<property name="gmean" value="55059594"/>
+<property name="gstddev" value="0.006981"/>
+<property name="mean" value="55060889"/>
+<property name="stddev" value="385085"/>
+<property name="tags" value="size_hd"/>
+<property name="tags_implied" value=""/>
+</properties>
+    </testcase>
+    <testcase name="Match/2" value_param="(1920x1080, 32FC1)" status="run" time="6.521" classname="OCL_BruteForceMatcherFixture_Match">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="16588800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="206830000"/>
+<property name="median" value="217039500"/>
+<property name="gmean" value="216332772"/>
+<property name="gstddev" value="0.012696"/>
+<property name="mean" value="216349468"/>
+<property name="stddev" value="2718314"/>
+<property name="tags" value="size_fullhd"/>
+<property name="tags_implied" value="size_hd"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_BruteForceMatcherFixture_KnnMatch" tests="3" failures="0" disabled="0" errors="0" time="8.516">
+    <testcase name="KnnMatch/0" value_param="(640x480, 32FC1)" status="run" time="0.326" classname="OCL_BruteForceMatcherFixture_KnnMatch">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="2457600"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="9903900"/>
+<property name="median" value="10222050"/>
+<property name="gmean" value="10597171"/>
+<property name="gstddev" value="0.080600"/>
+<property name="mean" value="10631568"/>
+<property name="stddev" value="901816"/>
+</properties>
+    </testcase>
+    <testcase name="KnnMatch/1" value_param="(1280x720, 32FC1)" status="run" time="1.661" classname="OCL_BruteForceMatcherFixture_KnnMatch">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="7372800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="54360300"/>
+<property name="median" value="54976800"/>
+<property name="gmean" value="55118379"/>
+<property name="gstddev" value="0.007863"/>
+<property name="mean" value="55120025"/>
+<property name="stddev" value="434554"/>
+<property name="tags" value="size_hd"/>
+<property name="tags_implied" value=""/>
+</properties>
+    </testcase>
+    <testcase name="KnnMatch/2" value_param="(1920x1080, 32FC1)" status="run" time="6.529" classname="OCL_BruteForceMatcherFixture_KnnMatch">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="16588800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="207271000"/>
+<property name="median" value="216973500"/>
+<property name="gmean" value="216561301"/>
+<property name="gstddev" value="0.010963"/>
+<property name="mean" value="216573746"/>
+<property name="stddev" value="2344938"/>
+<property name="tags" value="size_fullhd"/>
+<property name="tags_implied" value="size_hd"/>
+</properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="OCL_BruteForceMatcherFixture_RadiusMatch" tests="3" failures="0" disabled="0" errors="0" time="8.511">
+    <testcase name="RadiusMatch/0" value_param="(640x480, 32FC1)" status="run" time="0.315" classname="OCL_BruteForceMatcherFixture_RadiusMatch">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="2457600"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="9791800"/>
+<property name="median" value="10001200"/>
+<property name="gmean" value="10295064"/>
+<property name="gstddev" value="0.060786"/>
+<property name="mean" value="10313929"/>
+<property name="stddev" value="653119"/>
+</properties>
+    </testcase>
+    <testcase name="RadiusMatch/1" value_param="(1280x720, 32FC1)" status="run" time="1.663" classname="OCL_BruteForceMatcherFixture_RadiusMatch">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="7372800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="54540900"/>
+<property name="median" value="55161700"/>
+<property name="gmean" value="55246938"/>
+<property name="gstddev" value="0.008336"/>
+<property name="mean" value="55248793"/>
+<property name="stddev" value="461922"/>
+<property name="tags" value="size_hd"/>
+<property name="tags_implied" value=""/>
+</properties>
+    </testcase>
+    <testcase name="RadiusMatch/2" value_param="(1920x1080, 32FC1)" status="run" time="6.533" classname="OCL_BruteForceMatcherFixture_RadiusMatch">
+<properties>
+<property name="ocl_memory_usage" value="0"/>
+<property name="bytesIn" value="16588800"/>
+<property name="bytesOut" value="0"/>
+<property name="term" value="0"/>
+<property name="samples" value="30"/>
+<property name="outliers" value="2"/>
+<property name="frequency" value="1000000000"/>
+<property name="min" value="206526000"/>
+<property name="median" value="217964850"/>
+<property name="gmean" value="216713548"/>
+<property name="gstddev" value="0.016080"/>
+<property name="mean" value="216740293"/>
+<property name="stddev" value="3432571"/>
+<property name="tags" value="size_fullhd"/>
+<property name="tags_implied" value="size_hd"/>
+</properties>
+    </testcase>
+  </testsuite>
+</testsuites>
