@@ -1,0 +1,13 @@
+﻿module,declared,executed,measured,no_data,skipped,failed
+core,5813,5781,5781,0,0,0
+imgproc,6920,5839,5390,449,0,0
+imgcodecs,107,107,0,107,0,0
+videoio,18,18,0,17,0,0
+calib3d,125,121,106,15,0,0
+features2d,233,233,29,204,0,0
+objdetect,155,155,43,112,0,0
+photo,15,13,0,13,0,0
+stitching,91,91,32,59,0,0
+video,247,231,26,205,0,0
+dnn,3052,3051,2902,23,0,0
+gapi,10546,7142,6901,241,0,0
